@@ -1,0 +1,4800 @@
+{
+  "type": "FeatureCollection",
+  "name": "this_uiwang_candidate_cells_top150_250m",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96087721626859,
+              37.34755341405489
+            ],
+            [
+              126.96089332745842,
+              37.34530003870996
+            ],
+            [
+              126.95807089450462,
+              37.345287142901846
+            ],
+            [
+              126.95806440041201,
+              37.346190732511786
+            ],
+            [
+              126.95823110000002,
+              37.3470133
+            ],
+            [
+              126.95825520000001,
+              37.347250800000005
+            ],
+            [
+              126.95868478185172,
+              37.347543402061525
+            ],
+            [
+              126.96087721626859,
+              37.34755341405489
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 157,
+        "centroid_lon": 126.95952269,
+        "centroid_lat": 37.34639178,
+        "dist_cctv_m": 1099.78,
+        "dist_bus_m": 115.35,
+        "dist_accident_m": 1280.09,
+        "dist_fatal_m": 954.46,
+        "dist_school_m": 62.7,
+        "score_gap_0_1": 0.696445,
+        "score_bus_0_1": 0.973455,
+        "score_accident_0_1": 0.823622,
+        "score_fatal_0_1": 0.506633,
+        "score_school_0_1": 1.0,
+        "vulnerability_0_1": 0.793768,
+        "total_score_0_100": 74.024,
+        "priority_rank": 11,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.93569379288351,
+              37.31814109595471
+            ],
+            [
+              126.93567694517401,
+              37.32039447209924
+            ],
+            [
+              126.9384984363612,
+              37.32040789459087
+            ],
+            [
+              126.93851519984669,
+              37.3181545173583
+            ],
+            [
+              126.93569379288351,
+              37.31814109595471
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 27,
+        "centroid_lon": 126.93709609,
+        "centroid_lat": 37.3192745,
+        "dist_cctv_m": 1237.12,
+        "dist_bus_m": 188.32,
+        "dist_accident_m": 1387.51,
+        "dist_fatal_m": 1177.99,
+        "dist_school_m": 1206.77,
+        "score_gap_0_1": 0.800343,
+        "score_bus_0_1": 0.891432,
+        "score_accident_0_1": 0.792322,
+        "score_fatal_0_1": 0.362036,
+        "score_school_0_1": 0.584538,
+        "vulnerability_0_1": 0.641501,
+        "total_score_0_100": 72.886,
+        "priority_rank": 17,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96087721626859,
+              37.34755341405489
+            ],
+            [
+              126.95868478185172,
+              37.347543402061525
+            ],
+            [
+              126.9594218,
+              37.34804539999999
+            ],
+            [
+              126.96086571356786,
+              37.34916207373216
+            ],
+            [
+              126.96087721626859,
+              37.34755341405489
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 158,
+        "centroid_lon": 126.96015646,
+        "centroid_lat": 37.3480816,
+        "dist_cctv_m": 1070.01,
+        "dist_bus_m": 229.47,
+        "dist_accident_m": 1089.3,
+        "dist_fatal_m": 928.4,
+        "dist_school_m": 133.26,
+        "score_gap_0_1": 0.673926,
+        "score_bus_0_1": 0.845169,
+        "score_accident_0_1": 0.879208,
+        "score_fatal_0_1": 0.523489,
+        "score_school_0_1": 1.0,
+        "vulnerability_0_1": 0.789843,
+        "total_score_0_100": 72.609,
+        "priority_rank": 18,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.94694640843068,
+              37.32270113803349
+            ],
+            [
+              126.9469298939429,
+              37.324954516764386
+            ],
+            [
+              126.94975156101522,
+              37.32496767230172
+            ],
+            [
+              126.94976799125936,
+              37.322714292504486
+            ],
+            [
+              126.94694640843068,
+              37.32270113803349
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 71,
+        "centroid_lon": 126.94834896,
+        "centroid_lat": 37.32383441,
+        "dist_cctv_m": 852.31,
+        "dist_bus_m": 104.31,
+        "dist_accident_m": 785.43,
+        "dist_fatal_m": 358.69,
+        "dist_school_m": 884.48,
+        "score_gap_0_1": 0.50924,
+        "score_bus_0_1": 0.985868,
+        "score_accident_0_1": 0.967744,
+        "score_fatal_0_1": 0.892022,
+        "score_school_0_1": 0.729919,
+        "vulnerability_0_1": 0.901087,
+        "total_score_0_100": 68.557,
+        "priority_rank": 41,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.94131992941428,
+              37.32042124981098
+            ],
+            [
+              126.9384984363612,
+              37.32040789459087
+            ],
+            [
+              126.93848167100985,
+              37.32266127095674
+            ],
+            [
+              126.93851695172671,
+              37.322661438378006
+            ],
+            [
+              126.93874910000001,
+              37.3225223
+            ],
+            [
+              126.93942809999999,
+              37.3221374
+            ],
+            [
+              126.93954080000002,
+              37.3221246
+            ],
+            [
+              126.93969960000001,
+              37.3220531
+            ],
+            [
+              126.9403018,
+              37.3217819
+            ],
+            [
+              126.94043130000001,
+              37.321723600000006
+            ],
+            [
+              126.94061370000001,
+              37.3217215
+            ],
+            [
+              126.9407217,
+              37.3217579
+            ],
+            [
+              126.94090870000001,
+              37.3217407
+            ],
+            [
+              126.94131092210183,
+              37.32163803854484
+            ],
+            [
+              126.94131992941428,
+              37.32042124981098
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 39,
+        "centroid_lon": 126.93975023,
+        "centroid_lat": 37.32125088,
+        "dist_cctv_m": 1102.1,
+        "dist_bus_m": 452.68,
+        "dist_accident_m": 1208.96,
+        "dist_fatal_m": 928.27,
+        "dist_school_m": 1085.74,
+        "score_gap_0_1": 0.698201,
+        "score_bus_0_1": 0.594249,
+        "score_accident_0_1": 0.844346,
+        "score_fatal_0_1": 0.523575,
+        "score_school_0_1": 0.63913,
+        "vulnerability_0_1": 0.657052,
+        "total_score_0_100": 67.968,
+        "priority_rank": 44,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.95807089450462,
+              37.345287142901846
+            ],
+            [
+              126.9580870882302,
+              37.3430337677356
+            ],
+            [
+              126.95568863660918,
+              37.34302275675085
+            ],
+            [
+              126.95581870000001,
+              37.3435551
+            ],
+            [
+              126.9575986,
+              37.3442767
+            ],
+            [
+              126.95784867558031,
+              37.34528612471508
+            ],
+            [
+              126.95807089450462,
+              37.345287142901846
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 136,
+        "centroid_lon": 126.95719722,
+        "centroid_lat": 37.34369735,
+        "dist_cctv_m": 1049.46,
+        "dist_bus_m": 325.55,
+        "dist_accident_m": 1641.53,
+        "dist_fatal_m": 1051.44,
+        "dist_school_m": 421.72,
+        "score_gap_0_1": 0.658384,
+        "score_bus_0_1": 0.737162,
+        "score_accident_0_1": 0.71831,
+        "score_fatal_0_1": 0.443898,
+        "score_school_0_1": 0.938659,
+        "vulnerability_0_1": 0.683826,
+        "total_score_0_100": 66.983,
+        "priority_rank": 55,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.9469298939429,
+              37.324954516764386
+            ],
+            [
+              126.94694640843068,
+              37.32270113803349
+            ],
+            [
+              126.94598767880309,
+              37.322696653034825
+            ],
+            [
+              126.946122,
+              37.3228292
+            ],
+            [
+              126.94631900000002,
+              37.3231049
+            ],
+            [
+              126.94647450000001,
+              37.32341009999999
+            ],
+            [
+              126.9465639,
+              37.3235923
+            ],
+            [
+              126.9467592,
+              37.323929899999996
+            ],
+            [
+              126.94688990000002,
+              37.3243608
+            ],
+            [
+              126.9469126,
+              37.3244623
+            ],
+            [
+              126.9469292,
+              37.32463289999999
+            ],
+            [
+              126.9469216,
+              37.324862399999994
+            ],
+            [
+              126.9469085374913,
+              37.32495441693702
+            ],
+            [
+              126.9469298939429,
+              37.324954516764386
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 60,
+        "centroid_lon": 126.94665539,
+        "centroid_lat": 37.32325342,
+        "dist_cctv_m": 840.77,
+        "dist_bus_m": 240.34,
+        "dist_accident_m": 817.56,
+        "dist_fatal_m": 405.1,
+        "dist_school_m": 861.75,
+        "score_gap_0_1": 0.500511,
+        "score_bus_0_1": 0.832948,
+        "score_accident_0_1": 0.958383,
+        "score_fatal_0_1": 0.862001,
+        "score_school_0_1": 0.74017,
+        "vulnerability_0_1": 0.860739,
+        "total_score_0_100": 66.261,
+        "priority_rank": 60,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.9580870882302,
+              37.3430337677356
+            ],
+            [
+              126.95807089450462,
+              37.345287142901846
+            ],
+            [
+              126.96089332745842,
+              37.34530003870996
+            ],
+            [
+              126.96090943685506,
+              37.34304666249863
+            ],
+            [
+              126.9580870882302,
+              37.3430337677356
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 156,
+        "centroid_lon": 126.95949019,
+        "centroid_lat": 37.34416691,
+        "dist_cctv_m": 983.1,
+        "dist_bus_m": 297.75,
+        "dist_accident_m": 1502.77,
+        "dist_fatal_m": 975.48,
+        "dist_school_m": 308.52,
+        "score_gap_0_1": 0.608183,
+        "score_bus_0_1": 0.768407,
+        "score_accident_0_1": 0.758742,
+        "score_fatal_0_1": 0.493033,
+        "score_school_0_1": 0.989718,
+        "vulnerability_0_1": 0.727158,
+        "total_score_0_100": 66.172,
+        "priority_rank": 61,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.9385654791101,
+              37.3113943804607
+            ],
+            [
+              126.9385487212209,
+              37.3136477602932
+            ],
+            [
+              126.94136996162935,
+              37.3136611122658
+            ],
+            [
+              126.94138663532239,
+              37.311407731350904
+            ],
+            [
+              126.9385654791101,
+              37.3113943804607
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 35,
+        "centroid_lon": 126.9399677,
+        "centroid_lat": 37.31252775,
+        "dist_cctv_m": 1030.66,
+        "dist_bus_m": 123.72,
+        "dist_accident_m": 1255.9,
+        "dist_fatal_m": 1277.93,
+        "dist_school_m": 974.31,
+        "score_gap_0_1": 0.644157,
+        "score_bus_0_1": 0.964049,
+        "score_accident_0_1": 0.830667,
+        "score_fatal_0_1": 0.297384,
+        "score_school_0_1": 0.689394,
+        "vulnerability_0_1": 0.669104,
+        "total_score_0_100": 65.538,
+        "priority_rank": 66,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96915434303641,
+              37.37463217438553
+            ],
+            [
+              126.9691702224065,
+              37.37237880633397
+            ],
+            [
+              126.96634677141438,
+              37.372366100174844
+            ],
+            [
+              126.96634044883862,
+              37.37325859098731
+            ],
+            [
+              126.96637510000001,
+              37.3733041
+            ],
+            [
+              126.96677229999999,
+              37.3737838
+            ],
+            [
+              126.96736047514821,
+              37.374624108976604
+            ],
+            [
+              126.96915434303641,
+              37.37463217438553
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 241,
+        "centroid_lon": 126.96788824,
+        "centroid_lat": 37.37341419,
+        "dist_cctv_m": 849.59,
+        "dist_bus_m": 133.48,
+        "dist_accident_m": 1377.54,
+        "dist_fatal_m": 634.28,
+        "dist_school_m": 391.02,
+        "score_gap_0_1": 0.507181,
+        "score_bus_0_1": 0.953077,
+        "score_accident_0_1": 0.795226,
+        "score_fatal_0_1": 0.713747,
+        "score_school_0_1": 0.952504,
+        "vulnerability_0_1": 0.833808,
+        "total_score_0_100": 65.416,
+        "priority_rank": 68,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.94973512894227,
+              37.32722105123247
+            ],
+            [
+              126.94975156101522,
+              37.32496767230172
+            ],
+            [
+              126.9469298939429,
+              37.324954516764386
+            ],
+            [
+              126.94692336593718,
+              37.325845184603125
+            ],
+            [
+              126.9475786,
+              37.32644810000001
+            ],
+            [
+              126.94763771910841,
+              37.32721127833954
+            ],
+            [
+              126.94973512894227,
+              37.32722105123247
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 72,
+        "centroid_lon": 126.94847465,
+        "centroid_lat": 37.32601229,
+        "dist_cctv_m": 847.21,
+        "dist_bus_m": 123.51,
+        "dist_accident_m": 999.79,
+        "dist_fatal_m": 580.65,
+        "dist_school_m": 963.82,
+        "score_gap_0_1": 0.505382,
+        "score_bus_0_1": 0.964285,
+        "score_accident_0_1": 0.905289,
+        "score_fatal_0_1": 0.74844,
+        "score_school_0_1": 0.69413,
+        "vulnerability_0_1": 0.827801,
+        "total_score_0_100": 65.047,
+        "priority_rank": 69,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96368370671874,
+              37.34981961908833
+            ],
+            [
+              126.96369973535406,
+              37.34756624357008
+            ],
+            [
+              126.96087721626859,
+              37.34755341405489
+            ],
+            [
+              126.96086571356786,
+              37.34916207373216
+            ],
+            [
+              126.961496,
+              37.34964949999999
+            ],
+            [
+              126.96146808231921,
+              37.34980955332944
+            ],
+            [
+              126.96368370671874,
+              37.34981961908833
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 179,
+        "centroid_lon": 126.96232879,
+        "centroid_lat": 37.34864949,
+        "dist_cctv_m": 868.84,
+        "dist_bus_m": 346.4,
+        "dist_accident_m": 946.49,
+        "dist_fatal_m": 766.82,
+        "dist_school_m": 301.85,
+        "score_gap_0_1": 0.521749,
+        "score_bus_0_1": 0.71372,
+        "score_accident_0_1": 0.920818,
+        "score_fatal_0_1": 0.628014,
+        "score_school_0_1": 0.992728,
+        "vulnerability_0_1": 0.805939,
+        "total_score_0_100": 64.963,
+        "priority_rank": 71,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.93851519984669,
+              37.3181545173583
+            ],
+            [
+              126.9384984363612,
+              37.32040789459087
+            ],
+            [
+              126.94131992941428,
+              37.32042124981098
+            ],
+            [
+              126.9413366086755,
+              37.318167871495845
+            ],
+            [
+              126.93851519984669,
+              37.3181545173583
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 38,
+        "centroid_lon": 126.93991754,
+        "centroid_lat": 37.31928789,
+        "dist_cctv_m": 998.51,
+        "dist_bus_m": 400.5,
+        "dist_accident_m": 1140.39,
+        "dist_fatal_m": 931.75,
+        "dist_school_m": 972.01,
+        "score_gap_0_1": 0.619841,
+        "score_bus_0_1": 0.652903,
+        "score_accident_0_1": 0.864322,
+        "score_fatal_0_1": 0.521322,
+        "score_school_0_1": 0.690435,
+        "vulnerability_0_1": 0.684361,
+        "total_score_0_100": 64.887,
+        "priority_rank": 72,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96089332745842,
+              37.34530003870996
+            ],
+            [
+              126.96087721626859,
+              37.34755341405489
+            ],
+            [
+              126.96369973535406,
+              37.34756624357008
+            ],
+            [
+              126.96371576220537,
+              37.345312867185456
+            ],
+            [
+              126.96089332745842,
+              37.34530003870996
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 178,
+        "centroid_lon": 126.96229651,
+        "centroid_lat": 37.34643315,
+        "dist_cctv_m": 874.76,
+        "dist_bus_m": 357.87,
+        "dist_accident_m": 1178.26,
+        "dist_fatal_m": 709.62,
+        "dist_school_m": 239.14,
+        "score_gap_0_1": 0.526224,
+        "score_bus_0_1": 0.700825,
+        "score_accident_0_1": 0.853289,
+        "score_fatal_0_1": 0.665011,
+        "score_school_0_1": 1.0,
+        "vulnerability_0_1": 0.795655,
+        "total_score_0_100": 64.747,
+        "priority_rank": 73,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.9385319614665,
+              37.31590113925908
+            ],
+            [
+              126.93851519984669,
+              37.3181545173583
+            ],
+            [
+              126.9413366086755,
+              37.318167871495845
+            ],
+            [
+              126.94135328608046,
+              37.315914492314114
+            ],
+            [
+              126.9385319614665,
+              37.31590113925908
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 37,
+        "centroid_lon": 126.93993426,
+        "centroid_lat": 37.31703451,
+        "dist_cctv_m": 945.39,
+        "dist_bus_m": 169.66,
+        "dist_accident_m": 1125.95,
+        "dist_fatal_m": 1010.52,
+        "dist_school_m": 906.25,
+        "score_gap_0_1": 0.579657,
+        "score_bus_0_1": 0.9124,
+        "score_accident_0_1": 0.868531,
+        "score_fatal_0_1": 0.470365,
+        "score_school_0_1": 0.720095,
+        "vulnerability_0_1": 0.728168,
+        "total_score_0_100": 64.649,
+        "priority_rank": 74,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.9385487212209,
+              37.3136477602932
+            ],
+            [
+              126.9385319614665,
+              37.31590113925908
+            ],
+            [
+              126.94135328608046,
+              37.315914492314114
+            ],
+            [
+              126.94136996162935,
+              37.3136611122658
+            ],
+            [
+              126.9385487212209,
+              37.3136477602932
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 36,
+        "centroid_lon": 126.93995098,
+        "centroid_lat": 37.31478113,
+        "dist_cctv_m": 956.82,
+        "dist_bus_m": 119.95,
+        "dist_accident_m": 1166.2,
+        "dist_fatal_m": 1139.81,
+        "dist_school_m": 907.08,
+        "score_gap_0_1": 0.588304,
+        "score_bus_0_1": 0.968282,
+        "score_accident_0_1": 0.856803,
+        "score_fatal_0_1": 0.386735,
+        "score_school_0_1": 0.719723,
+        "vulnerability_0_1": 0.710662,
+        "total_score_0_100": 64.337,
+        "priority_rank": 76,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.94414142432383,
+              37.320434537759425
+            ],
+            [
+              126.94131992941428,
+              37.32042124981098
+            ],
+            [
+              126.94131092210183,
+              37.32163803854484
+            ],
+            [
+              126.9413432,
+              37.3216298
+            ],
+            [
+              126.9421809,
+              37.3212928
+            ],
+            [
+              126.9427326,
+              37.32116049999999
+            ],
+            [
+              126.94402480000001,
+              37.3205743
+            ],
+            [
+              126.9441408130215,
+              37.32051753946086
+            ],
+            [
+              126.94414142432383,
+              37.320434537759425
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 49,
+        "centroid_lon": 126.94234914,
+        "centroid_lat": 37.32084062,
+        "dist_cctv_m": 882.45,
+        "dist_bus_m": 322.32,
+        "dist_accident_m": 977.22,
+        "dist_fatal_m": 697.61,
+        "dist_school_m": 871.4,
+        "score_gap_0_1": 0.532044,
+        "score_bus_0_1": 0.740794,
+        "score_accident_0_1": 0.911866,
+        "score_fatal_0_1": 0.672783,
+        "score_school_0_1": 0.735818,
+        "vulnerability_0_1": 0.770717,
+        "total_score_0_100": 63.945,
+        "priority_rank": 78,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.9636676762992,
+              37.35207299374022
+            ],
+            [
+              126.96368370671874,
+              37.34981961908833
+            ],
+            [
+              126.96146808231921,
+              37.34980955332944
+            ],
+            [
+              126.96124100000002,
+              37.3511114
+            ],
+            [
+              126.9611538,
+              37.351504
+            ],
+            [
+              126.9612141,
+              37.351628600000005
+            ],
+            [
+              126.96150588672019,
+              37.35206317254739
+            ],
+            [
+              126.9636676762992,
+              37.35207299374022
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 180,
+        "centroid_lon": 126.96249541,
+        "centroid_lat": 37.3509515,
+        "dist_cctv_m": 776.3,
+        "dist_bus_m": 146.85,
+        "dist_accident_m": 709.96,
+        "dist_fatal_m": 760.66,
+        "dist_school_m": 510.04,
+        "score_gap_0_1": 0.451737,
+        "score_bus_0_1": 0.938052,
+        "score_accident_0_1": 0.989733,
+        "score_fatal_0_1": 0.631995,
+        "score_school_0_1": 0.898817,
+        "vulnerability_0_1": 0.853892,
+        "total_score_0_100": 63.271,
+        "priority_rank": 83,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                126.94694640843068,
+                37.32270113803349
+              ],
+              [
+                126.94696292108051,
+                37.320447758436075
+              ],
+              [
+                126.94536474638716,
+                37.3204402781366
+              ],
+              [
+                126.9454014,
+                37.320668899999994
+              ],
+              [
+                126.9454185,
+                37.3209644
+              ],
+              [
+                126.94542400000002,
+                37.32106000000001
+              ],
+              [
+                126.94542409999998,
+                37.32120549999999
+              ],
+              [
+                126.94540390000002,
+                37.32144900000001
+              ],
+              [
+                126.9453727,
+                37.3217803
+              ],
+              [
+                126.9454245,
+                37.32204200000001
+              ],
+              [
+                126.94566070000002,
+                37.32237380000001
+              ],
+              [
+                126.94591,
+                37.32262000000001
+              ],
+              [
+                126.94598767880309,
+                37.322696653034825
+              ],
+              [
+                126.94694640843068,
+                37.32270113803349
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                126.94414142432383,
+                37.320434537759425
+              ],
+              [
+                126.9441408130215,
+                37.32051753946086
+              ],
+              [
+                126.9441505,
+                37.320512799999996
+              ],
+              [
+                126.94436792003818,
+                37.320435601533234
+              ],
+              [
+                126.94414142432383,
+                37.320434537759425
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 59,
+        "centroid_lon": 126.94620521,
+        "centroid_lat": 37.32151617,
+        "dist_cctv_m": 691.42,
+        "dist_bus_m": 159.95,
+        "dist_accident_m": 713.33,
+        "dist_fatal_m": 360.97,
+        "dist_school_m": 703.27,
+        "score_gap_0_1": 0.387529,
+        "score_bus_0_1": 0.923319,
+        "score_accident_0_1": 0.988751,
+        "score_fatal_0_1": 0.890547,
+        "score_school_0_1": 0.811656,
+        "vulnerability_0_1": 0.910785,
+        "total_score_0_100": 62.299,
+        "priority_rank": 88,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.98603408475354,
+              37.383720489823745
+            ],
+            [
+              126.9860187035391,
+              37.385973859606935
+            ],
+            [
+              126.98884267356593,
+              37.38598609992232
+            ],
+            [
+              126.98885797028029,
+              37.38373272914758
+            ],
+            [
+              126.98603408475354,
+              37.383720489823745
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 446,
+        "centroid_lon": 126.98743836,
+        "centroid_lat": 37.3848533,
+        "dist_cctv_m": 701.24,
+        "dist_bus_m": 313.43,
+        "dist_accident_m": 545.55,
+        "dist_fatal_m": 484.07,
+        "dist_school_m": 315.31,
+        "score_gap_0_1": 0.394955,
+        "score_bus_0_1": 0.750789,
+        "score_accident_0_1": 1.0,
+        "score_fatal_0_1": 0.810917,
+        "score_school_0_1": 0.986655,
+        "vulnerability_0_1": 0.890764,
+        "total_score_0_100": 61.807,
+        "priority_rank": 93,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.94140330715982,
+              37.30915434956946
+            ],
+            [
+              126.94138663532239,
+              37.311407731350904
+            ],
+            [
+              126.94420779339032,
+              37.31142101499126
+            ],
+            [
+              126.94422438104075,
+              37.309167632132954
+            ],
+            [
+              126.94140330715982,
+              37.30915434956946
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 44,
+        "centroid_lon": 126.94280553,
+        "centroid_lat": 37.31028769,
+        "dist_cctv_m": 962.06,
+        "dist_bus_m": 340.51,
+        "dist_accident_m": 1191.58,
+        "dist_fatal_m": 1208.72,
+        "dist_school_m": 902.38,
+        "score_gap_0_1": 0.592265,
+        "score_bus_0_1": 0.720344,
+        "score_accident_0_1": 0.849407,
+        "score_fatal_0_1": 0.342158,
+        "score_school_0_1": 0.721843,
+        "vulnerability_0_1": 0.645907,
+        "total_score_0_100": 61.64,
+        "priority_rank": 97,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.94696292108051,
+              37.320447758436075
+            ],
+            [
+              126.94694640843068,
+              37.32270113803349
+            ],
+            [
+              126.94976799125936,
+              37.322714292504486
+            ],
+            [
+              126.94978441967493,
+              37.320460911840804
+            ],
+            [
+              126.94696292108051,
+              37.320447758436075
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 70,
+        "centroid_lon": 126.94836544,
+        "centroid_lat": 37.32158103,
+        "dist_cctv_m": 612.35,
+        "dist_bus_m": 39.96,
+        "dist_accident_m": 578.07,
+        "dist_fatal_m": 177.92,
+        "dist_school_m": 639.37,
+        "score_gap_0_1": 0.327716,
+        "score_bus_0_1": 1.0,
+        "score_accident_0_1": 1.0,
+        "score_fatal_0_1": 1.0,
+        "score_school_0_1": 0.84048,
+        "vulnerability_0_1": 0.968096,
+        "total_score_0_100": 61.589,
+        "priority_rank": 98,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.97200946832632,
+              37.37013807515258
+            ],
+            [
+              126.97199367516617,
+              37.37239144509457
+            ],
+            [
+              126.97481712968397,
+              37.37240401645654
+            ],
+            [
+              126.97483283840143,
+              37.37015064549604
+            ],
+            [
+              126.97200946832632,
+              37.37013807515258
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 285,
+        "centroid_lon": 126.97341328,
+        "centroid_lat": 37.37127105,
+        "dist_cctv_m": 867.99,
+        "dist_bus_m": 532.49,
+        "dist_accident_m": 1368.82,
+        "dist_fatal_m": 707.02,
+        "dist_school_m": 586.45,
+        "score_gap_0_1": 0.521104,
+        "score_bus_0_1": 0.504525,
+        "score_accident_0_1": 0.797768,
+        "score_fatal_0_1": 0.666695,
+        "score_school_0_1": 0.864351,
+        "vulnerability_0_1": 0.713114,
+        "total_score_0_100": 60.751,
+        "priority_rank": 106,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.9413366086755,
+              37.318167871495845
+            ],
+            [
+              126.94131992941428,
+              37.32042124981098
+            ],
+            [
+              126.94414142432383,
+              37.320434537759425
+            ],
+            [
+              126.94415801936059,
+              37.31818115836718
+            ],
+            [
+              126.9413366086755,
+              37.318167871495845
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 48,
+        "centroid_lon": 126.942739,
+        "centroid_lat": 37.31930121,
+        "dist_cctv_m": 767.2,
+        "dist_bus_m": 254.13,
+        "dist_accident_m": 894.88,
+        "dist_fatal_m": 688.23,
+        "dist_school_m": 747.19,
+        "score_gap_0_1": 0.444854,
+        "score_bus_0_1": 0.817452,
+        "score_accident_0_1": 0.935855,
+        "score_fatal_0_1": 0.67885,
+        "score_school_0_1": 0.791844,
+        "vulnerability_0_1": 0.806271,
+        "total_score_0_100": 60.749,
+        "priority_rank": 107,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.94971869504033,
+              37.329474429296745
+            ],
+            [
+              126.94973512894227,
+              37.32722105123247
+            ],
+            [
+              126.94763771910841,
+              37.32721127833954
+            ],
+            [
+              126.94781235107692,
+              37.32946554776135
+            ],
+            [
+              126.94971869504033,
+              37.329474429296745
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 73,
+        "centroid_lon": 126.94872534,
+        "centroid_lat": 37.32832515,
+        "dist_cctv_m": 834.38,
+        "dist_bus_m": 367.3,
+        "dist_accident_m": 1235.64,
+        "dist_fatal_m": 597.12,
+        "dist_school_m": 1075.65,
+        "score_gap_0_1": 0.495677,
+        "score_bus_0_1": 0.690229,
+        "score_accident_0_1": 0.836571,
+        "score_fatal_0_1": 0.737787,
+        "score_school_0_1": 0.643683,
+        "vulnerability_0_1": 0.73909,
+        "total_score_0_100": 60.521,
+        "priority_rank": 110,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.98040186732896,
+              37.381442440246516
+            ],
+            [
+              126.98038631884583,
+              37.383695808896476
+            ],
+            [
+              126.98321020093893,
+              37.38370818307334
+            ],
+            [
+              126.98322566493177,
+              37.381454813420945
+            ],
+            [
+              126.98040186732896,
+              37.381442440246516
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 378,
+        "centroid_lon": 126.98180601,
+        "centroid_lat": 37.38257532,
+        "dist_cctv_m": 592.98,
+        "dist_bus_m": 111.49,
+        "dist_accident_m": 385.08,
+        "dist_fatal_m": 326.9,
+        "dist_school_m": 388.73,
+        "score_gap_0_1": 0.313063,
+        "score_bus_0_1": 0.977798,
+        "score_accident_0_1": 1.0,
+        "score_fatal_0_1": 0.912581,
+        "score_school_0_1": 0.953537,
+        "vulnerability_0_1": 0.960041,
+        "total_score_0_100": 60.42,
+        "priority_rank": 111,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.98885797028029,
+              37.38373272914758
+            ],
+            [
+              126.98884267356593,
+              37.38598609992232
+            ],
+            [
+              126.99166664529565,
+              37.385998272805544
+            ],
+            [
+              126.99168185750972,
+              37.38374490104469
+            ],
+            [
+              126.98885797028029,
+              37.38373272914758
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 481,
+        "centroid_lon": 126.99026229,
+        "centroid_lat": 37.38486551,
+        "dist_cctv_m": 735.12,
+        "dist_bus_m": 537.61,
+        "dist_accident_m": 751.9,
+        "dist_fatal_m": 471.46,
+        "dist_school_m": 449.36,
+        "score_gap_0_1": 0.420586,
+        "score_bus_0_1": 0.498769,
+        "score_accident_0_1": 0.977514,
+        "score_fatal_0_1": 0.81907,
+        "score_school_0_1": 0.926191,
+        "vulnerability_0_1": 0.823967,
+        "total_score_0_100": 60.211,
+        "priority_rank": 117,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.94978441967493,
+              37.320460911840804
+            ],
+            [
+              126.94976799125936,
+              37.322714292504486
+            ],
+            [
+              126.95258957591665,
+              37.32272737969796
+            ],
+            [
+              126.95260592009771,
+              37.32047399797346
+            ],
+            [
+              126.94978441967493,
+              37.320460911840804
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 88,
+        "centroid_lon": 126.95118698,
+        "centroid_lat": 37.32159415,
+        "dist_cctv_m": 576.02,
+        "dist_bus_m": 76.77,
+        "dist_accident_m": 457.69,
+        "dist_fatal_m": 110.26,
+        "dist_school_m": 622.0,
+        "score_gap_0_1": 0.300233,
+        "score_bus_0_1": 1.0,
+        "score_accident_0_1": 1.0,
+        "score_fatal_0_1": 1.0,
+        "score_school_0_1": 0.848314,
+        "vulnerability_0_1": 0.969663,
+        "total_score_0_100": 60.148,
+        "priority_rank": 118,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.97483283840143,
+              37.37015064549604
+            ],
+            [
+              126.97481712968397,
+              37.37240401645654
+            ],
+            [
+              126.97764058595043,
+              37.37241652041977
+            ],
+            [
+              126.97765621022504,
+              37.3701631484462
+            ],
+            [
+              126.97483283840143,
+              37.37015064549604
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 313,
+        "centroid_lon": 126.97623669,
+        "centroid_lat": 37.37128359,
+        "dist_cctv_m": 920.01,
+        "dist_bus_m": 596.22,
+        "dist_accident_m": 1323.15,
+        "dist_fatal_m": 926.76,
+        "dist_school_m": 686.91,
+        "score_gap_0_1": 0.560452,
+        "score_bus_0_1": 0.432884,
+        "score_accident_0_1": 0.811075,
+        "score_fatal_0_1": 0.524553,
+        "score_school_0_1": 0.819037,
+        "vulnerability_0_1": 0.651073,
+        "total_score_0_100": 60.123,
+        "priority_rank": 119,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.94988295177995,
+              37.306940609664196
+            ],
+            [
+              126.94986653433142,
+              37.30919399552621
+            ],
+            [
+              126.95268761372238,
+              37.30920707635568
+            ],
+            [
+              126.95270394699264,
+              37.306953689433215
+            ],
+            [
+              126.94988295177995,
+              37.306940609664196
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 82,
+        "centroid_lon": 126.95128526,
+        "centroid_lat": 37.30807385,
+        "dist_cctv_m": 864.17,
+        "dist_bus_m": 374.84,
+        "dist_accident_m": 1066.81,
+        "dist_fatal_m": 950.26,
+        "dist_school_m": 883.9,
+        "score_gap_0_1": 0.518211,
+        "score_bus_0_1": 0.68175,
+        "score_accident_0_1": 0.885763,
+        "score_fatal_0_1": 0.509347,
+        "score_school_0_1": 0.730178,
+        "vulnerability_0_1": 0.700919,
+        "total_score_0_100": 60.043,
+        "priority_rank": 121,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96669752630372,
+              37.3227918064978
+            ],
+            [
+              126.96668160152589,
+              37.325045192578536
+            ],
+            [
+              126.96798707194999,
+              37.325051069543214
+            ],
+            [
+              126.9677907,
+              37.32489160000001
+            ],
+            [
+              126.96712410000002,
+              37.324259
+            ],
+            [
+              126.9667755,
+              37.3231636
+            ],
+            [
+              126.96713302456413,
+              37.322793768523745
+            ],
+            [
+              126.96669752630372,
+              37.3227918064978
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 219,
+        "centroid_lon": 126.9670389,
+        "centroid_lat": 37.32432045,
+        "dist_cctv_m": 810.79,
+        "dist_bus_m": 558.85,
+        "dist_accident_m": 1477.54,
+        "dist_fatal_m": 368.04,
+        "dist_school_m": 790.76,
+        "score_gap_0_1": 0.477832,
+        "score_bus_0_1": 0.4749,
+        "score_accident_0_1": 0.76609,
+        "score_fatal_0_1": 0.885971,
+        "score_school_0_1": 0.772192,
+        "vulnerability_0_1": 0.745037,
+        "total_score_0_100": 59.807,
+        "priority_rank": 123,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96666567497554,
+              37.32729857779316
+            ],
+            [
+              126.96664974665241,
+              37.32955196214168
+            ],
+            [
+              126.96947159484783,
+              37.32956464875187
+            ],
+            [
+              126.96948142443243,
+              37.328166688019124
+            ],
+            [
+              126.96902420000002,
+              37.32809970000001
+            ],
+            [
+              126.96883436661568,
+              37.32730833339468
+            ],
+            [
+              126.96666567497554,
+              37.32729857779316
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 221,
+        "centroid_lon": 126.967981,
+        "centroid_lat": 37.32848813,
+        "dist_cctv_m": 916.34,
+        "dist_bus_m": 433.06,
+        "dist_accident_m": 1817.53,
+        "dist_fatal_m": 742.93,
+        "dist_school_m": 1077.96,
+        "score_gap_0_1": 0.557677,
+        "score_bus_0_1": 0.616299,
+        "score_accident_0_1": 0.667031,
+        "score_fatal_0_1": 0.643466,
+        "score_school_0_1": 0.642641,
+        "vulnerability_0_1": 0.644937,
+        "total_score_0_100": 59.694,
+        "priority_rank": 126,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.9860187035391,
+              37.385973859606935
+            ],
+            [
+              126.98600332061231,
+              37.38822722852392
+            ],
+            [
+              126.98882737514865,
+              37.38823946983093
+            ],
+            [
+              126.98884267356593,
+              37.38598609992232
+            ],
+            [
+              126.9860187035391,
+              37.385973859606935
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 447,
+        "centroid_lon": 126.98742302,
+        "centroid_lat": 37.38710667,
+        "dist_cctv_m": 578.14,
+        "dist_bus_m": 249.27,
+        "dist_accident_m": 424.78,
+        "dist_fatal_m": 234.14,
+        "dist_school_m": 97.08,
+        "score_gap_0_1": 0.301837,
+        "score_bus_0_1": 0.822915,
+        "score_accident_0_1": 1.0,
+        "score_fatal_0_1": 0.972591,
+        "score_school_0_1": 1.0,
+        "vulnerability_0_1": 0.95636,
+        "total_score_0_100": 59.637,
+        "priority_rank": 128,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96634677141438,
+              37.372366100174844
+            ],
+            [
+              126.96636273345922,
+              37.370112732286266
+            ],
+            [
+              126.96508797276753,
+              37.370106973786164
+            ],
+            [
+              126.96484979999998,
+              37.3705991
+            ],
+            [
+              126.96485800000002,
+              37.3711691
+            ],
+            [
+              126.96498560000002,
+              37.371511000000005
+            ],
+            [
+              126.96507800000002,
+              37.3717584
+            ],
+            [
+              126.96511700000002,
+              37.3717985
+            ],
+            [
+              126.96563219999999,
+              37.3723284
+            ],
+            [
+              126.96565853860761,
+              37.37236299275584
+            ],
+            [
+              126.96634677141438,
+              37.372366100174844
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 215,
+        "centroid_lon": 126.96568173,
+        "centroid_lat": 37.37115181,
+        "dist_cctv_m": 636.8,
+        "dist_bus_m": 125.94,
+        "dist_accident_m": 1370.32,
+        "dist_fatal_m": 386.64,
+        "dist_school_m": 175.96,
+        "score_gap_0_1": 0.34621,
+        "score_bus_0_1": 0.961554,
+        "score_accident_0_1": 0.797332,
+        "score_fatal_0_1": 0.873943,
+        "score_school_0_1": 1.0,
+        "vulnerability_0_1": 0.893693,
+        "total_score_0_100": 59.258,
+        "priority_rank": 133,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96090943685506,
+              37.34304666249863
+            ],
+            [
+              126.96089332745842,
+              37.34530003870996
+            ],
+            [
+              126.96371576220537,
+              37.345312867185456
+            ],
+            [
+              126.96373178727289,
+              37.343059489934504
+            ],
+            [
+              126.96090943685506,
+              37.34304666249863
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 177,
+        "centroid_lon": 126.96231258,
+        "centroid_lat": 37.34417977,
+        "dist_cctv_m": 797.47,
+        "dist_bus_m": 452.27,
+        "dist_accident_m": 1417.68,
+        "dist_fatal_m": 731.82,
+        "dist_school_m": 385.6,
+        "score_gap_0_1": 0.467757,
+        "score_bus_0_1": 0.594708,
+        "score_accident_0_1": 0.783533,
+        "score_fatal_0_1": 0.65065,
+        "score_school_0_1": 0.954952,
+        "vulnerability_0_1": 0.740187,
+        "total_score_0_100": 59.035,
+        "priority_rank": 136,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.94135328608046,
+              37.315914492314114
+            ],
+            [
+              126.9413366086755,
+              37.318167871495845
+            ],
+            [
+              126.94415801936059,
+              37.31818115836718
+            ],
+            [
+              126.94417461255044,
+              37.315927778108396
+            ],
+            [
+              126.94135328608046,
+              37.315914492314114
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 47,
+        "centroid_lon": 126.94275563,
+        "centroid_lat": 37.31704783,
+        "dist_cctv_m": 696.66,
+        "dist_bus_m": 79.36,
+        "dist_accident_m": 876.4,
+        "dist_fatal_m": 791.62,
+        "dist_school_m": 659.39,
+        "score_gap_0_1": 0.391492,
+        "score_bus_0_1": 1.0,
+        "score_accident_0_1": 0.94124,
+        "score_fatal_0_1": 0.61197,
+        "score_school_0_1": 0.83145,
+        "vulnerability_0_1": 0.832253,
+        "total_score_0_100": 58.983,
+        "priority_rank": 138,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96668160152589,
+              37.325045192578536
+            ],
+            [
+              126.96666567497554,
+              37.32729857779316
+            ],
+            [
+              126.96883436661568,
+              37.32730833339468
+            ],
+            [
+              126.9687925,
+              37.327133800000006
+            ],
+            [
+              126.9687823,
+              37.3265929
+            ],
+            [
+              126.9683868,
+              37.326141500000006
+            ],
+            [
+              126.96862079999998,
+              37.325565700000006
+            ],
+            [
+              126.96798707194999,
+              37.325051069543214
+            ],
+            [
+              126.96668160152589,
+              37.325045192578536
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 220,
+        "centroid_lon": 126.96763185,
+        "centroid_lat": 37.32624129,
+        "dist_cctv_m": 878.05,
+        "dist_bus_m": 661.3,
+        "dist_accident_m": 1637.63,
+        "dist_fatal_m": 552.93,
+        "dist_school_m": 916.83,
+        "score_gap_0_1": 0.528713,
+        "score_bus_0_1": 0.359722,
+        "score_accident_0_1": 0.719447,
+        "score_fatal_0_1": 0.766374,
+        "score_school_0_1": 0.715323,
+        "vulnerability_0_1": 0.660755,
+        "total_score_0_100": 58.813,
+        "priority_rank": 142,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.98884267356593,
+              37.38598609992232
+            ],
+            [
+              126.98882737514865,
+              37.38823946983093
+            ],
+            [
+              126.99165143138808,
+              37.388251643700315
+            ],
+            [
+              126.99166664529565,
+              37.385998272805544
+            ],
+            [
+              126.98884267356593,
+              37.38598609992232
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 482,
+        "centroid_lon": 126.99024703,
+        "centroid_lat": 37.38711888,
+        "dist_cctv_m": 617.46,
+        "dist_bus_m": 384.72,
+        "dist_accident_m": 669.45,
+        "dist_fatal_m": 336.63,
+        "dist_school_m": 334.55,
+        "score_gap_0_1": 0.331581,
+        "score_bus_0_1": 0.670641,
+        "score_accident_0_1": 1.0,
+        "score_fatal_0_1": 0.906289,
+        "score_school_0_1": 0.977978,
+        "vulnerability_0_1": 0.901611,
+        "total_score_0_100": 58.809,
+        "priority_rank": 143,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96636273345922,
+              37.370112732286266
+            ],
+            [
+              126.96634677141438,
+              37.372366100174844
+            ],
+            [
+              126.9691702224065,
+              37.37237880633397
+            ],
+            [
+              126.96918610000911,
+              37.37012543741595
+            ],
+            [
+              126.96636273345922,
+              37.370112732286266
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 240,
+        "centroid_lon": 126.96776646,
+        "centroid_lat": 37.37124578,
+        "dist_cctv_m": 644.75,
+        "dist_bus_m": 187.05,
+        "dist_accident_m": 1395.78,
+        "dist_fatal_m": 396.07,
+        "dist_school_m": 157.88,
+        "score_gap_0_1": 0.352227,
+        "score_bus_0_1": 0.892853,
+        "score_accident_0_1": 0.789913,
+        "score_fatal_0_1": 0.867838,
+        "score_school_0_1": 1.0,
+        "vulnerability_0_1": 0.875896,
+        "total_score_0_100": 58.788,
+        "priority_rank": 144,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.94973512894227,
+              37.32722105123247
+            ],
+            [
+              126.94971869504033,
+              37.329474429296745
+            ],
+            [
+              126.9525405324573,
+              37.32948751967306
+            ],
+            [
+              126.95255688209666,
+              37.32723414054777
+            ],
+            [
+              126.94973512894227,
+              37.32722105123247
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 91,
+        "centroid_lon": 126.95113781,
+        "centroid_lat": 37.32835429,
+        "dist_cctv_m": 670.13,
+        "dist_bus_m": 171.47,
+        "dist_accident_m": 1196.95,
+        "dist_fatal_m": 383.47,
+        "dist_school_m": 916.47,
+        "score_gap_0_1": 0.37142,
+        "score_bus_0_1": 0.910373,
+        "score_accident_0_1": 0.847845,
+        "score_fatal_0_1": 0.875988,
+        "score_school_0_1": 0.715487,
+        "vulnerability_0_1": 0.842322,
+        "total_score_0_100": 58.333,
+        "priority_rank": 154,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.94976799125936,
+              37.322714292504486
+            ],
+            [
+              126.94975156101522,
+              37.32496767230172
+            ],
+            [
+              126.95257322991635,
+              37.32498076055607
+            ],
+            [
+              126.95258957591665,
+              37.32272737969796
+            ],
+            [
+              126.94976799125936,
+              37.322714292504486
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 89,
+        "centroid_lon": 126.95117059,
+        "centroid_lat": 37.32384753,
+        "dist_cctv_m": 604.51,
+        "dist_bus_m": 247.43,
+        "dist_accident_m": 701.58,
+        "dist_fatal_m": 330.39,
+        "dist_school_m": 659.48,
+        "score_gap_0_1": 0.321784,
+        "score_bus_0_1": 0.824975,
+        "score_accident_0_1": 0.992175,
+        "score_fatal_0_1": 0.910328,
+        "score_school_0_1": 0.83141,
+        "vulnerability_0_1": 0.902028,
+        "total_score_0_100": 58.289,
+        "priority_rank": 156,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96918610000911,
+              37.37012543741595
+            ],
+            [
+              126.9691702224065,
+              37.37237880633397
+            ],
+            [
+              126.97199367516617,
+              37.37239144509457
+            ],
+            [
+              126.97200946832632,
+              37.37013807515258
+            ],
+            [
+              126.96918610000911,
+              37.37012543741595
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 262,
+        "centroid_lon": 126.97058987,
+        "centroid_lat": 37.37125845,
+        "dist_cctv_m": 722.54,
+        "dist_bus_m": 407.99,
+        "dist_accident_m": 1455.09,
+        "dist_fatal_m": 515.63,
+        "dist_school_m": 349.18,
+        "score_gap_0_1": 0.411068,
+        "score_bus_0_1": 0.644482,
+        "score_accident_0_1": 0.772631,
+        "score_fatal_0_1": 0.790499,
+        "score_school_0_1": 0.97138,
+        "vulnerability_0_1": 0.792112,
+        "total_score_0_100": 58.254,
+        "priority_rank": 158,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.94138663532239,
+              37.311407731350904
+            ],
+            [
+              126.94136996162935,
+              37.3136611122658
+            ],
+            [
+              126.94419120389362,
+              37.313674396983075
+            ],
+            [
+              126.94420779339032,
+              37.31142101499126
+            ],
+            [
+              126.94138663532239,
+              37.311407731350904
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 45,
+        "centroid_lon": 126.9427889,
+        "centroid_lat": 37.31254107,
+        "dist_cctv_m": 808.59,
+        "dist_bus_m": 283.83,
+        "dist_accident_m": 1038.08,
+        "dist_fatal_m": 1076.16,
+        "dist_school_m": 750.19,
+        "score_gap_0_1": 0.476167,
+        "score_bus_0_1": 0.784056,
+        "score_accident_0_1": 0.894133,
+        "score_fatal_0_1": 0.427909,
+        "score_school_0_1": 0.790491,
+        "vulnerability_0_1": 0.711522,
+        "total_score_0_100": 58.208,
+        "priority_rank": 159,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.9691702224065,
+              37.37237880633397
+            ],
+            [
+              126.96915434303641,
+              37.37463217438553
+            ],
+            [
+              126.97197788024795,
+              37.374644814170175
+            ],
+            [
+              126.97199367516617,
+              37.37239144509457
+            ],
+            [
+              126.9691702224065,
+              37.37237880633397
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 263,
+        "centroid_lon": 126.97057403,
+        "centroid_lat": 37.37351182,
+        "dist_cctv_m": 714.17,
+        "dist_bus_m": 287.0,
+        "dist_accident_m": 1235.04,
+        "dist_fatal_m": 721.72,
+        "dist_school_m": 383.86,
+        "score_gap_0_1": 0.404741,
+        "score_bus_0_1": 0.780495,
+        "score_accident_0_1": 0.836747,
+        "score_fatal_0_1": 0.657187,
+        "score_school_0_1": 0.955736,
+        "vulnerability_0_1": 0.795427,
+        "total_score_0_100": 58.055,
+        "priority_rank": 166,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96365164409522,
+              37.35432636752573
+            ],
+            [
+              126.9636676762992,
+              37.35207299374022
+            ],
+            [
+              126.96150588672019,
+              37.35206317254739
+            ],
+            [
+              126.9615427,
+              37.352118
+            ],
+            [
+              126.96143009999999,
+              37.3536658
+            ],
+            [
+              126.9615425,
+              37.3539191
+            ],
+            [
+              126.96171943108884,
+              37.35431759074528
+            ],
+            [
+              126.96365164409522,
+              37.35432636752573
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 181,
+        "centroid_lon": 126.96258524,
+        "centroid_lat": 37.35318689,
+        "dist_cctv_m": 630.57,
+        "dist_bus_m": 78.23,
+        "dist_accident_m": 503.13,
+        "dist_fatal_m": 651.13,
+        "dist_school_m": 739.06,
+        "score_gap_0_1": 0.341501,
+        "score_bus_0_1": 1.0,
+        "score_accident_0_1": 1.0,
+        "score_fatal_0_1": 0.702851,
+        "score_school_0_1": 0.795511,
+        "vulnerability_0_1": 0.869957,
+        "total_score_0_100": 57.931,
+        "priority_rank": 169,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.9667134493092,
+              37.32053841955098
+            ],
+            [
+              126.96669752630372,
+              37.3227918064978
+            ],
+            [
+              126.96713302456413,
+              37.322793768523745
+            ],
+            [
+              126.96930197286012,
+              37.32055005733356
+            ],
+            [
+              126.9667134493092,
+              37.32053841955098
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 218,
+        "centroid_lon": 126.96759113,
+        "centroid_lat": 37.3214017,
+        "dist_cctv_m": 749.63,
+        "dist_bus_m": 668.04,
+        "dist_accident_m": 1390.97,
+        "dist_fatal_m": 131.15,
+        "dist_school_m": 821.81,
+        "score_gap_0_1": 0.431562,
+        "score_bus_0_1": 0.352147,
+        "score_accident_0_1": 0.791313,
+        "score_fatal_0_1": 1.0,
+        "score_school_0_1": 0.758185,
+        "vulnerability_0_1": 0.75946,
+        "total_score_0_100": 57.912,
+        "priority_rank": 171,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96387593264411,
+              37.322779055693935
+            ],
+            [
+              126.96385992362141,
+              37.325032440741055
+            ],
+            [
+              126.96668160152589,
+              37.325045192578536
+            ],
+            [
+              126.96669752630372,
+              37.3227918064978
+            ],
+            [
+              126.96387593264411,
+              37.322779055693935
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 194,
+        "centroid_lon": 126.96527875,
+        "centroid_lat": 37.32391213,
+        "dist_cctv_m": 659.89,
+        "dist_bus_m": 401.25,
+        "dist_accident_m": 1320.52,
+        "dist_fatal_m": 222.19,
+        "dist_school_m": 628.41,
+        "score_gap_0_1": 0.363676,
+        "score_bus_0_1": 0.652059,
+        "score_accident_0_1": 0.811841,
+        "score_fatal_0_1": 0.980316,
+        "score_school_0_1": 0.845422,
+        "vulnerability_0_1": 0.837143,
+        "total_score_0_100": 57.674,
+        "priority_rank": 176,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96369973535406,
+              37.34756624357008
+            ],
+            [
+              126.96368370671874,
+              37.34981961908833
+            ],
+            [
+              126.96650631193633,
+              37.3498323822996
+            ],
+            [
+              126.96652225622356,
+              37.34757900574706
+            ],
+            [
+              126.96369973535406,
+              37.34756624357008
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 205,
+        "centroid_lon": 126.965103,
+        "centroid_lat": 37.34869932,
+        "dist_cctv_m": 652.11,
+        "dist_bus_m": 316.06,
+        "dist_accident_m": 876.53,
+        "dist_fatal_m": 552.78,
+        "dist_school_m": 518.83,
+        "score_gap_0_1": 0.357789,
+        "score_bus_0_1": 0.747832,
+        "score_accident_0_1": 0.941202,
+        "score_fatal_0_1": 0.766468,
+        "score_school_0_1": 0.894852,
+        "vulnerability_0_1": 0.840838,
+        "total_score_0_100": 57.516,
+        "priority_rank": 180,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.9691384618986,
+              37.37688554157065
+            ],
+            [
+              126.96915434303641,
+              37.37463217438553
+            ],
+            [
+              126.96736047514821,
+              37.374624108976604
+            ],
+            [
+              126.96894282745941,
+              37.37688466325573
+            ],
+            [
+              126.9691384618986,
+              37.37688554157065
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 242,
+        "centroid_lon": 126.96854415,
+        "centroid_lat": 37.37545444,
+        "dist_cctv_m": 644.45,
+        "dist_bus_m": 124.46,
+        "dist_accident_m": 1167.65,
+        "dist_fatal_m": 682.73,
+        "dist_school_m": 365.01,
+        "score_gap_0_1": 0.351997,
+        "score_bus_0_1": 0.963219,
+        "score_accident_0_1": 0.856381,
+        "score_fatal_0_1": 0.682406,
+        "score_school_0_1": 0.964237,
+        "vulnerability_0_1": 0.847127,
+        "total_score_0_100": 57.481,
+        "priority_rank": 183,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.98882737514865,
+              37.38823946983093
+            ],
+            [
+              126.98881207502826,
+              37.39049283887339
+            ],
+            [
+              126.99163621578678,
+              37.39050501372899
+            ],
+            [
+              126.99165143138808,
+              37.388251643700315
+            ],
+            [
+              126.98882737514865,
+              37.38823946983093
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 483,
+        "centroid_lon": 126.99023177,
+        "centroid_lat": 37.38937225,
+        "dist_cctv_m": 492.67,
+        "dist_bus_m": 155.36,
+        "dist_accident_m": 675.26,
+        "dist_fatal_m": 192.51,
+        "dist_school_m": 133.7,
+        "score_gap_0_1": 0.237181,
+        "score_bus_0_1": 0.928484,
+        "score_accident_0_1": 0.999844,
+        "score_fatal_0_1": 0.999516,
+        "score_school_0_1": 1.0,
+        "vulnerability_0_1": 0.985505,
+        "total_score_0_100": 57.393,
+        "priority_rank": 184,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.94696292108051,
+              37.320447758436075
+            ],
+            [
+              126.94697943189259,
+              37.31819437797217
+            ],
+            [
+              126.94415801936059,
+              37.31818115836718
+            ],
+            [
+              126.94414142432383,
+              37.320434537759425
+            ],
+            [
+              126.94436792003818,
+              37.320435601533234
+            ],
+            [
+              126.94456000000001,
+              37.3203674
+            ],
+            [
+              126.94507450000002,
+              37.320350700000006
+            ],
+            [
+              126.9452649,
+              37.3204255
+            ],
+            [
+              126.945342,
+              37.3202984
+            ],
+            [
+              126.94536474638716,
+              37.3204402781366
+            ],
+            [
+              126.94696292108051,
+              37.320447758436075
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 58,
+        "centroid_lon": 126.94556721,
+        "centroid_lat": 37.31930333,
+        "dist_cctv_m": 551.19,
+        "dist_bus_m": 81.3,
+        "dist_accident_m": 651.85,
+        "dist_fatal_m": 451.79,
+        "dist_school_m": 543.51,
+        "score_gap_0_1": 0.281449,
+        "score_bus_0_1": 1.0,
+        "score_accident_0_1": 1.0,
+        "score_fatal_0_1": 0.831794,
+        "score_school_0_1": 0.883721,
+        "vulnerability_0_1": 0.926282,
+        "total_score_0_100": 57.162,
+        "priority_rank": 188,
+        "candidate_flag": true,
+        "score_class": "Very High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.9863106540365,
+              37.343159685628414
+            ],
+            [
+              126.98629530360944,
+              37.3454130709999
+            ],
+            [
+              126.98911775407268,
+              37.345425293476076
+            ],
+            [
+              126.98913302016878,
+              37.343171907114076
+            ],
+            [
+              126.9863106540365,
+              37.343159685628414
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 428,
+        "centroid_lon": 126.98771418,
+        "centroid_lat": 37.3442925,
+        "dist_cctv_m": 691.03,
+        "dist_bus_m": 88.42,
+        "dist_accident_m": 1990.15,
+        "dist_fatal_m": 494.35,
+        "dist_school_m": 647.24,
+        "score_gap_0_1": 0.387231,
+        "score_bus_0_1": 1.0,
+        "score_accident_0_1": 0.616738,
+        "score_fatal_0_1": 0.804264,
+        "score_school_0_1": 0.836928,
+        "vulnerability_0_1": 0.793686,
+        "total_score_0_100": 57.014,
+        "priority_rank": 191,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.98629530360944,
+              37.3454130709999
+            ],
+            [
+              126.98627995147365,
+              37.34766645550554
+            ],
+            [
+              126.98910248627728,
+              37.34767867897227
+            ],
+            [
+              126.98911775407268,
+              37.345425293476076
+            ],
+            [
+              126.98629530360944,
+              37.3454130709999
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 429,
+        "centroid_lon": 126.98769887,
+        "centroid_lat": 37.34654588,
+        "dist_cctv_m": 664.67,
+        "dist_bus_m": 176.05,
+        "dist_accident_m": 1838.39,
+        "dist_fatal_m": 341.15,
+        "dist_school_m": 655.69,
+        "score_gap_0_1": 0.367293,
+        "score_bus_0_1": 0.905219,
+        "score_accident_0_1": 0.660953,
+        "score_fatal_0_1": 0.903366,
+        "score_school_0_1": 0.833119,
+        "vulnerability_0_1": 0.816963,
+        "total_score_0_100": 56.964,
+        "priority_rank": 192,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96672937054257,
+              37.318285031738085
+            ],
+            [
+              126.9667134493092,
+              37.32053841955098
+            ],
+            [
+              126.96930197286012,
+              37.32055005733356
+            ],
+            [
+              126.96936080000002,
+              37.3204892
+            ],
+            [
+              126.9685527,
+              37.3188227
+            ],
+            [
+              126.96834500000001,
+              37.3185902
+            ],
+            [
+              126.96805874836677,
+              37.318291015274816
+            ],
+            [
+              126.96672937054257,
+              37.318285031738085
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 217,
+        "centroid_lon": 126.96779848,
+        "centroid_lat": 37.31952781,
+        "dist_cctv_m": 761.7,
+        "dist_bus_m": 793.03,
+        "dist_accident_m": 1361.32,
+        "dist_fatal_m": 199.1,
+        "dist_school_m": 880.89,
+        "score_gap_0_1": 0.440698,
+        "score_bus_0_1": 0.211641,
+        "score_accident_0_1": 0.799953,
+        "score_fatal_0_1": 0.995255,
+        "score_school_0_1": 0.731537,
+        "vulnerability_0_1": 0.727198,
+        "total_score_0_100": 56.962,
+        "priority_rank": 193,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.94136996162935,
+              37.3136611122658
+            ],
+            [
+              126.94135328608046,
+              37.315914492314114
+            ],
+            [
+              126.94417461255044,
+              37.315927778108396
+            ],
+            [
+              126.94419120389362,
+              37.313674396983075
+            ],
+            [
+              126.94136996162935,
+              37.3136611122658
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 46,
+        "centroid_lon": 126.94277227,
+        "centroid_lat": 37.31479445,
+        "dist_cctv_m": 712.09,
+        "dist_bus_m": 210.57,
+        "dist_accident_m": 927.55,
+        "dist_fatal_m": 935.47,
+        "dist_school_m": 660.52,
+        "score_gap_0_1": 0.403168,
+        "score_bus_0_1": 0.866411,
+        "score_accident_0_1": 0.926338,
+        "score_fatal_0_1": 0.518913,
+        "score_school_0_1": 0.830939,
+        "vulnerability_0_1": 0.773045,
+        "total_score_0_100": 56.961,
+        "priority_rank": 194,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.97757807145686,
+              37.38142999965122
+            ],
+            [
+              126.97756243848367,
+              37.383683367293294
+            ],
+            [
+              126.98038631884583,
+              37.383695808896476
+            ],
+            [
+              126.98040186732896,
+              37.381442440246516
+            ],
+            [
+              126.97757807145686,
+              37.38142999965122
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 347,
+        "centroid_lon": 126.97898217,
+        "centroid_lat": 37.38256291,
+        "dist_cctv_m": 470.96,
+        "dist_bus_m": 124.74,
+        "dist_accident_m": 145.74,
+        "dist_fatal_m": 174.26,
+        "dist_school_m": 251.23,
+        "score_gap_0_1": 0.220756,
+        "score_bus_0_1": 0.962899,
+        "score_accident_0_1": 1.0,
+        "score_fatal_0_1": 1.0,
+        "score_school_0_1": 1.0,
+        "vulnerability_0_1": 0.99258,
+        "total_score_0_100": 56.808,
+        "priority_rank": 196,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.95270394699264,
+              37.306953689433215
+            ],
+            [
+              126.95268761372238,
+              37.30920707635568
+            ],
+            [
+              126.95550869493127,
+              37.30922008994022
+            ],
+            [
+              126.95552494402308,
+              37.306966701962764
+            ],
+            [
+              126.95270394699264,
+              37.306953689433215
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 101,
+        "centroid_lon": 126.9541063,
+        "centroid_lat": 37.3080869,
+        "dist_cctv_m": 720.71,
+        "dist_bus_m": 174.92,
+        "dist_accident_m": 1066.95,
+        "dist_fatal_m": 914.06,
+        "dist_school_m": 793.62,
+        "score_gap_0_1": 0.409684,
+        "score_bus_0_1": 0.906496,
+        "score_accident_0_1": 0.88572,
+        "score_fatal_0_1": 0.532768,
+        "score_school_0_1": 0.770903,
+        "vulnerability_0_1": 0.761026,
+        "total_score_0_100": 56.779,
+        "priority_rank": 199,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.94986653433142,
+              37.30919399552621
+            ],
+            [
+              126.94985011505558,
+              37.31144738052188
+            ],
+            [
+              126.95267127863417,
+              37.31146046241186
+            ],
+            [
+              126.95268761372238,
+              37.30920707635568
+            ],
+            [
+              126.94986653433142,
+              37.30919399552621
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 83,
+        "centroid_lon": 126.95126889,
+        "centroid_lat": 37.31032724,
+        "dist_cctv_m": 671.01,
+        "dist_bus_m": 331.93,
+        "dist_accident_m": 819.03,
+        "dist_fatal_m": 713.09,
+        "dist_school_m": 636.22,
+        "score_gap_0_1": 0.372087,
+        "score_bus_0_1": 0.729988,
+        "score_accident_0_1": 0.957955,
+        "score_fatal_0_1": 0.662768,
+        "score_school_0_1": 0.841899,
+        "vulnerability_0_1": 0.800594,
+        "total_score_0_100": 56.492,
+        "priority_rank": 207,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.98321020093893,
+              37.38370818307334
+            ],
+            [
+              126.9831947352246,
+              37.385961551859495
+            ],
+            [
+              126.9860187035391,
+              37.385973859606935
+            ],
+            [
+              126.98603408475354,
+              37.383720489823745
+            ],
+            [
+              126.98321020093893,
+              37.38370818307334
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 412,
+        "centroid_lon": 126.98461443,
+        "centroid_lat": 37.38484103,
+        "dist_cctv_m": 530.29,
+        "dist_bus_m": 64.39,
+        "dist_accident_m": 393.57,
+        "dist_fatal_m": 523.68,
+        "dist_school_m": 349.18,
+        "score_gap_0_1": 0.265639,
+        "score_bus_0_1": 1.0,
+        "score_accident_0_1": 1.0,
+        "score_fatal_0_1": 0.785289,
+        "score_school_0_1": 0.97138,
+        "vulnerability_0_1": 0.929863,
+        "total_score_0_100": 56.454,
+        "priority_rank": 208,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.97199367516617,
+              37.37239144509457
+            ],
+            [
+              126.97197788024795,
+              37.374644814170175
+            ],
+            [
+              126.97480141921775,
+              37.37465738655074
+            ],
+            [
+              126.97481712968397,
+              37.37240401645654
+            ],
+            [
+              126.97199367516617,
+              37.37239144509457
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 286,
+        "centroid_lon": 126.97339753,
+        "centroid_lat": 37.37352442,
+        "dist_cctv_m": 649.97,
+        "dist_bus_m": 282.79,
+        "dist_accident_m": 1130.21,
+        "dist_fatal_m": 668.81,
+        "dist_school_m": 358.95,
+        "score_gap_0_1": 0.356177,
+        "score_bus_0_1": 0.785232,
+        "score_accident_0_1": 0.867291,
+        "score_fatal_0_1": 0.691408,
+        "score_school_0_1": 0.966972,
+        "vulnerability_0_1": 0.81805,
+        "total_score_0_100": 56.402,
+        "priority_rank": 209,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.97774991935856,
+              37.35664289841443
+            ],
+            [
+              126.97773430551554,
+              37.35889627558515
+            ],
+            [
+              126.98055725700387,
+              37.358908706104806
+            ],
+            [
+              126.98057278646017,
+              37.35665532792684
+            ],
+            [
+              126.97774991935856,
+              37.35664289841443
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 336,
+        "centroid_lon": 126.97915357,
+        "centroid_lat": 37.35777581,
+        "dist_cctv_m": 721.5,
+        "dist_bus_m": 472.73,
+        "dist_accident_m": 796.99,
+        "dist_fatal_m": 892.91,
+        "dist_school_m": 510.9,
+        "score_gap_0_1": 0.410288,
+        "score_bus_0_1": 0.571707,
+        "score_accident_0_1": 0.964377,
+        "score_fatal_0_1": 0.546447,
+        "score_school_0_1": 0.898429,
+        "vulnerability_0_1": 0.747274,
+        "total_score_0_100": 56.193,
+        "priority_rank": 211,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.97481712968397,
+              37.37240401645654
+            ],
+            [
+              126.97480141921775,
+              37.37465738655074
+            ],
+            [
+              126.97762495993652,
+              37.37466989152706
+            ],
+            [
+              126.97764058595043,
+              37.37241652041977
+            ],
+            [
+              126.97481712968397,
+              37.37240401645654
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 314,
+        "centroid_lon": 126.97622102,
+        "centroid_lat": 37.37353696,
+        "dist_cctv_m": 678.15,
+        "dist_bus_m": 389.74,
+        "dist_accident_m": 1074.44,
+        "dist_fatal_m": 682.5,
+        "dist_school_m": 457.56,
+        "score_gap_0_1": 0.377494,
+        "score_bus_0_1": 0.664996,
+        "score_accident_0_1": 0.883539,
+        "score_fatal_0_1": 0.682552,
+        "score_school_0_1": 0.922491,
+        "vulnerability_0_1": 0.787325,
+        "total_score_0_100": 56.192,
+        "priority_rank": 212,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.98632600275506,
+              37.34090629939108
+            ],
+            [
+              126.9863106540365,
+              37.343159685628414
+            ],
+            [
+              126.98913302016878,
+              37.343171907114076
+            ],
+            [
+              126.98914828456576,
+              37.34091851988628
+            ],
+            [
+              126.98632600275506,
+              37.34090629939108
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 427,
+        "centroid_lon": 126.98772949,
+        "centroid_lat": 37.34203911,
+        "dist_cctv_m": 796.29,
+        "dist_bus_m": 327.0,
+        "dist_accident_m": 2160.25,
+        "dist_fatal_m": 705.25,
+        "dist_school_m": 730.02,
+        "score_gap_0_1": 0.46686,
+        "score_bus_0_1": 0.735536,
+        "score_accident_0_1": 0.567176,
+        "score_fatal_0_1": 0.667836,
+        "score_school_0_1": 0.799592,
+        "vulnerability_0_1": 0.677529,
+        "total_score_0_100": 56.166,
+        "priority_rank": 214,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.94975156101522,
+              37.32496767230172
+            ],
+            [
+              126.94973512894227,
+              37.32722105123247
+            ],
+            [
+              126.95255688209666,
+              37.32723414054777
+            ],
+            [
+              126.95257322991635,
+              37.32498076055607
+            ],
+            [
+              126.94975156101522,
+              37.32496767230172
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 90,
+        "centroid_lon": 126.9511542,
+        "centroid_lat": 37.32610091,
+        "dist_cctv_m": 616.77,
+        "dist_bus_m": 267.71,
+        "dist_accident_m": 948.66,
+        "dist_fatal_m": 468.03,
+        "dist_school_m": 758.23,
+        "score_gap_0_1": 0.331061,
+        "score_bus_0_1": 0.802177,
+        "score_accident_0_1": 0.920187,
+        "score_fatal_0_1": 0.821291,
+        "score_school_0_1": 0.786865,
+        "vulnerability_0_1": 0.840252,
+        "total_score_0_100": 56.02,
+        "priority_rank": 215,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96371576220537,
+              37.345312867185456
+            ],
+            [
+              126.96369973535406,
+              37.34756624357008
+            ],
+            [
+              126.96652225622356,
+              37.34757900574706
+            ],
+            [
+              126.96653819873613,
+              37.34532562832821
+            ],
+            [
+              126.96371576220537,
+              37.345312867185456
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 204,
+        "centroid_lon": 126.96511899,
+        "centroid_lat": 37.34644594,
+        "dist_cctv_m": 659.24,
+        "dist_bus_m": 491.31,
+        "dist_accident_m": 1124.64,
+        "dist_fatal_m": 461.05,
+        "dist_school_m": 485.47,
+        "score_gap_0_1": 0.363184,
+        "score_bus_0_1": 0.550816,
+        "score_accident_0_1": 0.868914,
+        "score_fatal_0_1": 0.825807,
+        "score_school_0_1": 0.909899,
+        "vulnerability_0_1": 0.800559,
+        "total_score_0_100": 56.0,
+        "priority_rank": 217,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.98887326529193,
+              37.381479357506706
+            ],
+            [
+              126.98885797028029,
+              37.38373272914758
+            ],
+            [
+              126.99168185750972,
+              37.38374490104469
+            ],
+            [
+              126.99169706803049,
+              37.38149152841779
+            ],
+            [
+              126.98887326529193,
+              37.381479357506706
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 480,
+        "centroid_lon": 126.99027754,
+        "centroid_lat": 37.38261214,
+        "dist_cctv_m": 707.27,
+        "dist_bus_m": 614.35,
+        "dist_accident_m": 898.63,
+        "dist_fatal_m": 576.0,
+        "dist_school_m": 645.69,
+        "score_gap_0_1": 0.399521,
+        "score_bus_0_1": 0.4125,
+        "score_accident_0_1": 0.934762,
+        "score_fatal_0_1": 0.751447,
+        "score_school_0_1": 0.837628,
+        "vulnerability_0_1": 0.755888,
+        "total_score_0_100": 55.989,
+        "priority_rank": 219,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96672937054257,
+              37.318285031738085
+            ],
+            [
+              126.96805874836677,
+              37.318291015274816
+            ],
+            [
+              126.9679776,
+              37.31820620000001
+            ],
+            [
+              126.9674733,
+              37.3180932
+            ],
+            [
+              126.96673414989479,
+              37.317608544194904
+            ],
+            [
+              126.96672937054257,
+              37.318285031738085
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 216,
+        "centroid_lon": 126.9671592,
+        "centroid_lat": 37.3180783,
+        "dist_cctv_m": 741.45,
+        "dist_bus_m": 843.8,
+        "dist_accident_m": 1289.27,
+        "dist_fatal_m": 97.72,
+        "dist_school_m": 885.06,
+        "score_gap_0_1": 0.425379,
+        "score_bus_0_1": 0.154571,
+        "score_accident_0_1": 0.820945,
+        "score_fatal_0_1": 1.0,
+        "score_school_0_1": 0.729655,
+        "vulnerability_0_1": 0.723129,
+        "total_score_0_100": 55.937,
+        "priority_rank": 220,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              127.00290303565106,
+              37.39505978395809
+            ],
+            [
+              127.00288815315878,
+              37.39731315527929
+            ],
+            [
+              127.00571255590944,
+              37.39732499579459
+            ],
+            [
+              127.00572735385339,
+              37.39507162351433
+            ],
+            [
+              127.00290303565106,
+              37.39505978395809
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 646,
+        "centroid_lon": 127.00430777,
+        "centroid_lat": 37.3961924,
+        "dist_cctv_m": 712.12,
+        "dist_bus_m": 79.83,
+        "dist_accident_m": 2107.86,
+        "dist_fatal_m": 696.85,
+        "dist_school_m": 586.87,
+        "score_gap_0_1": 0.403188,
+        "score_bus_0_1": 1.0,
+        "score_accident_0_1": 0.582442,
+        "score_fatal_0_1": 0.673271,
+        "score_school_0_1": 0.86416,
+        "vulnerability_0_1": 0.749546,
+        "total_score_0_100": 55.905,
+        "priority_rank": 221,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.99746495062651,
+              37.36348864014305
+            ],
+            [
+              126.99744992247699,
+              37.365742021652544
+            ],
+            [
+              127.00027313908954,
+              37.36575398351313
+            ],
+            [
+              127.00028808282279,
+              37.363500601034424
+            ],
+            [
+              126.99746495062651,
+              37.36348864014305
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 569,
+        "centroid_lon": 126.99886902,
+        "centroid_lat": 37.36462132,
+        "dist_cctv_m": 813.6,
+        "dist_bus_m": 120.38,
+        "dist_accident_m": 2695.86,
+        "dist_fatal_m": 684.05,
+        "dist_school_m": 1029.13,
+        "score_gap_0_1": 0.479961,
+        "score_bus_0_1": 0.967804,
+        "score_accident_0_1": 0.411119,
+        "score_fatal_0_1": 0.681553,
+        "score_school_0_1": 0.664669,
+        "vulnerability_0_1": 0.654296,
+        "total_score_0_100": 55.841,
+        "priority_rank": 222,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96368370671874,
+              37.34981961908833
+            ],
+            [
+              126.9636676762992,
+              37.35207299374022
+            ],
+            [
+              126.9664903658743,
+              37.35208575798585
+            ],
+            [
+              126.96650631193633,
+              37.3498323822996
+            ],
+            [
+              126.96368370671874,
+              37.34981961908833
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 206,
+        "centroid_lon": 126.96508702,
+        "centroid_lat": 37.3509527,
+        "dist_cctv_m": 553.38,
+        "dist_bus_m": 102.4,
+        "dist_accident_m": 629.93,
+        "dist_fatal_m": 566.38,
+        "dist_school_m": 653.98,
+        "score_gap_0_1": 0.283102,
+        "score_bus_0_1": 0.988021,
+        "score_accident_0_1": 1.0,
+        "score_fatal_0_1": 0.757672,
+        "score_school_0_1": 0.83389,
+        "vulnerability_0_1": 0.891684,
+        "total_score_0_100": 55.696,
+        "priority_rank": 223,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.94422438104075,
+              37.309167632132954
+            ],
+            [
+              126.94420779339032,
+              37.31142101499126
+            ],
+            [
+              126.9470289533045,
+              37.31143423138163
+            ],
+            [
+              126.94704545676777,
+              37.30918084745191
+            ],
+            [
+              126.94422438104075,
+              37.309167632132954
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 54,
+        "centroid_lon": 126.94562665,
+        "centroid_lat": 37.31030094,
+        "dist_cctv_m": 801.33,
+        "dist_bus_m": 582.73,
+        "dist_accident_m": 1022.34,
+        "dist_fatal_m": 1009.21,
+        "dist_school_m": 743.49,
+        "score_gap_0_1": 0.470672,
+        "score_bus_0_1": 0.448048,
+        "score_accident_0_1": 0.898718,
+        "score_fatal_0_1": 0.471217,
+        "score_school_0_1": 0.793512,
+        "vulnerability_0_1": 0.659292,
+        "total_score_0_100": 55.555,
+        "priority_rank": 228,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.95255688209666,
+              37.32723414054777
+            ],
+            [
+              126.9525405324573,
+              37.32948751967306
+            ],
+            [
+              126.95536237169415,
+              37.329500542755355
+            ],
+            [
+              126.95537863707067,
+              37.32724716257452
+            ],
+            [
+              126.95255688209666,
+              37.32723414054777
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 110,
+        "centroid_lon": 126.95395961,
+        "centroid_lat": 37.32836735,
+        "dist_cctv_m": 527.46,
+        "dist_bus_m": 127.88,
+        "dist_accident_m": 1197.08,
+        "dist_fatal_m": 134.35,
+        "dist_school_m": 762.83,
+        "score_gap_0_1": 0.263493,
+        "score_bus_0_1": 0.959372,
+        "score_accident_0_1": 0.847807,
+        "score_fatal_0_1": 1.0,
+        "score_school_0_1": 0.784789,
+        "vulnerability_0_1": 0.903174,
+        "total_score_0_100": 55.135,
+        "priority_rank": 237,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96384391281674,
+              37.32728582492201
+            ],
+            [
+              126.96382790022996,
+              37.32953920823679
+            ],
+            [
+              126.96664974665241,
+              37.32955196214168
+            ],
+            [
+              126.96666567497554,
+              37.32729857779316
+            ],
+            [
+              126.96384391281674,
+              37.32728582492201
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 196,
+        "centroid_lon": 126.96524681,
+        "centroid_lat": 37.3284189,
+        "dist_cctv_m": 768.38,
+        "dist_bus_m": 516.34,
+        "dist_accident_m": 1638.37,
+        "dist_fatal_m": 648.6,
+        "dist_school_m": 894.38,
+        "score_gap_0_1": 0.445748,
+        "score_bus_0_1": 0.522684,
+        "score_accident_0_1": 0.719233,
+        "score_fatal_0_1": 0.704483,
+        "score_school_0_1": 0.725453,
+        "vulnerability_0_1": 0.676742,
+        "total_score_0_100": 54.97,
+        "priority_rank": 241,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.97495844521227,
+              37.35212364662673
+            ],
+            [
+              126.97494275047708,
+              37.35437702451713
+            ],
+            [
+              126.9777655314637,
+              37.35438952037757
+            ],
+            [
+              126.97778114183116,
+              37.35213614147461
+            ],
+            [
+              126.97495844521227,
+              37.35212364662673
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 305,
+        "centroid_lon": 126.97636197,
+        "centroid_lat": 37.35325659,
+        "dist_cctv_m": 462.46,
+        "dist_bus_m": 65.96,
+        "dist_accident_m": 592.19,
+        "dist_fatal_m": 422.84,
+        "dist_school_m": 152.07,
+        "score_gap_0_1": 0.214323,
+        "score_bus_0_1": 1.0,
+        "score_accident_0_1": 1.0,
+        "score_fatal_0_1": 0.850523,
+        "score_school_0_1": 1.0,
+        "vulnerability_0_1": 0.955157,
+        "total_score_0_100": 54.77,
+        "priority_rank": 246,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96397194937188,
+              37.309258727222826
+            ],
+            [
+              126.96395595103628,
+              37.31151211746654
+            ],
+            [
+              126.96677712361192,
+              37.311524863103216
+            ],
+            [
+              126.96678948421108,
+              37.30977466441856
+            ],
+            [
+              126.9666471237343,
+              37.30927081429155
+            ],
+            [
+              126.96397194937188,
+              37.309258727222826
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 188,
+        "centroid_lon": 126.96536657,
+        "centroid_lat": 37.31039734,
+        "dist_cctv_m": 774.98,
+        "dist_bus_m": 472.31,
+        "dist_accident_m": 1385.57,
+        "dist_fatal_m": 884.21,
+        "dist_school_m": 883.85,
+        "score_gap_0_1": 0.450739,
+        "score_bus_0_1": 0.572184,
+        "score_accident_0_1": 0.792889,
+        "score_fatal_0_1": 0.552072,
+        "score_school_0_1": 0.730202,
+        "vulnerability_0_1": 0.663966,
+        "total_score_0_100": 54.669,
+        "priority_rank": 247,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.97764058595043,
+              37.37241652041977
+            ],
+            [
+              126.97762495993652,
+              37.37466989152706
+            ],
+            [
+              126.98044850239478,
+              37.37468232909904
+            ],
+            [
+              126.98046404395622,
+              37.37242895698409
+            ],
+            [
+              126.97764058595043,
+              37.37241652041977
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 343,
+        "centroid_lon": 126.97904452,
+        "centroid_lat": 37.37354943,
+        "dist_cctv_m": 708.77,
+        "dist_bus_m": 533.87,
+        "dist_accident_m": 1075.39,
+        "dist_fatal_m": 780.58,
+        "dist_school_m": 576.94,
+        "score_gap_0_1": 0.400652,
+        "score_bus_0_1": 0.502974,
+        "score_accident_0_1": 0.883262,
+        "score_fatal_0_1": 0.619107,
+        "score_school_0_1": 0.868641,
+        "vulnerability_0_1": 0.725034,
+        "total_score_0_100": 54.662,
+        "priority_rank": 248,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96385992362141,
+              37.325032440741055
+            ],
+            [
+              126.96384391281674,
+              37.32728582492201
+            ],
+            [
+              126.96666567497554,
+              37.32729857779316
+            ],
+            [
+              126.96668160152589,
+              37.325045192578536
+            ],
+            [
+              126.96385992362141,
+              37.325032440741055
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 195,
+        "centroid_lon": 126.96526278,
+        "centroid_lat": 37.32616552,
+        "dist_cctv_m": 671.14,
+        "dist_bus_m": 470.31,
+        "dist_accident_m": 1466.8,
+        "dist_fatal_m": 432.86,
+        "dist_school_m": 731.37,
+        "score_gap_0_1": 0.372189,
+        "score_bus_0_1": 0.574431,
+        "score_accident_0_1": 0.76922,
+        "score_fatal_0_1": 0.84404,
+        "score_school_0_1": 0.79898,
+        "vulnerability_0_1": 0.75866,
+        "total_score_0_100": 54.61,
+        "priority_rank": 249,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.95810328015341,
+              37.34078039170289
+            ],
+            [
+              126.9580870882302,
+              37.3430337677356
+            ],
+            [
+              126.96090943685506,
+              37.34304666249863
+            ],
+            [
+              126.96092554445873,
+              37.3407932854209
+            ],
+            [
+              126.95810328015341,
+              37.34078039170289
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 155,
+        "centroid_lon": 126.95950634,
+        "centroid_lat": 37.34191354,
+        "dist_cctv_m": 768.26,
+        "dist_bus_m": 533.94,
+        "dist_accident_m": 1733.44,
+        "dist_fatal_m": 783.3,
+        "dist_school_m": 558.29,
+        "score_gap_0_1": 0.445661,
+        "score_bus_0_1": 0.502893,
+        "score_accident_0_1": 0.691533,
+        "score_fatal_0_1": 0.617353,
+        "score_school_0_1": 0.877055,
+        "vulnerability_0_1": 0.668655,
+        "total_score_0_100": 54.601,
+        "priority_rank": 250,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.9636676762992,
+              37.35207299374022
+            ],
+            [
+              126.96365164409522,
+              37.35432636752573
+            ],
+            [
+              126.96647441803721,
+              37.354339132805755
+            ],
+            [
+              126.9664903658743,
+              37.35208575798585
+            ],
+            [
+              126.9636676762992,
+              37.35207299374022
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 207,
+        "centroid_lon": 126.96507103,
+        "centroid_lat": 37.35320607,
+        "dist_cctv_m": 526.09,
+        "dist_bus_m": 196.76,
+        "dist_accident_m": 387.69,
+        "dist_fatal_m": 441.22,
+        "dist_school_m": 680.76,
+        "score_gap_0_1": 0.262456,
+        "score_bus_0_1": 0.881942,
+        "score_accident_0_1": 1.0,
+        "score_fatal_0_1": 0.838637,
+        "score_school_0_1": 0.821808,
+        "vulnerability_0_1": 0.892341,
+        "total_score_0_100": 54.59,
+        "priority_rank": 251,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.98038631884583,
+              37.383695808896476
+            ],
+            [
+              126.9803707686318,
+              37.385949176680136
+            ],
+            [
+              126.9831947352246,
+              37.385961551859495
+            ],
+            [
+              126.98321020093893,
+              37.38370818307334
+            ],
+            [
+              126.98038631884583,
+              37.383695808896476
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 379,
+        "centroid_lon": 126.98179051,
+        "centroid_lat": 37.38482869,
+        "dist_cctv_m": 442.37,
+        "dist_bus_m": 141.02,
+        "dist_accident_m": 370.36,
+        "dist_fatal_m": 288.73,
+        "dist_school_m": 301.02,
+        "score_gap_0_1": 0.199124,
+        "score_bus_0_1": 0.944599,
+        "score_accident_0_1": 1.0,
+        "score_fatal_0_1": 0.937274,
+        "score_school_0_1": 0.9931,
+        "vulnerability_0_1": 0.968722,
+        "total_score_0_100": 54.544,
+        "priority_rank": 252,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              127.00006375206499,
+              37.39730124730388
+            ],
+            [
+              127.00004878335832,
+              37.39955461679454
+            ],
+            [
+              127.00287326900965,
+              37.39956652573455
+            ],
+            [
+              127.00288815315878,
+              37.39731315527929
+            ],
+            [
+              127.00006375206499,
+              37.39730124730388
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 615,
+        "centroid_lon": 127.00146849,
+        "centroid_lat": 37.39843389,
+        "dist_cctv_m": 771.42,
+        "dist_bus_m": 366.01,
+        "dist_accident_m": 2014.48,
+        "dist_fatal_m": 850.94,
+        "dist_school_m": 623.24,
+        "score_gap_0_1": 0.448049,
+        "score_bus_0_1": 0.691679,
+        "score_accident_0_1": 0.609647,
+        "score_fatal_0_1": 0.573594,
+        "score_school_0_1": 0.847757,
+        "vulnerability_0_1": 0.66286,
+        "total_score_0_100": 54.471,
+        "priority_rank": 254,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.94704545676777,
+              37.30918084745191
+            ],
+            [
+              126.9470289533045,
+              37.31143423138163
+            ],
+            [
+              126.94985011505558,
+              37.31144738052188
+            ],
+            [
+              126.94986653433142,
+              37.30919399552621
+            ],
+            [
+              126.94704545676777,
+              37.30918084745191
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 65,
+        "centroid_lon": 126.94844776,
+        "centroid_lat": 37.31031412,
+        "dist_cctv_m": 695.48,
+        "dist_bus_m": 494.31,
+        "dist_accident_m": 891.91,
+        "dist_fatal_m": 837.26,
+        "dist_school_m": 645.2,
+        "score_gap_0_1": 0.390598,
+        "score_bus_0_1": 0.54745,
+        "score_accident_0_1": 0.936722,
+        "score_fatal_0_1": 0.582447,
+        "score_school_0_1": 0.83785,
+        "vulnerability_0_1": 0.732811,
+        "total_score_0_100": 54.459,
+        "priority_rank": 256,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.97202525972855,
+              37.36788470434422
+            ],
+            [
+              126.97200946832632,
+              37.37013807515258
+            ],
+            [
+              126.97483283840143,
+              37.37015064549604
+            ],
+            [
+              126.97484854537039,
+              37.36789727366924
+            ],
+            [
+              126.97202525972855,
+              37.36788470434422
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 284,
+        "centroid_lon": 126.97342903,
+        "centroid_lat": 37.36901768,
+        "dist_cctv_m": 704.65,
+        "dist_bus_m": 610.9,
+        "dist_accident_m": 1335.74,
+        "dist_fatal_m": 608.17,
+        "dist_school_m": 511.88,
+        "score_gap_0_1": 0.397537,
+        "score_bus_0_1": 0.416388,
+        "score_accident_0_1": 0.807407,
+        "score_fatal_0_1": 0.730635,
+        "score_school_0_1": 0.897987,
+        "vulnerability_0_1": 0.724288,
+        "total_score_0_100": 54.457,
+        "priority_rank": 257,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.97762495993652,
+              37.37466989152706
+            ],
+            [
+              126.97760933218308,
+              37.37692326176808
+            ],
+            [
+              126.98043295910323,
+              37.37693570034777
+            ],
+            [
+              126.98044850239478,
+              37.37468232909904
+            ],
+            [
+              126.97762495993652,
+              37.37466989152706
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 344,
+        "centroid_lon": 126.97902894,
+        "centroid_lat": 37.3758028,
+        "dist_cctv_m": 572.09,
+        "dist_bus_m": 357.27,
+        "dist_accident_m": 827.74,
+        "dist_fatal_m": 583.36,
+        "dist_school_m": 418.16,
+        "score_gap_0_1": 0.297257,
+        "score_bus_0_1": 0.701501,
+        "score_accident_0_1": 0.955416,
+        "score_fatal_0_1": 0.746685,
+        "score_school_0_1": 0.940261,
+        "vulnerability_0_1": 0.838983,
+        "total_score_0_100": 54.103,
+        "priority_rank": 259,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.98913302016878,
+              37.343171907114076
+            ],
+            [
+              126.98911775407268,
+              37.345425293476076
+            ],
+            [
+              126.99194020623526,
+              37.345437448618355
+            ],
+            [
+              126.99195538800018,
+              37.343184061271295
+            ],
+            [
+              126.98913302016878,
+              37.343171907114076
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 463,
+        "centroid_lon": 126.99053659,
+        "centroid_lat": 37.34430469,
+        "dist_cctv_m": 702.87,
+        "dist_bus_m": 67.08,
+        "dist_accident_m": 2186.82,
+        "dist_fatal_m": 681.46,
+        "dist_school_m": 894.94,
+        "score_gap_0_1": 0.39619,
+        "score_bus_0_1": 1.0,
+        "score_accident_0_1": 0.559435,
+        "score_fatal_0_1": 0.683231,
+        "score_school_0_1": 0.725196,
+        "vulnerability_0_1": 0.717839,
+        "total_score_0_100": 54.093,
+        "priority_rank": 260,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.98627995147365,
+              37.34766645550554
+            ],
+            [
+              126.98626459762897,
+              37.34991983914529
+            ],
+            [
+              126.98908721678232,
+              37.349932063602665
+            ],
+            [
+              126.98910248627728,
+              37.34767867897227
+            ],
+            [
+              126.98627995147365,
+              37.34766645550554
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 430,
+        "centroid_lon": 126.98768356,
+        "centroid_lat": 37.34879927,
+        "dist_cctv_m": 598.43,
+        "dist_bus_m": 277.84,
+        "dist_accident_m": 1709.88,
+        "dist_fatal_m": 336.72,
+        "dist_school_m": 573.58,
+        "score_gap_0_1": 0.317186,
+        "score_bus_0_1": 0.790798,
+        "score_accident_0_1": 0.698397,
+        "score_fatal_0_1": 0.906229,
+        "score_school_0_1": 0.870154,
+        "vulnerability_0_1": 0.813578,
+        "total_score_0_100": 54.056,
+        "priority_rank": 263,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.9639239490229,
+              37.31601889535579
+            ],
+            [
+              126.96390794534466,
+              37.318272283001285
+            ],
+            [
+              126.96672937054257,
+              37.318285031738085
+            ],
+            [
+              126.96673414989479,
+              37.317608544194904
+            ],
+            [
+              126.96649800000002,
+              37.3174537
+            ],
+            [
+              126.96661725612137,
+              37.31603106601902
+            ],
+            [
+              126.9639239490229,
+              37.31601889535579
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 191,
+        "centroid_lon": 126.96526626,
+        "centroid_lat": 37.31716537,
+        "dist_cctv_m": 634.22,
+        "dist_bus_m": 706.7,
+        "dist_accident_m": 1121.78,
+        "dist_fatal_m": 150.67,
+        "dist_school_m": 769.94,
+        "score_gap_0_1": 0.344255,
+        "score_bus_0_1": 0.308694,
+        "score_accident_0_1": 0.869745,
+        "score_fatal_0_1": 1.0,
+        "score_school_0_1": 0.781582,
+        "vulnerability_0_1": 0.778979,
+        "total_score_0_100": 53.988,
+        "priority_rank": 264,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.96915434303641,
+              37.37463217438553
+            ],
+            [
+              126.9691384618986,
+              37.37688554157065
+            ],
+            [
+              126.97196208357137,
+              37.376898182379385
+            ],
+            [
+              126.97197788024795,
+              37.374644814170175
+            ],
+            [
+              126.96915434303641,
+              37.37463217438553
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 264,
+        "centroid_lon": 126.97055819,
+        "centroid_lat": 37.37576519,
+        "dist_cctv_m": 498.52,
+        "dist_bus_m": 67.42,
+        "dist_accident_m": 1026.65,
+        "dist_fatal_m": 533.68,
+        "dist_school_m": 189.34,
+        "score_gap_0_1": 0.241604,
+        "score_bus_0_1": 1.0,
+        "score_accident_0_1": 0.897463,
+        "score_fatal_0_1": 0.778824,
+        "score_school_0_1": 1.0,
+        "vulnerability_0_1": 0.902886,
+        "total_score_0_100": 53.918,
+        "priority_rank": 267,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.99168185750972,
+              37.38374490104469
+            ],
+            [
+              126.99166664529565,
+              37.385998272805544
+            ],
+            [
+              126.99449061871888,
+              37.386010378256465
+            ],
+            [
+              126.99450574643247,
+              37.38375700551499
+            ],
+            [
+              126.99168185750972,
+              37.38374490104469
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": 514,
+        "centroid_lon": 126.99308622,
+        "centroid_lat": 37.38487765,
+        "dist_cctv_m": 554.98,
+        "dist_bus_m": 463.25,
+        "dist_accident_m": 978.82,
+        "dist_fatal_m": 231.9,
+        "dist_school_m": 655.3,
+        "score_gap_0_1": 0.284313,
+        "score_bus_0_1": 0.582368,
+        "score_accident_0_1": 0.9114,
+        "score_fatal_0_1": 0.974036,
+        "score_school_0_1": 0.833294,
+        "vulnerability_0_1": 0.848763,
+        "total_score_0_100": 53.832,
+        "priority_rank": 268,
+        "candidate_flag": true,
+        "score_class": "High"
+      }
+    }
+  ]
+}

@@ -6,41 +6,73 @@ import json
 from pathlib import Path
 from typing import Iterable
 
+import geopandas as gpd
 import numpy as np
 import pandas as pd
 import requests
 from pyproj import Transformer
+from shapely import concave_hull
 from shapely.geometry import MultiPoint, Point, box, mapping, shape
 from shapely.ops import transform
 
 ROOT = Path(__file__).resolve().parent.parent
+WORKSPACE = ROOT.parent
 OUT_DIR = Path(__file__).resolve().parent
 
-IN_CCTV = ROOT / "데이터_정리/02_가공데이터/traffic_cctv_uiwang.csv"
-IN_BUS = ROOT / "데이터_정리/02_가공데이터/bus_stop_uiwang.csv"
-IN_ACCIDENT = ROOT / "데이터_정리/02_가공데이터/qgis_ready/csv/accident_hotspots_raw_uiwang.csv"
-IN_FATAL = ROOT / "데이터_정리/02_가공데이터/qgis_ready/csv/fatal_accidents_uiwang.csv"
-IN_SCHOOL = ROOT / "데이터_정리/01_원본데이터/위치 활용/초중등학교_의왕시_H컬럼추출.csv"
+SOURCE_DIR = WORKSPACE / "this"
+
+IN_CCTV = SOURCE_DIR / "무인교통단속카메라.gpkg"
+IN_BUS = SOURCE_DIR / "버스정류소.gpkg"
+IN_ACCIDENT = SOURCE_DIR / "사고다발지.gpkg"
+IN_FATAL = SOURCE_DIR / "사망교통사고.gpkg"
+IN_SCHOOL = SOURCE_DIR / "초중고등학교.gpkg"
+
+LAYER_CCTV = "무인교통단속카메라"
+LAYER_BUS = "버스정류소"
+LAYER_ACCIDENT = "사고다발지_내보내기"
+LAYER_FATAL = "사망교통사고_내보내기"
+LAYER_SCHOOL = "초중고등학교_내보내기"
 
 WGS84 = "EPSG:4326"
 METRIC_CRS = "EPSG:5179"
 
 
-def load_points(csv_path: Path, lat_col: str, lon_col: str, keep_cols: Iterable[str] | None = None) -> pd.DataFrame:
-    df = pd.read_csv(csv_path, encoding="utf-8-sig")
+def load_points_from_gpkg(
+    gpkg_path: Path,
+    layer_name: str,
+    source_type: str,
+    keep_cols: Iterable[str] | None = None,
+) -> gpd.GeoDataFrame:
+    gdf = gpd.read_file(gpkg_path, layer=layer_name, engine="pyogrio")
+
+    if gdf.crs is None:
+        gdf = gdf.set_crs(WGS84)
+    else:
+        gdf = gdf.to_crs(WGS84)
+
+    gdf = gdf[gdf.geometry.notna()].copy()
+    gdf = gdf[gdf.geometry.geom_type.isin(["Point", "MultiPoint"])].copy()
+    multi_mask = gdf.geometry.geom_type == "MultiPoint"
+    if multi_mask.any():
+        tmp = gdf.loc[multi_mask].to_crs(METRIC_CRS)
+        tmp["geometry"] = tmp.geometry.centroid
+        tmp = tmp.to_crs(WGS84)
+        gdf.loc[multi_mask, "geometry"] = tmp.geometry.values
+
+    gdf["lon"] = gdf.geometry.x
+    gdf["lat"] = gdf.geometry.y
+
+    # Remove obvious invalid coordinates.
+    gdf = gdf[(gdf["lat"].between(33.0, 39.5)) & (gdf["lon"].between(124.0, 132.0))].copy()
+
+    keep = ["geometry", "lon", "lat"]
     if keep_cols:
-        keep_cols = list(dict.fromkeys([*keep_cols, lat_col, lon_col]))
-        existing = [c for c in keep_cols if c in df.columns]
-        df = df[existing].copy()
+        keep.extend([c for c in keep_cols if c in gdf.columns])
 
-    df[lat_col] = pd.to_numeric(df[lat_col], errors="coerce")
-    df[lon_col] = pd.to_numeric(df[lon_col], errors="coerce")
-    df = df.dropna(subset=[lat_col, lon_col]).copy()
-
-    df = df.rename(columns={lat_col: "lat", lon_col: "lon"})
-    df = df[(df["lat"].between(33.0, 39.5)) & (df["lon"].between(124.0, 132.0))].copy()
-    df = df.drop_duplicates(subset=["lat", "lon"])
-    return df.reset_index(drop=True)
+    gdf = gdf[keep].copy()
+    gdf = gdf.drop_duplicates(subset=["lon", "lat"]).reset_index(drop=True)
+    gdf["source_type"] = source_type
+    return gdf
 
 
 def fetch_uiwang_boundary() -> tuple[object, str] | tuple[None, str]:
@@ -74,29 +106,35 @@ def fetch_uiwang_boundary() -> tuple[object, str] | tuple[None, str]:
         return None, f"OSM Nominatim failed: {exc}"
 
 
-def fallback_boundary_from_points(point_frames: list[pd.DataFrame]) -> tuple[object, str]:
-    coords = []
-    for frame in point_frames:
-        coords.extend([(lon, lat) for lon, lat in zip(frame["lon"], frame["lat"])])
-
-    if not coords:
-        raise RuntimeError("No points available to build fallback boundary")
-
-    hull = MultiPoint(coords).convex_hull
+def fallback_boundary_from_points(bus_gdf: gpd.GeoDataFrame, all_points: list[gpd.GeoDataFrame]) -> tuple[object, str]:
+    if len(bus_gdf) >= 20:
+        base = MultiPoint(list(bus_gdf.geometry))
+        concave = concave_hull(base, ratio=0.45)
+    else:
+        coords = []
+        for frame in all_points:
+            coords.extend([(lon, lat) for lon, lat in zip(frame["lon"], frame["lat"])])
+        if not coords:
+            raise RuntimeError("No points available to build fallback boundary")
+        concave = MultiPoint(coords).convex_hull
 
     fwd = Transformer.from_crs(WGS84, METRIC_CRS, always_xy=True)
     rev = Transformer.from_crs(METRIC_CRS, WGS84, always_xy=True)
+    concave_m = transform(fwd.transform, concave)
 
-    hull_m = transform(fwd.transform, hull)
-    buffered_m = hull_m.buffer(1200)
+    # Add a small safety buffer to avoid clipping edge cells.
+    buffered_m = concave_m.buffer(600)
     buffered_wgs = transform(rev.transform, buffered_m)
-    return buffered_wgs, "Fallback convex hull + 1200m buffer"
+    return buffered_wgs, "Fallback bus concave hull + 600m buffer"
 
 
-def filter_points_near_boundary(df: pd.DataFrame, boundary_wgs84, margin_deg: float = 0.01) -> pd.DataFrame:
-    padded = boundary_wgs84.buffer(margin_deg)
-    keep_mask = [padded.contains(Point(lon, lat)) for lon, lat in zip(df["lon"], df["lat"])]
-    return df.loc[keep_mask].reset_index(drop=True)
+def filter_points_near_boundary(gdf: gpd.GeoDataFrame, boundary_wgs84, margin_m: float = 600.0) -> gpd.GeoDataFrame:
+    to_metric = Transformer.from_crs(WGS84, METRIC_CRS, always_xy=True)
+    to_wgs84 = Transformer.from_crs(METRIC_CRS, WGS84, always_xy=True)
+    boundary_m = transform(to_metric.transform, boundary_wgs84)
+    padded_wgs = transform(to_wgs84.transform, boundary_m.buffer(margin_m))
+    mask = gdf.geometry.within(padded_wgs)
+    return gdf.loc[mask].reset_index(drop=True)
 
 
 def build_grid(boundary_m, cell_size_m: int) -> list:
@@ -130,10 +168,10 @@ def build_grid(boundary_m, cell_size_m: int) -> list:
     return geoms
 
 
-def project_points(df: pd.DataFrame, transformer: Transformer) -> np.ndarray:
-    if df.empty:
+def project_points(gdf: gpd.GeoDataFrame, transformer: Transformer) -> np.ndarray:
+    if gdf.empty:
         return np.empty((0, 2), dtype=float)
-    x, y = transformer.transform(df["lon"].to_numpy(), df["lat"].to_numpy())
+    x, y = transformer.transform(gdf["lon"].to_numpy(), gdf["lat"].to_numpy())
     return np.column_stack([x, y])
 
 
@@ -208,25 +246,30 @@ def write_geojson(path: Path, geoms_wgs84: list, records: list[dict], layer_name
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Build grid-based CCTV candidate scoring layer for Uiwang.")
+    parser = argparse.ArgumentParser(description="Build full-grid CCTV scoring layer from /this GPKG data.")
     parser.add_argument("--grid-size", type=int, default=250, help="Grid cell size in meters (default: 250)")
-    parser.add_argument("--min-cctv-gap", type=float, default=200.0, help="Minimum distance from CCTV for candidate filtering")
-    parser.add_argument("--top-n", type=int, default=120, help="Number of top candidate points to export")
+    parser.add_argument("--min-cctv-gap", type=float, default=200.0, help="Minimum CCTV separation distance for candidate filtering")
+    parser.add_argument("--top-n", type=int, default=150, help="Maximum number of candidate features to export")
     parser.add_argument("--skip-osm-boundary", action="store_true", help="Skip OSM boundary lookup and use fallback boundary")
     args = parser.parse_args()
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    cctv = load_points(IN_CCTV, "위도", "경도", keep_cols=["관리기관명", "설치목적구분"])
-    bus = load_points(IN_BUS, "위도", "경도", keep_cols=["정류소명", "정류소id"])
-    accident = load_points(
+    cctv = load_points_from_gpkg(IN_CCTV, LAYER_CCTV, "cctv", keep_cols=["단속구분", "설치장소", "제한속도"])
+    bus = load_points_from_gpkg(IN_BUS, LAYER_BUS, "bus", keep_cols=["의왕시", "LG아파트"])
+    accident = load_points_from_gpkg(
         IN_ACCIDENT,
-        "위도",
-        "경도",
-        keep_cols=["시군명", "사고년도", "발생건수", "사망자수", "사고지역위치명"],
+        LAYER_ACCIDENT,
+        "accident",
+        keep_cols=["�߻��Ǽ�", "�����ڼ�", "����������ġ��"],
     )
-    fatal = load_points(IN_FATAL, "위도", "경도", keep_cols=["시군명", "발생년도", "사망자수", "발생일자"])
-    school = load_points(IN_SCHOOL, "위도", "경도", keep_cols=["학교ID", "학교명", "학교급구분"])
+    fatal = load_points_from_gpkg(
+        IN_FATAL,
+        LAYER_FATAL,
+        "fatal",
+        keep_cols=["�߻��⵵", "�����ڼ�", "�߻�����"],
+    )
+    school = load_points_from_gpkg(IN_SCHOOL, LAYER_SCHOOL, "school", keep_cols=["학교명", "학교급구분"])
 
     boundary_wgs84 = None
     boundary_source = ""
@@ -234,7 +277,7 @@ def main() -> None:
         boundary_wgs84, boundary_source = fetch_uiwang_boundary()
 
     if boundary_wgs84 is None:
-        boundary_wgs84, boundary_source = fallback_boundary_from_points([cctv, bus, accident, fatal, school])
+        boundary_wgs84, boundary_source = fallback_boundary_from_points(bus, [cctv, bus, accident, fatal, school])
 
     cctv = filter_points_near_boundary(cctv, boundary_wgs84)
     bus = filter_points_near_boundary(bus, boundary_wgs84)
@@ -268,19 +311,21 @@ def main() -> None:
     score_school = robust_score(d_school, larger_is_better=False)
 
     vulnerability = (
-        (0.35 * score_accident)
+        (0.30 * score_accident)
         + (0.30 * score_fatal)
         + (0.20 * score_bus)
-        + (0.15 * score_school)
+        + (0.20 * score_school)
     )
 
-    total_score = (0.60 * score_gap) + (0.40 * vulnerability)
-    proximity_penalty = np.clip((150.0 - d_cctv) / 150.0, 0.0, 1.0) * 0.25
+    total_score = (0.55 * score_gap) + (0.45 * vulnerability)
+
+    # Penalize cells that are too close to existing cameras.
+    proximity_penalty = np.clip((args.min_cctv_gap - d_cctv) / args.min_cctv_gap, 0.0, 1.0) * 0.35
     total_score = np.clip(total_score - proximity_penalty, 0.0, 1.0)
 
     rank = pd.Series(total_score).rank(ascending=False, method="dense").astype(int).to_numpy()
 
-    vuln_threshold = float(np.nanpercentile(vulnerability, 55))
+    vuln_threshold = float(np.nanpercentile(vulnerability, 50))
     score_threshold = float(np.nanpercentile(total_score, 70))
 
     candidate_flag = (
@@ -335,27 +380,59 @@ def main() -> None:
             }
         )
 
-    grid_df = pd.DataFrame(records).sort_values("total_score_0_100", ascending=False).reset_index(drop=True)
+    grid_df = pd.DataFrame(records)
+    grid_df = grid_df.sort_values("total_score_0_100", ascending=False).reset_index(drop=True)
+
+    # Ranking classes for easier choropleth map styling.
+    class_labels = ["Very Low", "Low", "Medium", "High", "Very High"]
+    try:
+        grid_df["score_class"] = pd.qcut(
+            grid_df["total_score_0_100"],
+            q=5,
+            labels=class_labels,
+            duplicates="drop",
+        )
+    except ValueError:
+        grid_df["score_class"] = "Medium"
 
     candidate_df = grid_df[grid_df["candidate_flag"]].copy()
     candidate_df = candidate_df.nsmallest(999999, "priority_rank").head(args.top_n).copy()
 
-    csv_grid = OUT_DIR / f"uiwang_grid_score_{args.grid_size}m.csv"
-    geojson_grid = OUT_DIR / f"uiwang_grid_score_{args.grid_size}m.geojson"
-    csv_top = OUT_DIR / f"uiwang_candidate_top{args.top_n}_{args.grid_size}m.csv"
-    geojson_top = OUT_DIR / f"uiwang_candidate_top{args.top_n}_{args.grid_size}m.geojson"
-    boundary_geojson = OUT_DIR / "uiwang_boundary.geojson"
-    summary_json = OUT_DIR / "uiwang_grid_summary.json"
+    csv_grid = OUT_DIR / f"this_uiwang_grid_score_{args.grid_size}m.csv"
+    geojson_grid = OUT_DIR / f"this_uiwang_grid_score_{args.grid_size}m.geojson"
+    gpkg_grid = OUT_DIR / f"this_uiwang_grid_score_{args.grid_size}m.gpkg"
+    csv_top = OUT_DIR / f"this_uiwang_candidate_cells_top{args.top_n}_{args.grid_size}m.csv"
+    geojson_top = OUT_DIR / f"this_uiwang_candidate_cells_top{args.top_n}_{args.grid_size}m.geojson"
+    geojson_points = OUT_DIR / f"this_uiwang_candidate_points_top{args.top_n}_{args.grid_size}m.geojson"
+    boundary_geojson = OUT_DIR / "this_uiwang_boundary.geojson"
+    inputs_geojson = OUT_DIR / "this_uiwang_inputs_points.geojson"
+    summary_json = OUT_DIR / "this_uiwang_grid_summary.json"
 
     grid_df.to_csv(csv_grid, index=False, encoding="utf-8-sig")
     candidate_df.to_csv(csv_top, index=False, encoding="utf-8-sig")
 
-    write_geojson(geojson_grid, grid_wgs, records, layer_name=f"uiwang_grid_score_{args.grid_size}m")
+    # Full grid polygon layer (for cell-based choropleth rendering in QGIS).
+    rec_map = {int(r["grid_id"]): r for r in records}
+    sorted_grid_geoms = [grid_wgs[int(gid) - 1] for gid in grid_df["grid_id"].tolist()]
+    sorted_records = [rec_map[int(gid)] for gid in grid_df["grid_id"].tolist()]
+    write_geojson(geojson_grid, sorted_grid_geoms, sorted_records, layer_name=f"this_uiwang_grid_score_{args.grid_size}m")
+
+    gdf_grid = gpd.GeoDataFrame(grid_df.copy(), geometry=sorted_grid_geoms, crs=WGS84)
+    gdf_grid.to_file(gpkg_grid, layer="grid_score", driver="GPKG", engine="pyogrio")
 
     top_records = candidate_df.to_dict(orient="records")
-    top_features = []
+    top_cell_features = []
+    top_point_features = []
     for rec in top_records:
-        top_features.append(
+        geom_idx = int(rec["grid_id"]) - 1
+        top_cell_features.append(
+            {
+                "type": "Feature",
+                "geometry": mapping(grid_wgs[geom_idx]),
+                "properties": to_serializable_record(rec),
+            }
+        )
+        top_point_features.append(
             {
                 "type": "Feature",
                 "geometry": {
@@ -370,9 +447,22 @@ def main() -> None:
         json.dump(
             {
                 "type": "FeatureCollection",
-                "name": f"uiwang_candidate_top{args.top_n}_{args.grid_size}m",
+                "name": f"this_uiwang_candidate_cells_top{args.top_n}_{args.grid_size}m",
                 "crs": {"type": "name", "properties": {"name": WGS84}},
-                "features": top_features,
+                "features": top_cell_features,
+            },
+            f,
+            ensure_ascii=False,
+            indent=2,
+        )
+
+    with geojson_points.open("w", encoding="utf-8") as f:
+        json.dump(
+            {
+                "type": "FeatureCollection",
+                "name": f"this_uiwang_candidate_points_top{args.top_n}_{args.grid_size}m",
+                "crs": {"type": "name", "properties": {"name": WGS84}},
+                "features": top_point_features,
             },
             f,
             ensure_ascii=False,
@@ -400,7 +490,22 @@ def main() -> None:
             indent=2,
         )
 
+    # Merge all source points for visual QA in QGIS.
+    merged_inputs = pd.concat(
+        [
+            cctv[["source_type", "geometry"]],
+            bus[["source_type", "geometry"]],
+            accident[["source_type", "geometry"]],
+            fatal[["source_type", "geometry"]],
+            school[["source_type", "geometry"]],
+        ],
+        ignore_index=True,
+    )
+    gdf_inputs = gpd.GeoDataFrame(merged_inputs, geometry="geometry", crs=WGS84)
+    gdf_inputs.to_file(inputs_geojson, driver="GeoJSON", engine="pyogrio")
+
     summary = {
+        "source_folder": str(SOURCE_DIR),
         "grid_size_m": args.grid_size,
         "min_cctv_gap_m": args.min_cctv_gap,
         "top_n": args.top_n,
@@ -419,9 +524,12 @@ def main() -> None:
         "output_files": {
             "grid_csv": csv_grid.name,
             "grid_geojson": geojson_grid.name,
+            "grid_gpkg": gpkg_grid.name,
             "top_csv": csv_top.name,
-            "top_geojson": geojson_top.name,
+            "top_cells_geojson": geojson_top.name,
+            "top_points_geojson": geojson_points.name,
             "boundary_geojson": boundary_geojson.name,
+            "inputs_geojson": inputs_geojson.name,
         },
     }
 
