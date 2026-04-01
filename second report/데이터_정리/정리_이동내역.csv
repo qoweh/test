@@ -1,0 +1,24 @@
+﻿원래위치,이동위치,분류
+자료/2024년 시군구별 교통사고.xlsx,데이터_정리\01_원본데이터\2024년 시군구별 교통사고.xlsx,raw
+자료/CCTV현황(제공표준).xls,데이터_정리\01_원본데이터\CCTV현황(제공표준).xls,raw
+자료/버스정류소현황.xls,데이터_정리\01_원본데이터\버스정류소현황.xls,raw
+자료/사고다발지현황.csv,데이터_정리\01_원본데이터\사고다발지현황.csv,raw
+자료/사망교통사고현황.csv,데이터_정리\01_원본데이터\사망교통사고현황.csv,raw
+자료/경기도_교통사고집계현황.csv,데이터_정리\01_원본데이터\경기도_교통사고집계현황.csv,raw
+자료/자료0325/무인교통단속카메라현황(제공표준).xls,데이터_정리\01_원본데이터\무인교통단속카메라현황(제공표준).xls,raw
+자료/자료0325/초․중등학교위치현황(제공표준).xls,데이터_정리\01_원본데이터\초․중등학교위치현황(제공표준).xls,raw
+accident_hotspots.csv,데이터_정리\02_가공데이터\accident_hotspots.csv,processed
+bus_stop_uiwang.csv,데이터_정리\02_가공데이터\bus_stop_uiwang.csv,processed
+cctv_candidate_locations.csv,데이터_정리\02_가공데이터\cctv_candidate_locations.csv,processed
+traffic_cctv_uiwang.csv,데이터_정리\02_가공데이터\traffic_cctv_uiwang.csv,processed
+초중등학교_의왕시_H컬럼추출.csv,데이터_정리\02_가공데이터\초중등학교_의왕시_H컬럼추출.csv,processed
+requirement_run_summary.csv,데이터_정리\02_가공데이터\requirement_run_summary.csv,processed
+자료/demo_의왕_사고다발지.geojson,데이터_정리\02_가공데이터\demo_의왕_사고다발지.geojson,processed
+자료/자료0325/comparison_summary_의왕_vs_CCTV교통단속.csv,데이터_정리\02_가공데이터\comparison_summary_의왕_vs_CCTV교통단속.csv,processed
+자료/자료0325/merged_for_analysis_의왕_무인교통_plus_CCTV교통단속.csv,데이터_정리\02_가공데이터\merged_for_analysis_의왕_무인교통_plus_CCTV교통단속.csv,processed
+자료/자료0325/overlap_coord_의왕_교통단속.csv,데이터_정리\02_가공데이터\overlap_coord_의왕_교통단속.csv,processed
+자료/자료0325/overlap_jibun_의왕_교통단속.csv,데이터_정리\02_가공데이터\overlap_jibun_의왕_교통단속.csv,processed
+자료/자료0325/overlap_roadaddr_의왕_교통단속.csv,데이터_정리\02_가공데이터\overlap_roadaddr_의왕_교통단속.csv,processed
+자료/경기도 의왕시_보행약자 이용시설 현황(보행안전지수)_20221202,데이터_정리\01_원본데이터\경기도 의왕시_보행약자 이용시설 현황(보행안전지수)_20221202,raw
+qgis_ready,데이터_정리\02_가공데이터\qgis_ready,processed
+자료/kosis_의왕_추출결과,데이터_정리\02_가공데이터\kosis_의왕_추출결과,processed

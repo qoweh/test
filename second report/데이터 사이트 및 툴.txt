@@ -1,0 +1,11 @@
+데이터 사이트 및 툴
+
+- QGIS 분석에 활용할 수 있는 데이터 수집 사이트
+미국지질조사국(USGS) : https://earthexplorer.usgs.gov (Landsat8 열적외선 지표면 온도 데이터)
+기상자료개방포털 : https://data.kma.go.kr (최고체감온도 및 폭염일수 데이터)
+환경공간정보서비스 : https://aid.mcee.go.kr (토지피복도 데이터)
+국토지리정보원 국토정보플랫폼 : https://map.ngii.go.kr (노후건물 수 데이터)
+재난안전데이터공유플랫폼 : https://www.safetydata.go.kr
+
+경기데이터드림 : https://data.gg.go.kr
+KOSIS(국가통계포털) : https://kosis.kr/ 

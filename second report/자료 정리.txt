@@ -1,0 +1,12 @@
+1. 시군별_세대_및_인구 (2026-03-10, https://stat.gg.go.kr/statHtml/statHtml.do?orgId=210&tblId=DT_210J0001&conn_path=I2, KOSIS): 지역별 인구 수, 세대 수
+2. 면적·세대·인구 :(2016-10-17, https://kosis.kr/statHtml/statHtml.do?sso=ok&returnurl=https%3A%2F%2Fkosis.kr%3A443%2FstatHtml%2FstatHtml.do%3Flist_id%3DK2_14215_005_001%26obj_var_id%3D%26seqNo%3D%26tblId%3DDT_2023_A001%26vw_cd%3DMT_ZTITLE%26orgId%3D142%26path%3D%252FstatisticsList%252FstatisticsListIndex.do%26conn_path%3DMT_ZTITLE%26itm_id%3D%26lang_mode%3Dko%26scrId%3D%26, KOSIS) : 지역별 행정구역 면적
+3. 무인교통단속카메라현황(제공표준)
+------------
+학교 : 초․중등학교위치현황(제공표준)
+버스 정류소 : 버스정류소현황
+사고다발 : 사고다발지현황
+사망교통사고 : 사망교통사고현황
+ 
+
+
+cctv 개수, cctv 위치

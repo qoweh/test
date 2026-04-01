@@ -1,0 +1,11 @@
+﻿layer_name,rows,csv_file,geojson_file,lat_col,lon_col,epsg,description
+traffic_cctv_uiwang,15,qgis_ready/csv/traffic_cctv_uiwang.csv,qgis_ready/geojson/traffic_cctv_uiwang.geojson,latitude,longitude,EPSG:4326,의왕시 교통단속 CCTV 위치(최종 분석용)
+accident_hotspots,66,qgis_ready/csv/accident_hotspots.csv,qgis_ready/geojson/accident_hotspots.geojson,latitude,longitude,EPSG:4326,사고다발 및 사망사고 밀집 기반 핫스팟
+bus_stop_uiwang,389,qgis_ready/csv/bus_stop_uiwang.csv,qgis_ready/geojson/bus_stop_uiwang.geojson,latitude,longitude,EPSG:4326,의왕시 버스정류소 위치
+cctv_candidate_locations,852,qgis_ready/csv/cctv_candidate_locations.csv,qgis_ready/geojson/cctv_candidate_locations.geojson,latitude,longitude,EPSG:4326,시나리오 통합 CCTV 추가 설치 후보지
+candidates_accident_cov_150m,55,qgis_ready/csv/candidates_accident_cov_150m.csv,qgis_ready/geojson/candidates_accident_cov_150m.geojson,latitude,longitude,EPSG:4326,사고다발/복합 후보 (CCTV 커버리지 150m)
+candidates_accident_cov_250m,53,qgis_ready/csv/candidates_accident_cov_250m.csv,qgis_ready/geojson/candidates_accident_cov_250m.geojson,latitude,longitude,EPSG:4326,사고다발/복합 후보 (CCTV 커버리지 250m)
+candidates_bus_50m,383,qgis_ready/csv/candidates_bus_50m.csv,qgis_ready/geojson/candidates_bus_50m.geojson,latitude,longitude,EPSG:4326,정류소/복합 후보 (정류소 영향 반경 50m)
+candidates_bus_150m,361,qgis_ready/csv/candidates_bus_150m.csv,qgis_ready/geojson/candidates_bus_150m.geojson,latitude,longitude,EPSG:4326,정류소/복합 후보 (정류소 영향 반경 150m)
+fatal_accidents_uiwang,62,qgis_ready/csv/fatal_accidents_uiwang.csv,qgis_ready/geojson/fatal_accidents_uiwang.geojson,latitude,longitude,EPSG:4326,의왕시 사망교통사고 원천 위치
+accident_hotspots_raw_uiwang,7,qgis_ready/csv/accident_hotspots_raw_uiwang.csv,qgis_ready/geojson/accident_hotspots_raw_uiwang.geojson,latitude,longitude,EPSG:4326,의왕시 사고다발지 원천 위치

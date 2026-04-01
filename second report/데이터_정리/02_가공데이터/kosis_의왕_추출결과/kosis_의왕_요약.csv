@@ -1,0 +1,3 @@
+﻿table_id,name,orgNm,containPeriod,class_count,item_count,items_csv,meta_json
+DT_627002_2025A023,교통수단_이용_만족도,경기도 의왕시,년 2025 ~ 2025,3,17,자료/kosis_의왕_추출결과/DT_627002_2025A023_items.csv,자료/kosis_의왕_추출결과/DT_627002_2025A023_meta.json
+DT_62701_A000011,행정구역,경기도 의왕시,년 2013 ~ 2023,2,10,자료/kosis_의왕_추출결과/DT_62701_A000011_items.csv,자료/kosis_의왕_추출결과/DT_62701_A000011_meta.json

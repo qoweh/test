@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="무인교통단속카메라현황">
+        <SrcDataSource relativeToVRT="1">무인교통단속카메라현황(제공표준).xls</SrcDataSource>
+        <!--Header=True-->
+        <SrcSql dialect="sqlite">SELECT * FROM '의왕시 현황' LIMIT 79 OFFSET 1</SrcSql>
+        <Field name="무인교통단속카메라관리번호" src="Field1" type="String"/>
+        <Field name="시도명" src="Field2" type="String"/>
+        <Field name="시군명" src="Field3" type="String"/>
+        <Field name="도로종류" src="Field4" type="String"/>
+        <Field name="도로노선번호" src="Field5" type="String"/>
+        <Field name="도로노선명" src="Field6" type="String"/>
+        <Field name="도로노선방향" src="Field7" type="String"/>
+        <Field name="소재지도로명주소" src="Field8" type="String"/>
+        <Field name="소재지지번주소" src="Field9" type="String"/>
+        <Field name="설치장소" src="Field12" type="String"/>
+        <Field name="단속구분" src="Field13" type="String"/>
+        <Field name="제한속도" src="Field14" type="String"/>
+        <Field name="보호구역구분" src="Field15" type="String"/>
+        <Field name="설치연도" src="Field16" type="String"/>
+        <Field name="관리기관명" src="Field17" type="String"/>
+        <Field name="관리기관전화번호" src="Field18" type="String"/>
+        <Field name="데이터기준일자" src="Field19" type="String"/>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:4326</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="Field11" y="Field10"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>

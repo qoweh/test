@@ -1,0 +1,1662 @@
+{
+  "type": "FeatureCollection",
+  "name": "layer",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9775197,
+          37.38316592
+        ]
+      },
+      "properties": {
+        "위도": 37.38316592,
+        "경도": 126.9775197,
+        "유형": "사고다발",
+        "source": "사고다발지현황.csv",
+        "사고년도": 2019.0,
+        "발생건수": 2.0,
+        "사상자수": 2.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 9.2,
+        "risk_percentile": 92.42424242424242,
+        "hotspot_top20_flag": true,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9731669,
+          37.38872959
+        ]
+      },
+      "properties": {
+        "위도": 37.38872959,
+        "경도": 126.9731669,
+        "유형": "사고다발",
+        "source": "사고다발지현황.csv",
+        "사고년도": 2018.0,
+        "발생건수": 3.0,
+        "사상자수": 3.0,
+        "사망자수": 0.0,
+        "risk_score_raw": 12.0,
+        "risk_percentile": 96.21212121212122,
+        "hotspot_top20_flag": true,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9526195,
+          37.31763048
+        ]
+      },
+      "properties": {
+        "위도": 37.31763048,
+        "경도": 126.9526195,
+        "유형": "사고다발",
+        "source": "사고다발지현황.csv",
+        "사고년도": 2017.0,
+        "발생건수": 4.0,
+        "사상자수": 4.0,
+        "사망자수": 0.0,
+        "risk_score_raw": 14.2,
+        "risk_percentile": 98.48484848484848,
+        "hotspot_top20_flag": true,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9827797,
+          37.38807233
+        ]
+      },
+      "properties": {
+        "위도": 37.38807233,
+        "경도": 126.9827797,
+        "유형": "사고다발",
+        "source": "사고다발지현황.csv",
+        "사고년도": 2016.0,
+        "발생건수": 3.0,
+        "사상자수": 3.0,
+        "사망자수": 0.0,
+        "risk_score_raw": 12.0,
+        "risk_percentile": 96.21212121212122,
+        "hotspot_top20_flag": true,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9704951,
+          37.35581743
+        ]
+      },
+      "properties": {
+        "위도": 37.35581743,
+        "경도": 126.9704951,
+        "유형": "사고다발",
+        "source": "사고다발지현황.csv",
+        "사고년도": 2015.0,
+        "발생건수": 3.0,
+        "사상자수": 3.0,
+        "사망자수": 0.0,
+        "risk_score_raw": 10.2,
+        "risk_percentile": 93.93939393939394,
+        "hotspot_top20_flag": true,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.966425,
+          37.35652926
+        ]
+      },
+      "properties": {
+        "위도": 37.35652926,
+        "경도": 126.966425,
+        "유형": "사고다발",
+        "source": "사고다발지현황.csv",
+        "사고년도": 2014.0,
+        "발생건수": 4.0,
+        "사상자수": 4.0,
+        "사망자수": 0.0,
+        "risk_score_raw": 8.8,
+        "risk_percentile": 89.39393939393939,
+        "hotspot_top20_flag": true,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9654469,
+          37.35880172
+        ]
+      },
+      "properties": {
+        "위도": 37.35880172,
+        "경도": 126.9654469,
+        "유형": "사고다발",
+        "source": "사고다발지현황.csv",
+        "사고년도": 2012.0,
+        "발생건수": 5.0,
+        "사상자수": 5.0,
+        "사망자수": 0.0,
+        "risk_score_raw": 16.4,
+        "risk_percentile": 100.0,
+        "hotspot_top20_flag": true,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.954,
+          37.316
+        ]
+      },
+      "properties": {
+        "위도": 37.316,
+        "경도": 126.954,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.966,
+          37.318
+        ]
+      },
+      "properties": {
+        "위도": 37.318,
+        "경도": 126.966,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.952,
+          37.319
+        ]
+      },
+      "properties": {
+        "위도": 37.319,
+        "경도": 126.952,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.958,
+          37.319
+        ]
+      },
+      "properties": {
+        "위도": 37.319,
+        "경도": 126.958,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95,
+          37.321
+        ]
+      },
+      "properties": {
+        "위도": 37.321,
+        "경도": 126.95,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.966,
+          37.321
+        ]
+      },
+      "properties": {
+        "위도": 37.321,
+        "경도": 126.966,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.963,
+          37.323
+        ]
+      },
+      "properties": {
+        "위도": 37.323,
+        "경도": 126.963,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.961,
+          37.324
+        ]
+      },
+      "properties": {
+        "위도": 37.324,
+        "경도": 126.961,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.958,
+          37.325
+        ]
+      },
+      "properties": {
+        "위도": 37.325,
+        "경도": 126.958,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.957,
+          37.326
+        ]
+      },
+      "properties": {
+        "위도": 37.326,
+        "경도": 126.957,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.955,
+          37.329
+        ]
+      },
+      "properties": {
+        "위도": 37.329,
+        "경도": 126.955,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.983,
+          37.332
+        ]
+      },
+      "properties": {
+        "위도": 37.332,
+        "경도": 126.983,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.958,
+          37.334
+        ]
+      },
+      "properties": {
+        "위도": 37.334,
+        "경도": 126.958,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.963,
+          37.334
+        ]
+      },
+      "properties": {
+        "위도": 37.334,
+        "경도": 126.963,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.962,
+          37.335
+        ]
+      },
+      "properties": {
+        "위도": 37.335,
+        "경도": 126.962,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98,
+          37.335
+        ]
+      },
+      "properties": {
+        "위도": 37.335,
+        "경도": 126.98,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.965,
+          37.336
+        ]
+      },
+      "properties": {
+        "위도": 37.336,
+        "경도": 126.965,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978,
+          37.341
+        ]
+      },
+      "properties": {
+        "위도": 37.341,
+        "경도": 126.978,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978,
+          37.342
+        ]
+      },
+      "properties": {
+        "위도": 37.342,
+        "경도": 126.978,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 3.0,
+        "사망자수": 3.0,
+        "risk_score_raw": 9.0,
+        "risk_percentile": 90.9090909090909,
+        "hotspot_top20_flag": true,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.977,
+          37.343
+        ]
+      },
+      "properties": {
+        "위도": 37.343,
+        "경도": 126.977,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98,
+          37.343
+        ]
+      },
+      "properties": {
+        "위도": 37.343,
+        "경도": 126.98,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.976,
+          37.345
+        ]
+      },
+      "properties": {
+        "위도": 37.345,
+        "경도": 126.976,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97,
+          37.346
+        ]
+      },
+      "properties": {
+        "위도": 37.346,
+        "경도": 126.97,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.984,
+          37.348
+        ]
+      },
+      "properties": {
+        "위도": 37.348,
+        "경도": 126.984,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.973,
+          37.35
+        ]
+      },
+      "properties": {
+        "위도": 37.35,
+        "경도": 126.973,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 2.0,
+        "사망자수": 2.0,
+        "risk_score_raw": 6.0,
+        "risk_percentile": 87.87878787878788,
+        "hotspot_top20_flag": true,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.975,
+          37.35
+        ]
+      },
+      "properties": {
+        "위도": 37.35,
+        "경도": 126.975,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97,
+          37.354
+        ]
+      },
+      "properties": {
+        "위도": 37.354,
+        "경도": 126.97,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97,
+          37.355
+        ]
+      },
+      "properties": {
+        "위도": 37.355,
+        "경도": 126.97,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.965,
+          37.359
+        ]
+      },
+      "properties": {
+        "위도": 37.359,
+        "경도": 126.965,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.967,
+          37.36
+        ]
+      },
+      "properties": {
+        "위도": 37.36,
+        "경도": 126.967,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.993,
+          37.361
+        ]
+      },
+      "properties": {
+        "위도": 37.361,
+        "경도": 126.993,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.967,
+          37.368
+        ]
+      },
+      "properties": {
+        "위도": 37.368,
+        "경도": 126.967,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.007,
+          37.374
+        ]
+      },
+      "properties": {
+        "위도": 37.374,
+        "경도": 127.007,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.998,
+          37.378
+        ]
+      },
+      "properties": {
+        "위도": 37.378,
+        "경도": 126.998,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.974,
+          37.38
+        ]
+      },
+      "properties": {
+        "위도": 37.38,
+        "경도": 126.974,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0,
+          37.382
+        ]
+      },
+      "properties": {
+        "위도": 37.382,
+        "경도": 127.0,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.979,
+          37.384
+        ]
+      },
+      "properties": {
+        "위도": 37.384,
+        "경도": 126.979,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.998,
+          37.384
+        ]
+      },
+      "properties": {
+        "위도": 37.384,
+        "경도": 126.998,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.995,
+          37.386
+        ]
+      },
+      "properties": {
+        "위도": 37.386,
+        "경도": 126.995,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.996,
+          37.386
+        ]
+      },
+      "properties": {
+        "위도": 37.386,
+        "경도": 126.996,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.981,
+          37.388
+        ]
+      },
+      "properties": {
+        "위도": 37.388,
+        "경도": 126.981,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.005,
+          37.388
+        ]
+      },
+      "properties": {
+        "위도": 37.388,
+        "경도": 127.005,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.987,
+          37.389
+        ]
+      },
+      "properties": {
+        "위도": 37.389,
+        "경도": 126.987,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.008,
+          37.389
+        ]
+      },
+      "properties": {
+        "위도": 37.389,
+        "경도": 127.008,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.977,
+          37.39
+        ]
+      },
+      "properties": {
+        "위도": 37.39,
+        "경도": 126.977,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.992,
+          37.39
+        ]
+      },
+      "properties": {
+        "위도": 37.39,
+        "경도": 126.992,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.008,
+          37.39
+        ]
+      },
+      "properties": {
+        "위도": 37.39,
+        "경도": 127.008,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.981,
+          37.391
+        ]
+      },
+      "properties": {
+        "위도": 37.391,
+        "경도": 126.981,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0,
+          37.391
+        ]
+      },
+      "properties": {
+        "위도": 37.391,
+        "경도": 127.0,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.011,
+          37.392
+        ]
+      },
+      "properties": {
+        "위도": 37.392,
+        "경도": 127.011,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.982,
+          37.393
+        ]
+      },
+      "properties": {
+        "위도": 37.393,
+        "경도": 126.982,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.987,
+          37.393
+        ]
+      },
+      "properties": {
+        "위도": 37.393,
+        "경도": 126.987,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.013,
+          37.393
+        ]
+      },
+      "properties": {
+        "위도": 37.393,
+        "경도": 127.013,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.018,
+          37.393
+        ]
+      },
+      "properties": {
+        "위도": 37.393,
+        "경도": 127.018,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.016,
+          37.394
+        ]
+      },
+      "properties": {
+        "위도": 37.394,
+        "경도": 127.016,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.018,
+          37.394
+        ]
+      },
+      "properties": {
+        "위도": 37.394,
+        "경도": 127.018,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02,
+          37.394
+        ]
+      },
+      "properties": {
+        "위도": 37.394,
+        "경도": 127.02,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.038,
+          37.395
+        ]
+      },
+      "properties": {
+        "위도": 37.395,
+        "경도": 127.038,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.843,
+          37.401
+        ]
+      },
+      "properties": {
+        "위도": 37.401,
+        "경도": 126.843,
+        "유형": "사망밀집",
+        "source": "사망교통사고현황.csv",
+        "사고년도": NaN,
+        "발생건수": NaN,
+        "사상자수": 1.0,
+        "사망자수": 1.0,
+        "risk_score_raw": 3.0,
+        "risk_percentile": 43.93939393939394,
+        "hotspot_top20_flag": false,
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    }
+  ],
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  }
+}

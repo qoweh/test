@@ -1,0 +1,8 @@
+﻿metric,value
+traffic_cctv_count,15.0
+hotspot_count,66.0
+bus_stop_count,389.0
+candidate_count,852.0
+cctv_min_neighbor_m_min,0.0
+cctv_min_neighbor_m_median,740.9870975141195
+cctv_min_neighbor_m_max,2042.6332701293634

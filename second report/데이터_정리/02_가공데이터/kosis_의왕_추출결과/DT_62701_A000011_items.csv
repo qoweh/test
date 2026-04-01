@@ -1,0 +1,11 @@
+﻿classId,classNm,lvl,itmId,upItmId,scrKor,scrEng,leaf,rownum
+BSM,동별,1,I_1,,합계,Total,1,1
+BSM,동별,1,11101BSM3117051,,고천동,Gocheon-dong,1,2
+BSM,동별,1,11101BSM3117052,,부곡동,Bugok-dong,1,3
+BSM,동별,1,11101BSM3117053,,오전동,Ojeon-dong,1,4
+BSM,동별,1,11101BSM3117054,,내손1동,Naeson 1-dong,1,5
+BSM,동별,1,11101BSM3117055,,내손2동,Naeson 2-dong,1,6
+BSM,동별,1,11101BSM3117056,,청계동,Cheonggye-dong,1,7
+O_1,구분별,1,I_1,,면적,Area,0,1
+O_1,구분별,1,I_16,,의왕시,Uiwang-City,0,2
+O_1,구분별,1,I_6,,출장소,Branch Office,0,3

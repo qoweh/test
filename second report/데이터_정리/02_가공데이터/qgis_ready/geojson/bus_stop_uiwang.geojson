@@ -1,0 +1,7792 @@
+{
+  "type": "FeatureCollection",
+  "name": "layer",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9666333,
+          37.3672333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "LG아파트",
+        "정류소id": 226000112,
+        "위도": 37.3672333,
+        "경도": 126.9666333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9669167,
+          37.3672
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "LG아파트",
+        "정류소id": 226000003,
+        "위도": 37.3672,
+        "경도": 126.9669167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9663667,
+          37.36235
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "가구골목(마을)",
+        "정류소id": 226000244,
+        "위도": 37.36235,
+        "경도": 126.9663667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96625,
+          37.3623
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "가구골목(마을)",
+        "정류소id": 226000245,
+        "위도": 37.3623,
+        "경도": 126.96625,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9627,
+          37.36085
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "가구단지입구",
+        "정류소id": 226000045,
+        "위도": 37.36085,
+        "경도": 126.9627,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9661,
+          37.3634833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "가구단지입구",
+        "정류소id": 226000166,
+        "위도": 37.3634833,
+        "경도": 126.9661,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9642333,
+          37.36
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "가구단지입구",
+        "정류소id": 226000124,
+        "위도": 37.36,
+        "경도": 126.9642333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9658833,
+          37.3635333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "가구단지입구",
+        "정류소id": 226000167,
+        "위도": 37.3635333,
+        "경도": 126.9658833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9752667,
+          37.3773
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "갈뫼중학교.내손1동주민센터",
+        "정류소id": 226000128,
+        "위도": 37.3773,
+        "경도": 126.9752667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9759667,
+          37.3779
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "갈뫼중학교.내손1동주민센터",
+        "정류소id": 226000064,
+        "위도": 37.3779,
+        "경도": 126.9759667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9731667,
+          37.3760667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "갈뫼초등학교",
+        "정류소id": 226000065,
+        "위도": 37.3760667,
+        "경도": 126.9731667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9723,
+          37.3761833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "갈뫼초등학교",
+        "정류소id": 226000127,
+        "위도": 37.3761833,
+        "경도": 126.9723,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9350333,
+          37.3196833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "강진마을",
+        "정류소id": 226000388,
+        "위도": 37.3196833,
+        "경도": 126.9350333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9610167,
+          37.3517167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "경기외고",
+        "정류소id": 226000037,
+        "위도": 37.3517167,
+        "경도": 126.9610167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9610667,
+          37.3518333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "경기외고",
+        "정류소id": 226000027,
+        "위도": 37.3518333,
+        "경도": 126.9610667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9582667,
+          37.3466667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "경기외국어고등학교",
+        "정류소id": 226508770,
+        "위도": 37.3466667,
+        "경도": 126.9582667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9752833,
+          37.3796833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "계원예술대학교",
+        "정류소id": 226000123,
+        "위도": 37.3796833,
+        "경도": 126.9752833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97515,
+          37.3791833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "계원예술대학교",
+        "정류소id": 226000140,
+        "위도": 37.3791833,
+        "경도": 126.97515,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9776667,
+          37.3420167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "고고리마을입구",
+        "정류소id": 226000041,
+        "위도": 37.3420167,
+        "경도": 126.9776667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9721333,
+          37.3497833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "고천",
+        "정류소id": 226000035,
+        "위도": 37.3497833,
+        "경도": 126.9721333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9739,
+          37.3478
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "고천.의왕시청",
+        "정류소id": 226000042,
+        "위도": 37.3478,
+        "경도": 126.9739,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9739667,
+          37.3485167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "고천.의왕시청",
+        "정류소id": 226000048,
+        "위도": 37.3485167,
+        "경도": 126.9739667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9820167,
+          37.3477667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "고천다목적체육관",
+        "정류소id": 226000225,
+        "위도": 37.3477667,
+        "경도": 126.9820167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9751833,
+          37.3462833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "고천동주민센터",
+        "정류소id": 226000049,
+        "위도": 37.3462833,
+        "경도": 126.9751833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9824167,
+          37.352
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "고천중학교",
+        "정류소id": 226000322,
+        "위도": 37.352,
+        "경도": 126.9824167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98285,
+          37.352
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "고천중학교",
+        "정류소id": 226000321,
+        "위도": 37.352,
+        "경도": 126.98285,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9818333,
+          37.3466667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "고천체육공원",
+        "정류소id": 226000235,
+        "위도": 37.3466667,
+        "경도": 126.9818333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9826167,
+          37.34595
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "고천체육공원",
+        "정류소id": 226000177,
+        "위도": 37.34595,
+        "경도": 126.9826167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98255,
+          37.3457667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "고천체육공원",
+        "정류소id": 226000315,
+        "위도": 37.3457667,
+        "경도": 126.98255,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9749333,
+          37.3459
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "고천파출소",
+        "정류소id": 226000125,
+        "위도": 37.3459,
+        "경도": 126.9749333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98035,
+          37.3349
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "골사그네",
+        "정류소id": 226000040,
+        "위도": 37.3349,
+        "경도": 126.98035,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98085,
+          37.3354667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "골사그네",
+        "정류소id": 226000051,
+        "위도": 37.3354667,
+        "경도": 126.98085,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00175,
+          37.40185
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "과천터널진입(경유)",
+        "정류소id": 277103200,
+        "위도": 37.40185,
+        "경도": 127.00175,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9551667,
+          37.3313833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "괴말",
+        "정류소id": 226000096,
+        "위도": 37.3313833,
+        "경도": 126.9551667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9597167,
+          37.3267667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "괴말",
+        "정류소id": 226000389,
+        "위도": 37.3267667,
+        "경도": 126.9597167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9550333,
+          37.3316333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "괴말",
+        "정류소id": 226000083,
+        "위도": 37.3316333,
+        "경도": 126.9550333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9596667,
+          37.3267167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "괴말",
+        "정류소id": 226000308,
+        "위도": 37.3267167,
+        "경도": 126.9596667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9644667,
+          37.33615
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "교동",
+        "정류소id": 226000086,
+        "위도": 37.33615,
+        "경도": 126.9644667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96465,
+          37.3360167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "교동",
+        "정류소id": 226000093,
+        "위도": 37.3360167,
+        "경도": 126.96465,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9805,
+          37.3835167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "구생명교회",
+        "정류소id": 226000018,
+        "위도": 37.3835167,
+        "경도": 126.9805,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0107167,
+          37.3830667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "국궁터",
+        "정류소id": 226000251,
+        "위도": 37.3830667,
+        "경도": 127.0107167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01085,
+          37.38305
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "국궁터",
+        "정류소id": 226000252,
+        "위도": 37.38305,
+        "경도": 127.01085,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9783167,
+          37.3899
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "국민은행",
+        "정류소id": 226000023,
+        "위도": 37.3899,
+        "경도": 126.9783167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9781833,
+          37.3901167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "국민은행",
+        "정류소id": 226000345,
+        "위도": 37.3901167,
+        "경도": 126.9781833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9756,
+          37.3815667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "국민체육센터",
+        "정류소id": 226000063,
+        "위도": 37.3815667,
+        "경도": 126.9756,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9661333,
+          37.3593167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "근로자복지회관",
+        "정류소id": 226000222,
+        "위도": 37.3593167,
+        "경도": 126.9661333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9665,
+          37.3592
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "근로자복지회관",
+        "정류소id": 226000154,
+        "위도": 37.3592,
+        "경도": 126.9665,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9689667,
+          37.3578
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "글로벌도서관.성원아파트",
+        "정류소id": 226000012,
+        "위도": 37.3578,
+        "경도": 126.9689667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9689667,
+          37.3575333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "글로벌도서관.신안아파트",
+        "정류소id": 226000011,
+        "위도": 37.3575333,
+        "경도": 126.9689667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9530833,
+          37.3292833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "금천마을",
+        "정류소id": 226000097,
+        "위도": 37.3292833,
+        "경도": 126.9530833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9527,
+          37.3292667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "금천마을",
+        "정류소id": 226000082,
+        "위도": 37.3292667,
+        "경도": 126.9527,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9503167,
+          37.3175333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "꿈마을아파트",
+        "정류소id": 226000101,
+        "위도": 37.3175333,
+        "경도": 126.9503167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9502,
+          37.3174667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "꿈마을아파트",
+        "정류소id": 226000078,
+        "위도": 37.3174667,
+        "경도": 126.9502,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9787667,
+          37.3839333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "남교회",
+        "정류소id": 226000017,
+        "위도": 37.3839333,
+        "경도": 126.9787667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9805,
+          37.3883333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "내동.내손초등학교",
+        "정류소id": 226000053,
+        "위도": 37.3883333,
+        "경도": 126.9805,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9807167,
+          37.3882167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "내동.내손초등학교",
+        "정류소id": 226000060,
+        "위도": 37.3882167,
+        "경도": 126.9807167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9776167,
+          37.3833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "내손공영주차장",
+        "정류소id": 226000131,
+        "위도": 37.3833,
+        "경도": 126.9776167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9778833,
+          37.3832667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "내손공영주차장",
+        "정류소id": 226000062,
+        "위도": 37.3832667,
+        "경도": 126.9778833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9805167,
+          37.3908
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "내손순환길삼거리",
+        "정류소id": 226000022,
+        "위도": 37.3908,
+        "경도": 126.9805167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.972,
+          37.3776333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "내손주공아파트",
+        "정류소id": 226000200,
+        "위도": 37.3776333,
+        "경도": 126.972,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98245,
+          37.3888167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "내손초등학교",
+        "정류소id": 226000021,
+        "위도": 37.3888167,
+        "경도": 126.98245,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9823167,
+          37.3891167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "내손초등학교",
+        "정류소id": 226000142,
+        "위도": 37.3891167,
+        "경도": 126.9823167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9727667,
+          37.3846167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "농수산물시장.포일단지입구",
+        "정류소id": 226000134,
+        "위도": 37.3846167,
+        "경도": 126.9727667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9745333,
+          37.3885
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "농협",
+        "정류소id": 226000391,
+        "위도": 37.3885,
+        "경도": 126.9745333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9745333,
+          37.3883
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "농협삼거리.우미린아파트",
+        "정류소id": 226000024,
+        "위도": 37.3883,
+        "경도": 126.9745333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9967833,
+          37.3727667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "능안삼거리",
+        "정류소id": 226000390,
+        "위도": 37.3727667,
+        "경도": 126.9967833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9972,
+          37.3730333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "능안삼거리",
+        "정류소id": 226509100,
+        "위도": 37.3730333,
+        "경도": 126.9972,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9989667,
+          37.3781167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "능안입구",
+        "정류소id": 226000264,
+        "위도": 37.3781167,
+        "경도": 126.9989667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99925,
+          37.3783167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "능안입구",
+        "정류소id": 226000263,
+        "위도": 37.3783167,
+        "경도": 126.99925,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9814333,
+          37.3896167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "대림아파트1단지",
+        "정류소id": 226000210,
+        "위도": 37.3896167,
+        "경도": 126.9814333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9784167,
+          37.3863333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "대림아파트4단지",
+        "정류소id": 226000052,
+        "위도": 37.3863333,
+        "경도": 126.9784167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9784333,
+          37.38605
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "대림아파트5단지",
+        "정류소id": 226000061,
+        "위도": 37.38605,
+        "경도": 126.9784333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9668333,
+          37.36095
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "대명단지",
+        "정류소id": 226000220,
+        "위도": 37.36095,
+        "경도": 126.9668333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9667,
+          37.36095
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "대명단지",
+        "정류소id": 226000221,
+        "위도": 37.36095,
+        "경도": 126.9667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9676833,
+          37.3608833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "대명아파트.경기중앙교회",
+        "정류소id": 226000110,
+        "위도": 37.3608833,
+        "경도": 126.9676833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95505,
+          37.3228667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "대우.장미아파트",
+        "정류소id": 226000311,
+        "위도": 37.3228667,
+        "경도": 126.95505,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95515,
+          37.3227667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "대우.장미아파트",
+        "정류소id": 226000312,
+        "위도": 37.3227667,
+        "경도": 126.95515,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9705833,
+          37.37665
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "대원아파트",
+        "정류소id": 226000126,
+        "위도": 37.37665,
+        "경도": 126.9705833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9706667,
+          37.3763667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "대원아파트",
+        "정류소id": 226000066,
+        "위도": 37.3763667,
+        "경도": 126.9706667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9943833,
+          37.3902333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "덕장교회",
+        "정류소id": 226000197,
+        "위도": 37.3902333,
+        "경도": 126.9943833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9965333,
+          37.3912333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "덕장초교",
+        "정류소id": 226000212,
+        "위도": 37.3912333,
+        "경도": 126.9965333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9962167,
+          37.3913667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "덕장초교",
+        "정류소id": 226000171,
+        "위도": 37.3913667,
+        "경도": 126.9962167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95815,
+          37.3103
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "도룡마을",
+        "정류소id": 226000105,
+        "위도": 37.3103,
+        "경도": 126.95815,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95785,
+          37.3101833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "도룡마을",
+        "정류소id": 226000074,
+        "위도": 37.3101833,
+        "경도": 126.95785,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9819,
+          37.3913667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "동아에코빌아파트",
+        "정류소id": 226000059,
+        "위도": 37.3913667,
+        "경도": 126.9819,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9820167,
+          37.3917167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "동아에코빌아파트",
+        "정류소id": 226000054,
+        "위도": 37.3917167,
+        "경도": 126.9820167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97995,
+          37.39085
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "두산위브",
+        "정류소id": 226000346,
+        "위도": 37.39085,
+        "경도": 126.97995,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9917333,
+          37.3580667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "뒷골",
+        "정류소id": 226000330,
+        "위도": 37.3580667,
+        "경도": 126.9917333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9921,
+          37.3579667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "뒷골",
+        "정류소id": 226000336,
+        "위도": 37.3579667,
+        "경도": 126.9921,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99205,
+          37.35835
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "뒷골",
+        "정류소id": 226000329,
+        "위도": 37.35835,
+        "경도": 126.99205,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9729333,
+          37.3800833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "롯데마트",
+        "정류소id": 226000340,
+        "위도": 37.3800833,
+        "경도": 126.9729333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9641,
+          37.3514333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "롯데첨단소재",
+        "정류소id": 226000036,
+        "위도": 37.3514333,
+        "경도": 126.9641,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9638333,
+          37.3517333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "롯데첨단소재",
+        "정류소id": 226000028,
+        "위도": 37.3517333,
+        "경도": 126.9638333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9662167,
+          37.3701
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "모락고등학교",
+        "정류소id": 226000211,
+        "위도": 37.3701,
+        "경도": 126.9662167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9882167,
+          37.3711667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "모락산안골식당",
+        "정류소id": 226509050,
+        "위도": 37.3711667,
+        "경도": 126.9882167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9682667,
+          37.36035
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "모락산현대아파트",
+        "정류소id": 226000242,
+        "위도": 37.36035,
+        "경도": 126.9682667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9683333,
+          37.3605
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "모락산현대아파트",
+        "정류소id": 226000243,
+        "위도": 37.3605,
+        "경도": 126.9683333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9793833,
+          37.3505667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "무궁화선경아파트",
+        "정류소id": 226000025,
+        "위도": 37.3505667,
+        "경도": 126.9793833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9563667,
+          37.32355
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "미주아파트",
+        "정류소id": 226000309,
+        "위도": 37.32355,
+        "경도": 126.9563667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9564333,
+          37.3237333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "미주아파트",
+        "정류소id": 226000310,
+        "위도": 37.3237333,
+        "경도": 126.9564333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97905,
+          37.34955
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "민들레베스파트.우성고",
+        "정류소id": 226000067,
+        "위도": 37.34955,
+        "경도": 126.97905,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9794833,
+          37.3499167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "민들레베스파트.우성고",
+        "정류소id": 226000031,
+        "위도": 37.3499167,
+        "경도": 126.9794833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9804333,
+          37.3866167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "민방위교육장",
+        "정류소id": 226000237,
+        "위도": 37.3866167,
+        "경도": 126.9804333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9803167,
+          37.3864833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "민방위교육장",
+        "정류소id": 226000236,
+        "위도": 37.3864833,
+        "경도": 126.9803167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00845,
+          37.40305
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "발도르프학교",
+        "정류소id": 226000298,
+        "위도": 37.40305,
+        "경도": 127.00845,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00855,
+          37.4029833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "발도르프학교",
+        "정류소id": 226000299,
+        "위도": 37.4029833,
+        "경도": 127.00855,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00025,
+          37.3893
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "방주교회",
+        "정류소id": 226000219,
+        "위도": 37.3893,
+        "경도": 127.00025,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0004833,
+          37.3892667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "방주교회",
+        "정류소id": 226000218,
+        "위도": 37.3892667,
+        "경도": 127.0004833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0181833,
+          37.387
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "배꼽",
+        "정류소id": 226000281,
+        "위도": 37.387,
+        "경도": 127.0181833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.018,
+          37.38705
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "배꼽",
+        "정류소id": 226000280,
+        "위도": 37.38705,
+        "경도": 127.018,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9845167,
+          37.3866
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "백운고교",
+        "정류소id": 226000020,
+        "위도": 37.3866,
+        "경도": 126.9845167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98465,
+          37.3867167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "백운고등학교",
+        "정류소id": 226000150,
+        "위도": 37.3867167,
+        "경도": 126.98465,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9975667,
+          37.3638167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "백운동산",
+        "정류소id": 226000334,
+        "위도": 37.3638167,
+        "경도": 126.9975667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9976333,
+          37.3639
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "백운동산",
+        "정류소id": 226000333,
+        "위도": 37.3639,
+        "경도": 126.9976333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00185,
+          37.3475167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "백운사입구",
+        "정류소id": 226000318,
+        "위도": 37.3475167,
+        "경도": 127.00185,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0005333,
+          37.3813
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "백운호수",
+        "정류소id": 226000266,
+        "위도": 37.3813,
+        "경도": 127.0005333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0008,
+          37.3810333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "백운호수",
+        "정류소id": 226000265,
+        "위도": 37.3810333,
+        "경도": 127.0008,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9806167,
+          37.3927833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "벌말초교.한일나래",
+        "정류소id": 226000133,
+        "위도": 37.3927833,
+        "경도": 126.9806167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9808833,
+          37.39285
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "벌말초교.한일나래",
+        "정류소id": 226000132,
+        "위도": 37.39285,
+        "경도": 126.9808833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9791,
+          37.3503667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "보훈회관.무궁화선경아파트",
+        "정류소id": 226000320,
+        "위도": 37.3503667,
+        "경도": 126.9791,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96075,
+          37.3239333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "부곡IC(경유)",
+        "정류소id": 277103223,
+        "위도": 37.3239333,
+        "경도": 126.96075,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9603333,
+          37.3237667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "부곡IC(경유)",
+        "정류소id": 277103222,
+        "위도": 37.3237667,
+        "경도": 126.9603333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9576167,
+          37.3242
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "부곡복지회관",
+        "정류소id": 226000202,
+        "위도": 37.3242,
+        "경도": 126.9576167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9579,
+          37.3242667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "부곡복지회관",
+        "정류소id": 226000156,
+        "위도": 37.3242667,
+        "경도": 126.9579,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9486167,
+          37.32475
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "부곡주유소",
+        "정류소id": 226000098,
+        "위도": 37.32475,
+        "경도": 126.9486167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9485333,
+          37.3249
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "부곡주유소",
+        "정류소id": 226000081,
+        "위도": 37.3249,
+        "경도": 126.9485333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9542,
+          37.3211
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "부곡중앙로",
+        "정류소id": 226000159,
+        "위도": 37.3211,
+        "경도": 126.9542,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9541833,
+          37.3212333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "부곡중앙로",
+        "정류소id": 226000158,
+        "위도": 37.3212333,
+        "경도": 126.9541833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9559833,
+          37.31445
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "부곡중학교",
+        "정류소id": 226000367,
+        "위도": 37.31445,
+        "경도": 126.9559833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9461,
+          37.3199
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "부곡차량사업소",
+        "정류소id": 226000369,
+        "위도": 37.3199,
+        "경도": 126.9461,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9458667,
+          37.3201
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "부곡차량사업소",
+        "정류소id": 226000368,
+        "위도": 37.3201,
+        "경도": 126.9458667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9576833,
+          37.314
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "부곡체육공원",
+        "정류소id": 226000139,
+        "위도": 37.314,
+        "경도": 126.9576833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95795,
+          37.3141
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "부곡체육공원",
+        "정류소id": 226000232,
+        "위도": 37.3141,
+        "경도": 126.95795,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9507833,
+          37.3158167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "부곡초교",
+        "정류소id": 226000102,
+        "위도": 37.3158167,
+        "경도": 126.9507833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95065,
+          37.3157833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "부곡초교",
+        "정류소id": 226000077,
+        "위도": 37.3157833,
+        "경도": 126.95065,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9492833,
+          37.3161667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "부곡초등학교후문",
+        "정류소id": 226000356,
+        "위도": 37.3161667,
+        "경도": 126.9492833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0026167,
+          37.3762667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "부용촌",
+        "정류소id": 226000261,
+        "위도": 37.3762667,
+        "경도": 127.0026167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0025333,
+          37.37615
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "부용촌",
+        "정류소id": 226000262,
+        "위도": 37.37615,
+        "경도": 127.0025333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0073,
+          37.3750167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "북골",
+        "정류소id": 226000255,
+        "위도": 37.3750167,
+        "경도": 127.0073,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0073,
+          37.3747167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "북골",
+        "정류소id": 226000256,
+        "위도": 37.3747167,
+        "경도": 127.0073,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97855,
+          37.3879667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "삼성래미안.에버하임",
+        "정류소id": 226000343,
+        "위도": 37.3879667,
+        "경도": 126.97855,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9784,
+          37.3878
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "삼성래미안.에버하임",
+        "정류소id": 226000344,
+        "위도": 37.3878,
+        "경도": 126.9784,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9614833,
+          37.3571667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "삼천리자전거",
+        "정류소id": 226000394,
+        "위도": 37.3571667,
+        "경도": 126.9614833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9611833,
+          37.3567833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "삼천리자전거",
+        "정류소id": 226000395,
+        "위도": 37.3567833,
+        "경도": 126.9611833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95545,
+          37.3167833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "삼호1차.까치아파트",
+        "정류소id": 226000366,
+        "위도": 37.3167833,
+        "경도": 126.95545,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9556,
+          37.3182167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "삼호2차.청솔아파트",
+        "정류소id": 226000383,
+        "위도": 37.3182167,
+        "경도": 126.9556,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9556,
+          37.31815
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "삼호2차.청솔아파트",
+        "정류소id": 226000384,
+        "위도": 37.31815,
+        "경도": 126.9556,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9555,
+          37.3175833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "삼호2차아파트",
+        "정류소id": 226000358,
+        "위도": 37.3175833,
+        "경도": 126.9555,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9554,
+          37.3176167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "삼호2차아파트",
+        "정류소id": 226000365,
+        "위도": 37.3176167,
+        "경도": 126.9554,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9721833,
+          37.3775
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "상록아파트",
+        "정류소id": 226000240,
+        "위도": 37.3775,
+        "경도": 126.9721833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9516667,
+          37.321
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "새마을금고.해병전우회",
+        "정류소id": 226000314,
+        "위도": 37.321,
+        "경도": 126.9516667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9518333,
+          37.3211333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "새마을금고.해병전우회",
+        "정류소id": 226000313,
+        "위도": 37.3211333,
+        "경도": 126.9518333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01445,
+          37.3899
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "새터마을",
+        "정류소id": 226000275,
+        "위도": 37.3899,
+        "경도": 127.01445,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0138167,
+          37.3927667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "새터마을",
+        "정류소id": 226000114,
+        "위도": 37.3927667,
+        "경도": 127.0138167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0123,
+          37.3925667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "새터마을",
+        "정류소id": 226000121,
+        "위도": 37.3925667,
+        "경도": 127.0123,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0114167,
+          37.39075
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "새터마을종점",
+        "정류소id": 226000274,
+        "위도": 37.39075,
+        "경도": 127.0114167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9676333,
+          37.3746
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "샘마을.대안중학교",
+        "정류소id": 226000136,
+        "위도": 37.3746,
+        "경도": 126.9676333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9889,
+          37.3919
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "서울구치소",
+        "정류소id": 226000118,
+        "위도": 37.3919,
+        "경도": 126.9889,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98825,
+          37.3918667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "서울구치소",
+        "정류소id": 226000117,
+        "위도": 37.3918667,
+        "경도": 126.98825,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9742667,
+          37.3495333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "서해그랑블",
+        "정류소id": 226000201,
+        "위도": 37.3495333,
+        "경도": 126.9742667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97395,
+          37.3497833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "서해그랑블",
+        "정류소id": 226000029,
+        "위도": 37.3497833,
+        "경도": 126.97395,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9789167,
+          37.3518333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "선경무궁화아파트",
+        "정류소id": 226000008,
+        "위도": 37.3518333,
+        "경도": 126.9789167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9787167,
+          37.3521833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "선경무궁화아파트",
+        "정류소id": 226000015,
+        "위도": 37.3521833,
+        "경도": 126.9787167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9655833,
+          37.3651333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "수선화아파트",
+        "정류소id": 226000175,
+        "위도": 37.3651333,
+        "경도": 126.9655833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9453667,
+          37.3183833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "수원상회",
+        "정류소id": 226000371,
+        "위도": 37.3183833,
+        "경도": 126.9453667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9454667,
+          37.3184667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "수원상회",
+        "정류소id": 226000370,
+        "위도": 37.3184667,
+        "경도": 126.9454667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98615,
+          37.3968667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "숲속마을1단지",
+        "정류소id": 226000205,
+        "위도": 37.3968667,
+        "경도": 126.98615,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9865,
+          37.3969333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "숲속마을1단지",
+        "정류소id": 226000204,
+        "위도": 37.3969333,
+        "경도": 126.9865,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98875,
+          37.4008833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "숲속마을2단지",
+        "정류소id": 226000228,
+        "위도": 37.4008833,
+        "경도": 126.98875,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9872833,
+          37.4003833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "숲속마을2단지",
+        "정류소id": 226000227,
+        "위도": 37.4003833,
+        "경도": 126.9872833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9862833,
+          37.4036333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "숲속마을3.5단지",
+        "정류소id": 226000206,
+        "위도": 37.4036333,
+        "경도": 126.9862833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9858333,
+          37.4023833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "숲속마을3.5단지",
+        "정류소id": 226000207,
+        "위도": 37.4023833,
+        "경도": 126.9858333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9856833,
+          37.4011
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "숲속마을4단지",
+        "정류소id": 226000209,
+        "위도": 37.4011,
+        "경도": 126.9856833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9858833,
+          37.4010833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "숲속마을4단지",
+        "정류소id": 226000208,
+        "위도": 37.4010833,
+        "경도": 126.9858833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9854333,
+          37.3960667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "숲속마을입구",
+        "정류소id": 226000223,
+        "위도": 37.3960667,
+        "경도": 126.9854333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9851667,
+          37.39605
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "숲속마을입구",
+        "정류소id": 226000224,
+        "위도": 37.39605,
+        "경도": 126.9851667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9759667,
+          37.34985
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "시티병원",
+        "정류소id": 226000068,
+        "위도": 37.34985,
+        "경도": 126.9759667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9760333,
+          37.3500833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "시티병원",
+        "정류소id": 226000030,
+        "위도": 37.3500833,
+        "경도": 126.9760333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97655,
+          37.3501
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "시티병원.구선병원(마을)",
+        "정류소id": 226000319,
+        "위도": 37.3501,
+        "경도": 126.97655,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9661333,
+          37.3577667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "신안아파트.글로벌도서관",
+        "정류소id": 226000044,
+        "위도": 37.3577667,
+        "경도": 126.9661333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9644333,
+          37.3650333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "신원수선화아파트",
+        "정류소id": 226000176,
+        "위도": 37.3650333,
+        "경도": 126.9644333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9501833,
+          37.3196333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "신협오거리",
+        "정류소id": 226000100,
+        "위도": 37.3196333,
+        "경도": 126.9501833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9500833,
+          37.3196667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "신협오거리",
+        "정류소id": 226000079,
+        "위도": 37.3196667,
+        "경도": 126.9500833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00655,
+          37.3838167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "아리조나",
+        "정류소id": 226000287,
+        "위도": 37.3838167,
+        "경도": 127.00655,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00625,
+          37.3837
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "아리조나",
+        "정류소id": 226000288,
+        "위도": 37.3837,
+        "경도": 127.00625,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9705333,
+          37.3787167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "안양남초등학교",
+        "정류소id": 226000135,
+        "위도": 37.3787167,
+        "경도": 126.9705333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9913,
+          37.3904833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "양지편.청계성당",
+        "정류소id": 226000116,
+        "위도": 37.3904833,
+        "경도": 126.9913,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99175,
+          37.39065
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "양지편.청계성당",
+        "정류소id": 226000119,
+        "위도": 37.39065,
+        "경도": 126.99175,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97995,
+          37.3852833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "어린이공원",
+        "정류소id": 226000238,
+        "위도": 37.3852833,
+        "경도": 126.97995,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9792833,
+          37.3848167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "어린이공원",
+        "정류소id": 226000239,
+        "위도": 37.3848167,
+        "경도": 126.9792833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9859667,
+          37.3540667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "어린이집",
+        "정류소id": 226000324,
+        "위도": 37.3540667,
+        "경도": 126.9859667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98605,
+          37.3539833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "어린이집",
+        "정류소id": 226000323,
+        "위도": 37.3539833,
+        "경도": 126.98605,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9758167,
+          37.35445
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "여성회관",
+        "정류소id": 226000014,
+        "위도": 37.35445,
+        "경도": 126.9758167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9763167,
+          37.35385
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "여성회관.복전원",
+        "정류소id": 226000009,
+        "위도": 37.35385,
+        "경도": 126.9763167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9539833,
+          37.3173333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "영광빌라사거리",
+        "정류소id": 226000359,
+        "위도": 37.3173333,
+        "경도": 126.9539833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9539333,
+          37.3172333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "영광빌라사거리",
+        "정류소id": 226000364,
+        "위도": 37.3172333,
+        "경도": 126.9539333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9936167,
+          37.3712167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "옛골",
+        "정류소id": 226509080,
+        "위도": 37.3712167,
+        "경도": 126.9936167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9937,
+          37.3713167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "옛골",
+        "정류소id": 226509090,
+        "위도": 37.3713167,
+        "경도": 126.9937,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9399333,
+          37.3137
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "옛방앗간",
+        "정류소id": 226000377,
+        "위도": 37.3137,
+        "경도": 126.9399333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9396667,
+          37.3136167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "옛방앗간",
+        "정류소id": 226000376,
+        "위도": 37.3136167,
+        "경도": 126.9396667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0018167,
+          37.3715
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "오린개마을",
+        "정류소id": 226000332,
+        "위도": 37.3715,
+        "경도": 127.0018167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0019833,
+          37.3714167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "오린개마을",
+        "정류소id": 226000331,
+        "위도": 37.3714167,
+        "경도": 127.0019833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98875,
+          37.3573333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "오메기마을",
+        "정류소id": 226000327,
+        "위도": 37.3573333,
+        "경도": 126.98875,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98875,
+          37.3574667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "오메기마을",
+        "정류소id": 226000328,
+        "위도": 37.3574667,
+        "경도": 126.98875,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99635,
+          37.3575333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "오메기저수지",
+        "정류소id": 226000335,
+        "위도": 37.3575333,
+        "경도": 126.99635,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0066,
+          37.37435
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "오작교",
+        "정류소id": 226000257,
+        "위도": 37.37435,
+        "경도": 127.0066,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0063833,
+          37.3741667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "오작교",
+        "정류소id": 226000258,
+        "위도": 37.3741667,
+        "경도": 127.0063833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96375,
+          37.35785
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "오전공단",
+        "정류소id": 226000393,
+        "위도": 37.35785,
+        "경도": 126.96375,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9637,
+          37.3581333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "오전공단",
+        "정류소id": 226000392,
+        "위도": 37.3581333,
+        "경도": 126.9637,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9699,
+          37.3538
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "오전동주민센터",
+        "정류소id": 226000043,
+        "위도": 37.3538,
+        "경도": 126.9699,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9709,
+          37.3533333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "오전동주민센터",
+        "정류소id": 226000047,
+        "위도": 37.3533333,
+        "경도": 126.9709,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9711333,
+          37.3554333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "오전초등학교.동백아파트",
+        "정류소id": 226000010,
+        "위도": 37.3554333,
+        "경도": 126.9711333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9709833,
+          37.3557
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "오전초등학교.동백아파트",
+        "정류소id": 226000013,
+        "위도": 37.3557,
+        "경도": 126.9709833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00355,
+          37.3955833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "옥박골",
+        "정류소id": 226000306,
+        "위도": 37.3955833,
+        "경도": 127.00355,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0025667,
+          37.3942667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "옥박골",
+        "정류소id": 226000196,
+        "위도": 37.3942667,
+        "경도": 127.0025667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0023667,
+          37.3941833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "옥박골",
+        "정류소id": 226000195,
+        "위도": 37.3941833,
+        "경도": 127.0023667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0037667,
+          37.3956167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "옥박골",
+        "정류소id": 226000307,
+        "위도": 37.3956167,
+        "경도": 127.0037667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0073167,
+          37.376
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "올가",
+        "정류소id": 226000254,
+        "위도": 37.376,
+        "경도": 127.0073167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0071333,
+          37.37635
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "올가",
+        "정류소id": 226000253,
+        "위도": 37.37635,
+        "경도": 127.0071333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9903167,
+          37.3448833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "왕곡동마을회관",
+        "정류소id": 226000316,
+        "위도": 37.3448833,
+        "경도": 126.9903167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9903,
+          37.3449667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "왕곡동마을회관",
+        "정류소id": 226000317,
+        "위도": 37.3449667,
+        "경도": 126.9903,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9796333,
+          37.3463
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "왕곡초등학교",
+        "정류소id": 226000006,
+        "위도": 37.3463,
+        "경도": 126.9796333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9805167,
+          37.3459667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "왕곡초등학교",
+        "정류소id": 226000033,
+        "위도": 37.3459667,
+        "경도": 126.9805167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98725,
+          37.345
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "왕림마을",
+        "정류소id": 226000055,
+        "위도": 37.345,
+        "경도": 126.98725,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98715,
+          37.34495
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "왕림마을",
+        "정류소id": 226000002,
+        "위도": 37.34495,
+        "경도": 126.98715,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9957833,
+          37.3461167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "왕림윗마을",
+        "정류소id": 226000155,
+        "위도": 37.3461167,
+        "경도": 126.9957833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9962167,
+          37.34625
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "왕림윗마을",
+        "정류소id": 226000058,
+        "위도": 37.34625,
+        "경도": 126.9962167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9523333,
+          37.3171333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "우성5차.KT전화국앞",
+        "정류소id": 226000363,
+        "위도": 37.3171333,
+        "경도": 126.9523333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9523167,
+          37.3172167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "우성5차.KT전화국앞",
+        "정류소id": 226000360,
+        "위도": 37.3172167,
+        "경도": 126.9523167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9811167,
+          37.34995
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "우성고등학교",
+        "정류소id": 226000032,
+        "위도": 37.34995,
+        "경도": 126.9811167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9810333,
+          37.3497667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "우성고등학교",
+        "정류소id": 226000007,
+        "위도": 37.3497667,
+        "경도": 126.9810333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02275,
+          37.39475
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "원터마을",
+        "정류소id": 226000199,
+        "위도": 37.39475,
+        "경도": 127.02275,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0231333,
+          37.3942667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "원터마을",
+        "정류소id": 226000113,
+        "위도": 37.3942667,
+        "경도": 127.0231333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0223167,
+          37.3945667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "원터마을",
+        "정류소id": 226000122,
+        "위도": 37.3945667,
+        "경도": 127.0223167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9771333,
+          37.3457333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "원효충무아파트",
+        "정류소id": 226000005,
+        "위도": 37.3457333,
+        "경도": 126.9771333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9772167,
+          37.3454667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "원효충무아파트",
+        "정류소id": 226000034,
+        "위도": 37.3454667,
+        "경도": 126.9772167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9621,
+          37.3068833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "월암2동",
+        "정류소id": 226000347,
+        "위도": 37.3068833,
+        "경도": 126.9621,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9579833,
+          37.3065833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "월암ic.월암동",
+        "정류소id": 226000073,
+        "위도": 37.3065833,
+        "경도": 126.9579833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95835,
+          37.30655
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "월암ic.월암동",
+        "정류소id": 226000106,
+        "위도": 37.30655,
+        "경도": 126.95835,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9551333,
+          37.3095167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "월암갈비",
+        "정류소id": 226000355,
+        "위도": 37.3095167,
+        "경도": 126.9551333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9551667,
+          37.3094167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "월암갈비",
+        "정류소id": 226000354,
+        "위도": 37.3094167,
+        "경도": 126.9551667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95885,
+          37.3027833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "월암공영차고지(경유)",
+        "정류소id": 277102717,
+        "위도": 37.3027833,
+        "경도": 126.95885,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9587667,
+          37.30285
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "월암공영차고지(경유)",
+        "정류소id": 277102718,
+        "위도": 37.30285,
+        "경도": 126.9587667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9573,
+          37.3059667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "월암교",
+        "정류소id": 226000072,
+        "위도": 37.3059667,
+        "경도": 126.9573,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95735,
+          37.3058167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "월암교",
+        "정류소id": 226000107,
+        "위도": 37.3058167,
+        "경도": 126.95735,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9546167,
+          37.3133
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "월암동.부곡중",
+        "정류소id": 226000104,
+        "위도": 37.3133,
+        "경도": 126.9546167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9548333,
+          37.3131
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "월암동.부곡중",
+        "정류소id": 226000075,
+        "위도": 37.3131,
+        "경도": 126.9548333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9607,
+          37.3081667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "월암동삼거리",
+        "정류소id": 226000349,
+        "위도": 37.3081667,
+        "경도": 126.9607,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9607167,
+          37.3083167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "월암동삼거리",
+        "정류소id": 226000348,
+        "위도": 37.3083167,
+        "경도": 126.9607167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9598833,
+          37.3078833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "월암마을회관",
+        "정류소id": 226000350,
+        "위도": 37.3078833,
+        "경도": 126.9598833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9599833,
+          37.3077833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "월암마을회관",
+        "정류소id": 226000351,
+        "위도": 37.3077833,
+        "경도": 126.9599833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9558333,
+          37.3066
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "월암방앗간",
+        "정류소id": 226000353,
+        "위도": 37.3066,
+        "경도": 126.9558333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9558833,
+          37.30665
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "월암방앗간",
+        "정류소id": 226000352,
+        "위도": 37.30665,
+        "경도": 126.9558833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9558667,
+          37.30295
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "월암종점",
+        "정류소id": 226000070,
+        "위도": 37.30295,
+        "경도": 126.9558667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95635,
+          37.3024167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "월암종점",
+        "정류소id": 226000109,
+        "위도": 37.3024167,
+        "경도": 126.95635,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9388333,
+          37.3157833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "윗새우대",
+        "정류소id": 226000375,
+        "위도": 37.3157833,
+        "경도": 126.9388333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9575333,
+          37.3219167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕고등학교",
+        "정류소id": 226000157,
+        "위도": 37.3219167,
+        "경도": 126.9575333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95725,
+          37.3219
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕고등학교",
+        "정류소id": 226000137,
+        "위도": 37.3219,
+        "경도": 126.95725,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9753333,
+          37.3817
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕국민체육센터",
+        "정류소id": 226000130,
+        "위도": 37.3817,
+        "경도": 126.9753333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9725167,
+          37.34345
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕보건소",
+        "정류소id": 226000090,
+        "위도": 37.34345,
+        "경도": 126.9725167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9730333,
+          37.3439
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕보건소.의왕경찰서",
+        "정류소id": 226000163,
+        "위도": 37.3439,
+        "경도": 126.9730333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9767,
+          37.3438833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕소방서.솔거원효아파트",
+        "정류소id": 226000182,
+        "위도": 37.3438833,
+        "경도": 126.9767,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97585,
+          37.3443667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕소방서.원효솔거아파트",
+        "정류소id": 226000194,
+        "위도": 37.3443667,
+        "경도": 126.97585,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9733,
+          37.3489
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕시고천시외버스정류장",
+        "정류소id": 226000241,
+        "위도": 37.3489,
+        "경도": 126.9733,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9703833,
+          37.3444167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕시청",
+        "정류소id": 226000089,
+        "위도": 37.3444167,
+        "경도": 126.9703833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9705333,
+          37.3454833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕시청",
+        "정류소id": 226000178,
+        "위도": 37.3454833,
+        "경도": 126.9705333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9683,
+          37.3323833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕신부곡IC(경유)",
+        "정류소id": 277103315,
+        "위도": 37.3323833,
+        "경도": 126.9683,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9682833,
+          37.3328
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕신부곡IC(경유)",
+        "정류소id": 277103314,
+        "위도": 37.3328,
+        "경도": 126.9682833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9503,
+          37.3210667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕역",
+        "정류소id": 226000160,
+        "위도": 37.3210667,
+        "경도": 126.9503,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9488667,
+          37.3215833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕역",
+        "정류소id": 226000099,
+        "위도": 37.3215833,
+        "경도": 126.9488667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9487667,
+          37.3214167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕역",
+        "정류소id": 226000080,
+        "위도": 37.3214167,
+        "경도": 126.9487667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9502833,
+          37.3209167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕역",
+        "정류소id": 226000161,
+        "위도": 37.3209167,
+        "경도": 126.9502833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96775,
+          37.3568
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕지구대.글로벌도서관",
+        "정류소id": 226000046,
+        "위도": 37.3568,
+        "경도": 126.96775,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02325,
+          37.3931333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕청계영업소",
+        "정류소id": 226000190,
+        "위도": 37.3931333,
+        "경도": 127.02325,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0261667,
+          37.39245
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕청계영업소",
+        "정류소id": 226000191,
+        "위도": 37.39245,
+        "경도": 127.0261667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9678833,
+          37.3621
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕초등학교",
+        "정류소id": 226000004,
+        "위도": 37.3621,
+        "경도": 126.9678833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9992333,
+          37.3656667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕터널진입(경유)",
+        "정류소id": 277103220,
+        "위도": 37.3656667,
+        "경도": 126.9992333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9983333,
+          37.35895
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕터널진입(경유)",
+        "정류소id": 277103221,
+        "위도": 37.35895,
+        "경도": 126.9983333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9845667,
+          37.3485167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕톨게이트",
+        "정류소id": 226000038,
+        "위도": 37.3485167,
+        "경도": 126.9845667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9839333,
+          37.34645
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕톨게이트",
+        "정류소id": 226000039,
+        "위도": 37.34645,
+        "경도": 126.9839333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9682833,
+          37.3507667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕통합관제센터",
+        "정류소id": 226000179,
+        "위도": 37.3507667,
+        "경도": 126.9682833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9684167,
+          37.3507667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕통합관제센터",
+        "정류소id": 226000187,
+        "위도": 37.3507667,
+        "경도": 126.9684167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9679667,
+          37.3505167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의왕통합관제센터",
+        "정류소id": 226000180,
+        "위도": 37.3505167,
+        "경도": 126.9679667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0035333,
+          37.3741167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의일마을.물레방아간",
+        "정류소id": 226000260,
+        "위도": 37.3741167,
+        "경도": 127.0035333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0038667,
+          37.3739167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "의일마을.물레방아간",
+        "정류소id": 226000259,
+        "위도": 37.3739167,
+        "경도": 127.0038667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9920167,
+          37.4016667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "인덕원IT밸리",
+        "정류소id": 226000230,
+        "위도": 37.4016667,
+        "경도": 126.9920167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9917833,
+          37.4018167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "인덕원IT밸리",
+        "정류소id": 226000229,
+        "위도": 37.4018167,
+        "경도": 126.9917833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9993333,
+          37.3829667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "자동차극장앞",
+        "정류소id": 226000267,
+        "위도": 37.3829667,
+        "경도": 126.9993333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9579667,
+          37.3465667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "자연앤아파트",
+        "정류소id": 226508760,
+        "위도": 37.3465667,
+        "경도": 126.9579667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9577667,
+          37.3193333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "장안마을",
+        "정류소id": 226000231,
+        "위도": 37.3193333,
+        "경도": 126.9577667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9574667,
+          37.3192333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "장안마을",
+        "정류소id": 226000138,
+        "위도": 37.3192333,
+        "경도": 126.9574667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9567333,
+          37.3199667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "장안마을주공아파트정문",
+        "정류소id": 226000382,
+        "위도": 37.3199667,
+        "경도": 126.9567333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9566167,
+          37.3199667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "장안마을주공아파트정문",
+        "정류소id": 226000381,
+        "위도": 37.3199667,
+        "경도": 126.9566167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9671,
+          37.3376167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "재활용센타",
+        "정류소id": 226000092,
+        "위도": 37.3376167,
+        "경도": 126.9671,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96695,
+          37.3377667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "재활용센타",
+        "정류소id": 226000087,
+        "위도": 37.3377667,
+        "경도": 126.96695,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9559167,
+          37.3045
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "잿말",
+        "정류소id": 226000071,
+        "위도": 37.3045,
+        "경도": 126.9559167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9560167,
+          37.3046167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "잿말",
+        "정류소id": 226000108,
+        "위도": 37.3046167,
+        "경도": 126.9560167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96285,
+          37.3524167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "정진기계",
+        "정류소id": 226000168,
+        "위도": 37.3524167,
+        "경도": 126.96285,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9629167,
+          37.3525333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "정진기계앞",
+        "정류소id": 226000169,
+        "위도": 37.3525333,
+        "경도": 126.9629167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01695,
+          37.3863333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "종가집",
+        "정류소id": 226000283,
+        "위도": 37.3863333,
+        "경도": 127.01695,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0169667,
+          37.38645
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "종가집",
+        "정류소id": 226000282,
+        "위도": 37.38645,
+        "경도": 127.0169667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9391,
+          37.3111
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "중간새우대",
+        "정류소id": 226000378,
+        "위도": 37.3111,
+        "경도": 126.9391,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9391667,
+          37.3112833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "중간새우대",
+        "정류소id": 226000379,
+        "위도": 37.3112833,
+        "경도": 126.9391667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97035,
+          37.34055
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "중앙도서관",
+        "정류소id": 226000091,
+        "위도": 37.34055,
+        "경도": 126.97035,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97065,
+          37.3415833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "중앙도서관",
+        "정류소id": 226000088,
+        "위도": 37.3415833,
+        "경도": 126.97065,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9872167,
+          37.3564333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "지장암",
+        "정류소id": 226000326,
+        "위도": 37.3564333,
+        "경도": 126.9872167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9872667,
+          37.3563333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "지장암",
+        "정류소id": 226000325,
+        "위도": 37.3563333,
+        "경도": 126.9872667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9833333,
+          37.33045
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "지지대고개(경유)",
+        "정류소id": 277103322,
+        "위도": 37.33045,
+        "경도": 126.9833333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9836667,
+          37.33055
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "지지대고개(경유)",
+        "정류소id": 277103323,
+        "위도": 37.33055,
+        "경도": 126.9836667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0155333,
+          37.4049333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "진부촌",
+        "정류소id": 226000294,
+        "위도": 37.4049333,
+        "경도": 127.0155333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01535,
+          37.4047167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "진부촌",
+        "정류소id": 226000295,
+        "위도": 37.4047167,
+        "경도": 127.01535,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9581,
+          37.3339333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "창말",
+        "정류소id": 226000084,
+        "위도": 37.3339333,
+        "경도": 126.9581,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9580333,
+          37.3334833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "창말",
+        "정류소id": 226000095,
+        "위도": 37.3334833,
+        "경도": 126.9580333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0179333,
+          37.38855
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "천왕사",
+        "정류소id": 226000277,
+        "위도": 37.38855,
+        "경도": 127.0179333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0178667,
+          37.3884667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "천왕사",
+        "정류소id": 226000276,
+        "위도": 37.3884667,
+        "경도": 127.0178667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9559833,
+          37.3131333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "철도기술연구원정문(마을)",
+        "정류소id": 226000361,
+        "위도": 37.3131333,
+        "경도": 126.9559833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.94935,
+          37.3147333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "철도박물관",
+        "정류소id": 226000362,
+        "위도": 37.3147333,
+        "경도": 126.94935,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0065333,
+          37.4011833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "청계4통경로당",
+        "정류소id": 226000301,
+        "위도": 37.4011833,
+        "경도": 127.0065333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0063333,
+          37.4012167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "청계4통경로당",
+        "정류소id": 226000300,
+        "위도": 37.4012167,
+        "경도": 127.0063333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9975333,
+          37.3888167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "청계농협",
+        "정류소id": 226000115,
+        "위도": 37.3888167,
+        "경도": 126.9975333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9967333,
+          37.3885333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "청계농협",
+        "정류소id": 226000273,
+        "위도": 37.3885333,
+        "경도": 126.9967333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0177,
+          37.3940333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "청계동(경유)",
+        "정류소id": 277101960,
+        "위도": 37.3940333,
+        "경도": 127.0177,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9952833,
+          37.38925
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "청계동주민센터",
+        "정류소id": 226000186,
+        "위도": 37.38925,
+        "경도": 126.9952833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9953167,
+          37.3895
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "청계동주민센터",
+        "정류소id": 226000185,
+        "위도": 37.3895,
+        "경도": 126.9953167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9988667,
+          37.3915833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "청계마을3단지",
+        "정류소id": 226000339,
+        "위도": 37.3915833,
+        "경도": 126.9988667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9989167,
+          37.3916833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "청계마을3단지",
+        "정류소id": 226000338,
+        "위도": 37.3916833,
+        "경도": 126.9989167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9999,
+          37.3908667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "청계마을5단지",
+        "정류소id": 226000272,
+        "위도": 37.3908667,
+        "경도": 126.9999,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9999667,
+          37.391
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "청계마을5단지",
+        "정류소id": 226000337,
+        "위도": 37.391,
+        "경도": 126.9999667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0176333,
+          37.4059333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "청계산입구",
+        "정류소id": 226000292,
+        "위도": 37.4059333,
+        "경도": 127.0176333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0177,
+          37.4058333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "청계산입구",
+        "정류소id": 226000293,
+        "위도": 37.4058333,
+        "경도": 127.0177,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0256667,
+          37.4055667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "청계산주차장",
+        "정류소id": 226000291,
+        "위도": 37.4055667,
+        "경도": 127.0256667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9990167,
+          37.3840167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "청계조경앞",
+        "정류소id": 226000268,
+        "위도": 37.3840167,
+        "경도": 126.9990167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9986667,
+          37.3842333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "청계조경앞",
+        "정류소id": 226000269,
+        "위도": 37.3842333,
+        "경도": 126.9986667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9979167,
+          37.3864833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "청계체육시설",
+        "정류소id": 226000271,
+        "위도": 37.3864833,
+        "경도": 126.9979167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9982,
+          37.3865
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "청계체육시설",
+        "정류소id": 226000270,
+        "위도": 37.3865,
+        "경도": 126.9982,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9391667,
+          37.3085667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "초평동",
+        "정류소id": 226000380,
+        "위도": 37.3085667,
+        "경도": 126.9391667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9435,
+          37.31665
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "초평슈퍼",
+        "정류소id": 226000372,
+        "위도": 37.31665,
+        "경도": 126.9435,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9435667,
+          37.3165833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "초평슈퍼",
+        "정류소id": 226000373,
+        "위도": 37.3165833,
+        "경도": 126.9435667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9609,
+          37.33455
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "컨테이너기지",
+        "정류소id": 226000094,
+        "위도": 37.33455,
+        "경도": 126.9609,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9611667,
+          37.3349333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "컨테이너기지",
+        "정류소id": 226000085,
+        "위도": 37.3349333,
+        "경도": 126.9611667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9897833,
+          37.3708333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "타운하우스",
+        "정류소id": 226509060,
+        "위도": 37.3708333,
+        "경도": 126.9897833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9901167,
+          37.3708667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "타운하우스",
+        "정류소id": 226509070,
+        "위도": 37.3708667,
+        "경도": 126.9901167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9787667,
+          37.34135
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "통미마을",
+        "정류소id": 226000050,
+        "위도": 37.34135,
+        "경도": 126.9787667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9794667,
+          37.3385167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "통미마을대안사앞",
+        "정류소id": 226000203,
+        "위도": 37.3385167,
+        "경도": 126.9794667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97875,
+          37.3837667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "포일남교회",
+        "정류소id": 226000147,
+        "위도": 37.3837667,
+        "경도": 126.97875,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9852833,
+          37.39225
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "포일삼거리",
+        "정류소id": 226000189,
+        "위도": 37.39225,
+        "경도": 126.9852833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9853167,
+          37.3924833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "포일삼거리",
+        "정류소id": 226000188,
+        "위도": 37.3924833,
+        "경도": 126.9853167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9839,
+          37.38495
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "포일성당",
+        "정류소id": 226000019,
+        "위도": 37.38495,
+        "경도": 126.9839,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9816,
+          37.3835667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "포일성당입구",
+        "정류소id": 226000148,
+        "위도": 37.3835667,
+        "경도": 126.9816,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98515,
+          37.3953
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "포일센트럴푸르지오아파트",
+        "정류소id": 226000057,
+        "위도": 37.3953,
+        "경도": 126.98515,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9849667,
+          37.395
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "포일센트럴푸르지오아파트",
+        "정류소id": 226000056,
+        "위도": 37.395,
+        "경도": 126.9849667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9838333,
+          37.3846667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "포일운동장앞",
+        "정류소id": 226000149,
+        "위도": 37.3846667,
+        "경도": 126.9838333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9748167,
+          37.3838
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "포일자이아파트",
+        "정류소id": 226000193,
+        "위도": 37.3838,
+        "경도": 126.9748167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97505,
+          37.3835833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "포일자이아파트",
+        "정류소id": 226000341,
+        "위도": 37.3835833,
+        "경도": 126.97505,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97665,
+          37.3843667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "포일자이아파트사거리",
+        "정류소id": 226000342,
+        "위도": 37.3843667,
+        "경도": 126.97665,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9763667,
+          37.38435
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "포일자이아파트사거리",
+        "정류소id": 226000016,
+        "위도": 37.38435,
+        "경도": 126.9763667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0108167,
+          37.3838833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "하루",
+        "정류소id": 226000250,
+        "위도": 37.3838833,
+        "경도": 127.0108167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0106667,
+          37.3839
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "하루",
+        "정류소id": 226000249,
+        "위도": 37.3839,
+        "경도": 127.0106667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0015167,
+          37.3876667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "학의JC(경유)",
+        "정류소id": 277103158,
+        "위도": 37.3876667,
+        "경도": 127.0015167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0015833,
+          37.38705
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "학의JC(경유)",
+        "정류소id": 277103159,
+        "위도": 37.38705,
+        "경도": 127.0015833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0011667,
+          37.3869833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "학의JC(경유)",
+        "정류소id": 277103156,
+        "위도": 37.3869833,
+        "경도": 127.0011667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0018,
+          37.3875833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "학의JC(경유)",
+        "정류소id": 277103157,
+        "위도": 37.3875833,
+        "경도": 127.0018,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0181667,
+          37.3877333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "학현마을",
+        "정류소id": 226000278,
+        "위도": 37.3877333,
+        "경도": 127.0181667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0183,
+          37.3876667
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "학현마을",
+        "정류소id": 226000279,
+        "위도": 37.3876667,
+        "경도": 127.0183,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0123333,
+          37.3846
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "학현삼거리",
+        "정류소id": 226000248,
+        "위도": 37.3846,
+        "경도": 127.0123333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01235,
+          37.3845
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "학현삼거리",
+        "정류소id": 226000284,
+        "위도": 37.3845,
+        "경도": 127.01235,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0091333,
+          37.3840167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "학현슈퍼",
+        "정류소id": 226000286,
+        "위도": 37.3840167,
+        "경도": 127.0091333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0091333,
+          37.3841
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "학현슈퍼",
+        "정류소id": 226000285,
+        "위도": 37.3841,
+        "경도": 127.0091333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9512,
+          37.3148
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "한국교통대학교",
+        "정류소id": 226000103,
+        "위도": 37.3148,
+        "경도": 126.9512,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9516,
+          37.31475
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "한국교통대학교",
+        "정류소id": 226000076,
+        "위도": 37.31475,
+        "경도": 126.9516,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9529167,
+          37.31325
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "한국철도기술연구원",
+        "정류소id": 226000183,
+        "위도": 37.31325,
+        "경도": 126.9529167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9528667,
+          37.3130333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "한국철도기술연구원",
+        "정류소id": 226000184,
+        "위도": 37.3130333,
+        "경도": 126.9528667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9984833,
+          37.3889333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "한직골.농협",
+        "정류소id": 226000120,
+        "위도": 37.3889333,
+        "경도": 126.9984833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0011167,
+          37.3841
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "함지박",
+        "정류소id": 226000289,
+        "위도": 37.3841,
+        "경도": 127.0011167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0011,
+          37.38395
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "함지박",
+        "정류소id": 226000290,
+        "위도": 37.38395,
+        "경도": 127.0011,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96735,
+          37.36295
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "해모로아파트.의왕초등학교",
+        "정류소id": 226000111,
+        "위도": 37.36295,
+        "경도": 126.96735,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9661833,
+          37.3654833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "해모로아파트정문.수선화아파트(마을)",
+        "정류소id": 226000246,
+        "위도": 37.3654833,
+        "경도": 126.9661833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9619833,
+          37.36105
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "해태제과사거리",
+        "정류소id": 226000170,
+        "위도": 37.36105,
+        "경도": 126.9619833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9647667,
+          37.3646833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "호계현대아파트(마을)",
+        "정류소id": 226000247,
+        "위도": 37.3646833,
+        "경도": 126.9647667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9872833,
+          37.4057167
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "회차(경유)",
+        "정류소id": 277101753,
+        "위도": 37.4057167,
+        "경도": 126.9872833,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9948333,
+          37.3907333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "휴먼시아1단지",
+        "정류소id": 226000198,
+        "위도": 37.3907333,
+        "경도": 126.9948333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9989667,
+          37.39255
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "휴먼시아3단지",
+        "정류소id": 226000213,
+        "위도": 37.39255,
+        "경도": 126.9989667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9984667,
+          37.3923833
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "휴먼시아3단지",
+        "정류소id": 226000172,
+        "위도": 37.3923833,
+        "경도": 126.9984667,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00075,
+          37.3939
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "휴먼시아4단지",
+        "정류소id": 226000214,
+        "위도": 37.3939,
+        "경도": 127.00075,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0006333,
+          37.3940333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "휴먼시아4단지",
+        "정류소id": 226000173,
+        "위도": 37.3940333,
+        "경도": 127.0006333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0019333,
+          37.3918333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "휴먼시아5단지",
+        "정류소id": 226000215,
+        "위도": 37.3918333,
+        "경도": 127.0019333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0015333,
+          37.3915333
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "휴먼시아5단지",
+        "정류소id": 226000216,
+        "위도": 37.3915333,
+        "경도": 127.0015333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0010333,
+          37.39035
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "휴먼시아6단지",
+        "정류소id": 226000217,
+        "위도": 37.39035,
+        "경도": 127.0010333,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0012167,
+          37.3903
+        ]
+      },
+      "properties": {
+        "시군명": "의왕시",
+        "정류소명": "휴먼시아6단지",
+        "정류소id": 226000174,
+        "위도": 37.3903,
+        "경도": 127.0012167,
+        "crs": "WGS84",
+        "source_file": "자료/버스정류소현황.xls",
+        "epsg": "EPSG:4326"
+      }
+    }
+  ],
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  }
+}

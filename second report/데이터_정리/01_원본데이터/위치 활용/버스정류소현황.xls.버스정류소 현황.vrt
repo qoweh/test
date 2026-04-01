@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="버스정류소현황-버스정류소 현황">
+        <SrcDataSource relativeToVRT="1">버스정류소현황.xls</SrcDataSource>
+        <!--Header=True-->
+        <SrcSql dialect="sqlite">SELECT * FROM '버스정류소 현황' LIMIT 34585 OFFSET 1</SrcSql>
+        <Field name="시군명" src="Field1" type="String"/>
+        <Field name="정류소명" src="Field2" type="String"/>
+        <Field name="정류소영문명" src="Field3" type="String"/>
+        <Field name="정류소id" src="Field4" type="String"/>
+        <Field name="정류소번호" src="Field5" type="String"/>
+        <Field name="중앙차로여부" src="Field6" type="String"/>
+        <Field name="관할관청" src="Field7" type="String"/>
+        <Field name="위치" src="Field8" type="String"/>
+        <Field name="WGS84위도" src="Field9" type="String"/>
+        <Field name="WGS84경도" src="Field10" type="String"/>
+        <GeometryType>wkbPoint</GeometryType>
+        <GeometryField encoding="PointFromColumns" x="Field10" y="Field9"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>

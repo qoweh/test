@@ -1,0 +1,1178 @@
+{
+  "type": "FeatureCollection",
+  "name": "layer",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9775197,
+          37.38316592
+        ]
+      },
+      "properties": {
+        "위도": 37.38316592,
+        "경도": 126.9775197,
+        "유형": "사고다발",
+        "위험도점수": 9.2,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 1385.0955411166383,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9731669,
+          37.38872959
+        ]
+      },
+      "properties": {
+        "위도": 37.38872959,
+        "경도": 126.9731669,
+        "유형": "사고다발",
+        "위험도점수": 12.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 1277.5687325224585,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9526195,
+          37.31763048
+        ]
+      },
+      "properties": {
+        "위도": 37.31763048,
+        "경도": 126.9526195,
+        "유형": "사고다발",
+        "위험도점수": 14.2,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 610.2690454422149,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9827797,
+          37.38807233
+        ]
+      },
+      "properties": {
+        "위도": 37.38807233,
+        "경도": 126.9827797,
+        "유형": "사고다발",
+        "위험도점수": 12.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 676.9714525723664,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9704951,
+          37.35581743
+        ]
+      },
+      "properties": {
+        "위도": 37.35581743,
+        "경도": 126.9704951,
+        "유형": "사고다발",
+        "위험도점수": 10.2,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 534.0936711828457,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.966425,
+          37.35652926
+        ]
+      },
+      "properties": {
+        "위도": 37.35652926,
+        "경도": 126.966425,
+        "유형": "사고다발",
+        "위험도점수": 8.8,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 290.14609580312,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.954,
+          37.316
+        ]
+      },
+      "properties": {
+        "위도": 37.316,
+        "경도": 126.954,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 409.4316003623216,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.966,
+          37.318
+        ]
+      },
+      "properties": {
+        "위도": 37.318,
+        "경도": 126.966,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 825.0725641802674,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.952,
+          37.319
+        ]
+      },
+      "properties": {
+        "위도": 37.319,
+        "경도": 126.952,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 566.8600708477343,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.958,
+          37.319
+        ]
+      },
+      "properties": {
+        "위도": 37.319,
+        "경도": 126.958,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 264.0075562987902,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95,
+          37.321
+        ]
+      },
+      "properties": {
+        "위도": 37.321,
+        "경도": 126.95,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 680.4492985889614,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.966,
+          37.321
+        ]
+      },
+      "properties": {
+        "위도": 37.321,
+        "경도": 126.966,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 736.6700880171154,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.963,
+          37.323
+        ]
+      },
+      "properties": {
+        "위도": 37.323,
+        "경도": 126.963,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 504.3767274649328,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.961,
+          37.324
+        ]
+      },
+      "properties": {
+        "위도": 37.324,
+        "경도": 126.961,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 415.0049508920303,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.958,
+          37.325
+        ]
+      },
+      "properties": {
+        "위도": 37.325,
+        "경도": 126.958,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 405.6459525694328,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.957,
+          37.326
+        ]
+      },
+      "properties": {
+        "위도": 37.326,
+        "경도": 126.957,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 519.3714711190195,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.955,
+          37.329
+        ]
+      },
+      "properties": {
+        "위도": 37.329,
+        "경도": 126.955,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 489.4632112064037,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.983,
+          37.332
+        ]
+      },
+      "properties": {
+        "위도": 37.332,
+        "경도": 126.983,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 530.8033644868285,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.963,
+          37.334
+        ]
+      },
+      "properties": {
+        "위도": 37.334,
+        "경도": 126.963,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 534.954617300832,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.962,
+          37.335
+        ]
+      },
+      "properties": {
+        "위도": 37.335,
+        "경도": 126.962,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 485.8907534579616,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.965,
+          37.336
+        ]
+      },
+      "properties": {
+        "위도": 37.336,
+        "경도": 126.965,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 773.2013999616569,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978,
+          37.341
+        ]
+      },
+      "properties": {
+        "위도": 37.341,
+        "경도": 126.978,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 568.7666016318346,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978,
+          37.342
+        ]
+      },
+      "properties": {
+        "위도": 37.342,
+        "경도": 126.978,
+        "유형": "사고다발",
+        "위험도점수": 9.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 611.923530821371,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.977,
+          37.343
+        ]
+      },
+      "properties": {
+        "위도": 37.343,
+        "경도": 126.977,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 512.9889384909394,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98,
+          37.343
+        ]
+      },
+      "properties": {
+        "위도": 37.343,
+        "경도": 126.98,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 762.4612642969798,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.976,
+          37.345
+        ]
+      },
+      "properties": {
+        "위도": 37.345,
+        "경도": 126.976,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 478.44070099952495,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97,
+          37.346
+        ]
+      },
+      "properties": {
+        "위도": 37.346,
+        "경도": 126.97,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 348.20834267518165,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.984,
+          37.348
+        ]
+      },
+      "properties": {
+        "위도": 37.348,
+        "경도": 126.984,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 937.8378416923292,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97,
+          37.354
+        ]
+      },
+      "properties": {
+        "위도": 37.354,
+        "경도": 126.97,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 598.2544444596818,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97,
+          37.355
+        ]
+      },
+      "properties": {
+        "위도": 37.355,
+        "경도": 126.97,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 573.1116501998823,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.993,
+          37.361
+        ]
+      },
+      "properties": {
+        "위도": 37.361,
+        "경도": 126.993,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 2148.9026327582974,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.967,
+          37.368
+        ]
+      },
+      "properties": {
+        "위도": 37.368,
+        "경도": 126.967,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 280.24951563331274,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.007,
+          37.374
+        ]
+      },
+      "properties": {
+        "위도": 37.374,
+        "경도": 127.007,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 1214.7053079323025,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.998,
+          37.378
+        ]
+      },
+      "properties": {
+        "위도": 37.378,
+        "경도": 126.998,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 564.5127839007158,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.974,
+          37.38
+        ]
+      },
+      "properties": {
+        "위도": 37.38,
+        "경도": 126.974,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 1734.4485277539652,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.979,
+          37.384
+        ]
+      },
+      "properties": {
+        "위도": 37.384,
+        "경도": 126.979,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 1236.0841181573558,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.995,
+          37.386
+        ]
+      },
+      "properties": {
+        "위도": 37.386,
+        "경도": 126.995,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 358.4476326947622,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.996,
+          37.386
+        ]
+      },
+      "properties": {
+        "위도": 37.386,
+        "경도": 126.996,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 326.5876022738676,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.981,
+          37.388
+        ]
+      },
+      "properties": {
+        "위도": 37.388,
+        "경도": 126.981,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 769.2536539336522,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.005,
+          37.388
+        ]
+      },
+      "properties": {
+        "위도": 37.388,
+        "경도": 127.005,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 721.9960644852889,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.987,
+          37.389
+        ]
+      },
+      "properties": {
+        "위도": 37.389,
+        "경도": 126.987,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 499.46710511159154,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.008,
+          37.389
+        ]
+      },
+      "properties": {
+        "위도": 37.389,
+        "경도": 127.008,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 741.4695530529043,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.977,
+          37.39
+        ]
+      },
+      "properties": {
+        "위도": 37.39,
+        "경도": 126.977,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 910.8633133456168,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.992,
+          37.39
+        ]
+      },
+      "properties": {
+        "위도": 37.39,
+        "경도": 126.992,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 451.2560190681159,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.008,
+          37.39
+        ]
+      },
+      "properties": {
+        "위도": 37.39,
+        "경도": 127.008,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 675.8552305509305,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.981,
+          37.391
+        ]
+      },
+      "properties": {
+        "위도": 37.391,
+        "경도": 126.981,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 545.7589626507037,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0,
+          37.391
+        ]
+      },
+      "properties": {
+        "위도": 37.391,
+        "경도": 127.0,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 363.7379823405744,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.011,
+          37.392
+        ]
+      },
+      "properties": {
+        "위도": 37.392,
+        "경도": 127.011,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 335.9768719978564,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.982,
+          37.393
+        ]
+      },
+      "properties": {
+        "위도": 37.393,
+        "경도": 126.982,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 387.2275990207433,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.018,
+          37.393
+        ]
+      },
+      "properties": {
+        "위도": 37.393,
+        "경도": 127.018,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 314.3966936846896,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.018,
+          37.394
+        ]
+      },
+      "properties": {
+        "위도": 37.394,
+        "경도": 127.018,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 323.67576611068034,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02,
+          37.394
+        ]
+      },
+      "properties": {
+        "위도": 37.394,
+        "경도": 127.02,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 496.5967992304575,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.843,
+          37.401
+        ]
+      },
+      "properties": {
+        "위도": 37.401,
+        "경도": 126.843,
+        "유형": "사고다발",
+        "위험도점수": 3.0,
+        "cctv_coverage_m": 250.0,
+        "bus_influence_m": NaN,
+        "nearest_cctv_m": 11630.778896489288,
+        "근거": "핫스팟 + CCTV 250m 미커버",
+        "crs": "WGS84",
+        "epsg": "EPSG:4326"
+      }
+    }
+  ],
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  }
+}

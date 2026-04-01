@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "qgis": {
+      "command": "C:\\Users\\USER\\Desktop\\김민우(현장실습생)\\second report\\qgis-mcp\\.venv\\Scripts\\python.exe",
+      "args": [
+        "src/qgis_mcp/server.py"
+      ],
+      "cwd": "C:\\Users\\USER\\Desktop\\김민우(현장실습생)\\second report\\qgis-mcp",
+      "env": {
+        "PYTHONPATH": "src"
+      }
+    }
+  }
+}

@@ -1,0 +1,1166 @@
+{
+  "analyzable": true,
+  "classInfoList": [
+    {
+      "classAllList": [],
+      "classEngNm": " ",
+      "classId": "A",
+      "classNm": "특성별",
+      "defaultItmCnt": 59,
+      "defaultItmList": [
+        "A^1#A01",
+        "A^1#A02",
+        "A^2#A0201",
+        "A^2#A0202",
+        "A^1#A03",
+        "A^2#A0301",
+        "A^2#A0302",
+        "A^2#A0303",
+        "A^2#A0304",
+        "A^1#A04",
+        "A^2#A0401",
+        "A^2#A0402",
+        "A^2#A0403",
+        "A^2#A0404",
+        "A^2#A0405",
+        "A^1#A05",
+        "A^2#A0501",
+        "A^2#A0502",
+        "A^2#A0503",
+        "A^2#A0504",
+        "A^2#A0505",
+        "A^2#A0506",
+        "A^2#A0507",
+        "A^2#A0508",
+        "A^2#A0509",
+        "A^2#A0510",
+        "A^1#A06",
+        "A^2#A0601",
+        "A^2#A0602",
+        "A^1#A07",
+        "A^2#A0701",
+        "A^2#A0702",
+        "A^2#A0703",
+        "A^2#A0704",
+        "A^2#A0705",
+        "A^2#A0706",
+        "A^2#A0707",
+        "A^2#A0708",
+        "A^2#A0709",
+        "A^2#A0710",
+        "A^2#A0711",
+        "A^2#A0712",
+        "A^1#A08",
+        "A^2#A0801",
+        "A^2#A0802",
+        "A^2#A0803",
+        "A^2#A0804",
+        "A^2#A0805",
+        "A^1#A09",
+        "A^2#A0901",
+        "A^2#A0902",
+        "A^2#A0903",
+        "A^2#A0904",
+        "A^1#A10",
+        "A^2#A1001",
+        "A^2#A1002",
+        "A^2#A1003",
+        "A^2#A1004",
+        "A^2#A1005"
+      ],
+      "defaultItmMapList": [
+        {
+          "LVL": 1,
+          "ROWNUM": 1,
+          "ITM_ID": "A01"
+        },
+        {
+          "LVL": 1,
+          "ROWNUM": 2,
+          "ITM_ID": "A02"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 3,
+          "ITM_ID": "A0201"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 4,
+          "ITM_ID": "A0202"
+        },
+        {
+          "LVL": 1,
+          "ROWNUM": 5,
+          "ITM_ID": "A03"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 6,
+          "ITM_ID": "A0301"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 7,
+          "ITM_ID": "A0302"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 8,
+          "ITM_ID": "A0303"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 9,
+          "ITM_ID": "A0304"
+        },
+        {
+          "LVL": 1,
+          "ROWNUM": 10,
+          "ITM_ID": "A04"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 11,
+          "ITM_ID": "A0401"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 12,
+          "ITM_ID": "A0402"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 13,
+          "ITM_ID": "A0403"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 14,
+          "ITM_ID": "A0404"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 15,
+          "ITM_ID": "A0405"
+        },
+        {
+          "LVL": 1,
+          "ROWNUM": 16,
+          "ITM_ID": "A05"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 17,
+          "ITM_ID": "A0501"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 18,
+          "ITM_ID": "A0502"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 19,
+          "ITM_ID": "A0503"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 20,
+          "ITM_ID": "A0504"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 21,
+          "ITM_ID": "A0505"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 22,
+          "ITM_ID": "A0506"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 23,
+          "ITM_ID": "A0507"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 24,
+          "ITM_ID": "A0508"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 25,
+          "ITM_ID": "A0509"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 26,
+          "ITM_ID": "A0510"
+        },
+        {
+          "LVL": 1,
+          "ROWNUM": 27,
+          "ITM_ID": "A06"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 28,
+          "ITM_ID": "A0601"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 29,
+          "ITM_ID": "A0602"
+        },
+        {
+          "LVL": 1,
+          "ROWNUM": 30,
+          "ITM_ID": "A07"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 31,
+          "ITM_ID": "A0701"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 32,
+          "ITM_ID": "A0702"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 33,
+          "ITM_ID": "A0703"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 34,
+          "ITM_ID": "A0704"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 35,
+          "ITM_ID": "A0705"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 36,
+          "ITM_ID": "A0706"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 37,
+          "ITM_ID": "A0707"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 38,
+          "ITM_ID": "A0708"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 39,
+          "ITM_ID": "A0709"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 40,
+          "ITM_ID": "A0710"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 41,
+          "ITM_ID": "A0711"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 42,
+          "ITM_ID": "A0712"
+        },
+        {
+          "LVL": 1,
+          "ROWNUM": 43,
+          "ITM_ID": "A08"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 44,
+          "ITM_ID": "A0801"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 45,
+          "ITM_ID": "A0802"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 46,
+          "ITM_ID": "A0803"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 47,
+          "ITM_ID": "A0804"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 48,
+          "ITM_ID": "A0805"
+        },
+        {
+          "LVL": 1,
+          "ROWNUM": 49,
+          "ITM_ID": "A09"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 50,
+          "ITM_ID": "A0901"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 51,
+          "ITM_ID": "A0902"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 52,
+          "ITM_ID": "A0903"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 53,
+          "ITM_ID": "A0904"
+        },
+        {
+          "LVL": 1,
+          "ROWNUM": 54,
+          "ITM_ID": "A10"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 55,
+          "ITM_ID": "A1001"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 56,
+          "ITM_ID": "A1002"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 57,
+          "ITM_ID": "A1003"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 58,
+          "ITM_ID": "A1004"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 59,
+          "ITM_ID": "A1005"
+        }
+      ],
+      "depthLvl": "2",
+      "highLightAllList": [],
+      "highLightBoldList": [],
+      "itmCnt": 59,
+      "itmList": [
+        {
+          "lvl": 1,
+          "orgId": "627",
+          "tblId": "DT_627002_2025A023",
+          "scrEng": " ",
+          "itmId": "A01",
+          "upItmId": null,
+          "rownum": 1,
+          "objVarId": "A",
+          "charItmSn": 1,
+          "leaf": 1,
+          "scrKor": "전체"
+        },
+        {
+          "lvl": 1,
+          "orgId": "627",
+          "tblId": "DT_627002_2025A023",
+          "scrEng": " ",
+          "itmId": "A02",
+          "upItmId": null,
+          "rownum": 2,
+          "objVarId": "A",
+          "charItmSn": 2,
+          "leaf": 0,
+          "scrKor": "권역별"
+        },
+        {
+          "lvl": 1,
+          "orgId": "627",
+          "tblId": "DT_627002_2025A023",
+          "scrEng": " ",
+          "itmId": "A03",
+          "upItmId": null,
+          "rownum": 3,
+          "objVarId": "A",
+          "charItmSn": 5,
+          "leaf": 0,
+          "scrKor": "주택형태별"
+        },
+        {
+          "lvl": 1,
+          "orgId": "627",
+          "tblId": "DT_627002_2025A023",
+          "scrEng": " ",
+          "itmId": "A04",
+          "upItmId": null,
+          "rownum": 4,
+          "objVarId": "A",
+          "charItmSn": 10,
+          "leaf": 0,
+          "scrKor": "점유형태별"
+        },
+        {
+          "lvl": 1,
+          "orgId": "627",
+          "tblId": "DT_627002_2025A023",
+          "scrEng": " ",
+          "itmId": "A05",
+          "upItmId": null,
+          "rownum": 5,
+          "objVarId": "A",
+          "charItmSn": 16,
+          "leaf": 0,
+          "scrKor": "가구월평균수준별"
+        },
+        {
+          "lvl": 1,
+          "orgId": "627",
+          "tblId": "DT_627002_2025A023",
+          "scrEng": " ",
+          "itmId": "A06",
+          "upItmId": null,
+          "rownum": 6,
+          "objVarId": "A",
+          "charItmSn": 27,
+          "leaf": 0,
+          "scrKor": "성별"
+        },
+        {
+          "lvl": 1,
+          "orgId": "627",
+          "tblId": "DT_627002_2025A023",
+          "scrEng": " ",
+          "itmId": "A07",
+          "upItmId": null,
+          "rownum": 7,
+          "objVarId": "A",
+          "charItmSn": 30,
+          "leaf": 0,
+          "scrKor": "연령별"
+        },
+        {
+          "lvl": 1,
+          "orgId": "627",
+          "tblId": "DT_627002_2025A023",
+          "scrEng": " ",
+          "itmId": "A08",
+          "upItmId": null,
+          "rownum": 8,
+          "objVarId": "A",
+          "charItmSn": 43,
+          "leaf": 0,
+          "scrKor": "교육정도별"
+        },
+        {
+          "lvl": 1,
+          "orgId": "627",
+          "tblId": "DT_627002_2025A023",
+          "scrEng": " ",
+          "itmId": "A09",
+          "upItmId": null,
+          "rownum": 9,
+          "objVarId": "A",
+          "charItmSn": 49,
+          "leaf": 0,
+          "scrKor": "혼인상태별"
+        },
+        {
+          "lvl": 1,
+          "orgId": "627",
+          "tblId": "DT_627002_2025A023",
+          "scrEng": " ",
+          "itmId": "A10",
+          "upItmId": null,
+          "rownum": 10,
+          "objVarId": "A",
+          "charItmSn": 54,
+          "leaf": 0,
+          "scrKor": "가구원수별"
+        }
+      ],
+      "listClassLvl": [
+        {
+          "lvl": 1,
+          "objVarId": "A",
+          "lvlCnt": 10
+        },
+        {
+          "lvl": 2,
+          "objVarId": "A",
+          "lvlCnt": 49
+        }
+      ],
+      "sn": "1",
+      "totIgnrAt": "N",
+      "varOrdSn": "1",
+      "visible": true
+    },
+    {
+      "classAllList": [],
+      "classEngNm": " ",
+      "classId": "B",
+      "classNm": "교통수단별",
+      "defaultItmCnt": 5,
+      "defaultItmList": [
+        "B^1#B01",
+        "B^1#B02",
+        "B^1#B03",
+        "B^1#B04",
+        "B^1#B05"
+      ],
+      "defaultItmMapList": [
+        {
+          "LVL": 1,
+          "ROWNUM": 1,
+          "ITM_ID": "B01"
+        },
+        {
+          "LVL": 1,
+          "ROWNUM": 2,
+          "ITM_ID": "B02"
+        },
+        {
+          "LVL": 1,
+          "ROWNUM": 3,
+          "ITM_ID": "B03"
+        },
+        {
+          "LVL": 1,
+          "ROWNUM": 4,
+          "ITM_ID": "B04"
+        },
+        {
+          "LVL": 1,
+          "ROWNUM": 5,
+          "ITM_ID": "B05"
+        }
+      ],
+      "depthLvl": "1",
+      "highLightAllList": [],
+      "highLightBoldList": [],
+      "itmCnt": 5,
+      "itmList": [
+        {
+          "lvl": 1,
+          "orgId": "627",
+          "tblId": "DT_627002_2025A023",
+          "scrEng": " ",
+          "itmId": "B01",
+          "upItmId": null,
+          "rownum": 1,
+          "objVarId": "B",
+          "charItmSn": 1,
+          "leaf": 1,
+          "scrKor": "지하철/경전철"
+        },
+        {
+          "lvl": 1,
+          "orgId": "627",
+          "tblId": "DT_627002_2025A023",
+          "scrEng": " ",
+          "itmId": "B02",
+          "upItmId": null,
+          "rownum": 2,
+          "objVarId": "B",
+          "charItmSn": 2,
+          "leaf": 1,
+          "scrKor": "택시"
+        },
+        {
+          "lvl": 1,
+          "orgId": "627",
+          "tblId": "DT_627002_2025A023",
+          "scrEng": " ",
+          "itmId": "B03",
+          "upItmId": null,
+          "rownum": 3,
+          "objVarId": "B",
+          "charItmSn": 3,
+          "leaf": 1,
+          "scrKor": "기차"
+        },
+        {
+          "lvl": 1,
+          "orgId": "627",
+          "tblId": "DT_627002_2025A023",
+          "scrEng": " ",
+          "itmId": "B04",
+          "upItmId": null,
+          "rownum": 4,
+          "objVarId": "B",
+          "charItmSn": 4,
+          "leaf": 1,
+          "scrKor": "시내/마을버스"
+        },
+        {
+          "lvl": 1,
+          "orgId": "627",
+          "tblId": "DT_627002_2025A023",
+          "scrEng": " ",
+          "itmId": "B05",
+          "upItmId": null,
+          "rownum": 5,
+          "objVarId": "B",
+          "charItmSn": 5,
+          "leaf": 1,
+          "scrKor": "시외/고속버스"
+        }
+      ],
+      "listClassLvl": [
+        {
+          "lvl": 1,
+          "objVarId": "B",
+          "lvlCnt": 5
+        }
+      ],
+      "sn": "2",
+      "totIgnrAt": "N",
+      "varOrdSn": "2",
+      "visible": true
+    },
+    {
+      "classAllList": [],
+      "classEngNm": " ",
+      "classId": "C",
+      "classNm": "만족도별",
+      "defaultItmCnt": 7,
+      "defaultItmList": [
+        "C^1#C01",
+        "C^1#C02",
+        "C^2#C0201",
+        "C^2#C0202",
+        "C^2#C0203",
+        "C^2#C0204",
+        "C^2#C0205"
+      ],
+      "defaultItmMapList": [
+        {
+          "LVL": 1,
+          "ROWNUM": 1,
+          "ITM_ID": "C01"
+        },
+        {
+          "LVL": 1,
+          "ROWNUM": 2,
+          "ITM_ID": "C02"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 3,
+          "ITM_ID": "C0201"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 4,
+          "ITM_ID": "C0202"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 5,
+          "ITM_ID": "C0203"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 6,
+          "ITM_ID": "C0204"
+        },
+        {
+          "LVL": 2,
+          "ROWNUM": 7,
+          "ITM_ID": "C0205"
+        }
+      ],
+      "depthLvl": "2",
+      "highLightAllList": [],
+      "highLightBoldList": [],
+      "itmCnt": 7,
+      "itmList": [
+        {
+          "lvl": 1,
+          "orgId": "627",
+          "tblId": "DT_627002_2025A023",
+          "scrEng": " ",
+          "itmId": "C01",
+          "upItmId": null,
+          "rownum": 1,
+          "objVarId": "C",
+          "charItmSn": 1,
+          "leaf": 1,
+          "scrKor": "이용함"
+        },
+        {
+          "lvl": 1,
+          "orgId": "627",
+          "tblId": "DT_627002_2025A023",
+          "scrEng": " ",
+          "itmId": "C02",
+          "upItmId": null,
+          "rownum": 2,
+          "objVarId": "C",
+          "charItmSn": 2,
+          "leaf": 0,
+          "scrKor": "만족도"
+        }
+      ],
+      "listClassLvl": [
+        {
+          "lvl": 1,
+          "objVarId": "C",
+          "lvlCnt": 2
+        },
+        {
+          "lvl": 2,
+          "objVarId": "C",
+          "lvlCnt": 5
+        }
+      ],
+      "sn": "3",
+      "totIgnrAt": "N",
+      "varOrdSn": "3",
+      "visible": true
+    }
+  ],
+  "colClsAt": "N",
+  "containPeriod": " 년 2025 ~ 2025",
+  "defaultAction": "/statHtml.do",
+  "defaultItem": "null",
+  "defaultPeriodCnt": 1,
+  "defaultPeriodStr": "Y#",
+  "dimCo": 2065,
+  "dimUnitYn": "N",
+  "directYn": "N",
+  "downloadable": true,
+  "existCmmtEng": "N",
+  "existCmmtKor": "N",
+  "existStblCmmtEng": "N",
+  "existStblCmmtKor": "N",
+  "highLightInfo": null,
+  "highLightInfoList": [],
+  "itemCnt": 1,
+  "itemInfo": {
+    "defaultItmCnt": 1,
+    "defaultItmList": [
+      "T001"
+    ],
+    "itmCnt": 1,
+    "itmEngNm": "ITEM",
+    "itmId": "13999001",
+    "itmList": [
+      {
+        "lvl": 1,
+        "orgId": "627",
+        "tblId": "DT_627002_2025A023",
+        "scrEng": " ",
+        "itmId": "T001",
+        "upItmId": null,
+        "rownum": 1,
+        "objVarId": "13999001",
+        "charItmSn": 1,
+        "leaf": 1,
+        "scrKor": "비율"
+      }
+    ],
+    "itmNm": "항목"
+  },
+  "levelExpr": "S",
+  "massYn": "N",
+  "mixCnt": 0,
+  "olapStl": "0S10100000000",
+  "orgId": "627",
+  "orgNm": "경기도 의왕시",
+  "paramInfo": {
+    "analClass": "",
+    "analCmpr": "",
+    "analCmprNm": "",
+    "analCmprNmEng": "",
+    "analCombo": "",
+    "analItem": "",
+    "analText": "",
+    "analTextTblNm": "",
+    "analTime": "",
+    "analType": "",
+    "analTypeNm": "",
+    "analTypeNmEng": "",
+    "analWithCHGRATE": "",
+    "chargerLvl": "",
+    "classAllArr": "",
+    "classListForWhereClause": [],
+    "classSet": "",
+    "cmmtChk": "N",
+    "colAxis": "",
+    "condTable": "NSI.TN_STAT_HTML_COND_WEB",
+    "connPath": "I2",
+    "contextPath": "/statHtml",
+    "dataOpt": "ko",
+    "dbUser": "NSI.",
+    "dbUserOrigin": "NSI",
+    "debug": "",
+    "defaulPeriodArr": "",
+    "defaultClassArr": "",
+    "defaultItmArr": "",
+    "dimCo": "",
+    "direct": "",
+    "diviSearchYn": "",
+    "doAnal": "N",
+    "docId": "",
+    "downGridCellMerge": "",
+    "downGridCsvType": "",
+    "downGridMeta": "",
+    "downGridSdmxDataType": "",
+    "downGridSdmxType": "",
+    "downGridTxtType": "",
+    "downLargeExprType": "",
+    "downLargeFileType": "",
+    "downLargeSort": "",
+    "empId": "",
+    "empNm": "",
+    "enableCellUnit": "N",
+    "enableLevelExpr": "Y",
+    "enableParentLevel": "",
+    "enableWeight": "N",
+    "endNum": "",
+    "etldbLink": "@ETLDB",
+    "existStblCmmtEng": "N",
+    "existStblCmmtKor": "N",
+    "expDash": "",
+    "exprYn": "",
+    "fieldList": "",
+    "first_open": "",
+    "fnExcptCd": "",
+    "folderId": "",
+    "funcPrdSe": "",
+    "highLightStr": "",
+    "inheritYn": "N",
+    "ipAddr": "211.114.22.147",
+    "isChangedDataOpt": "",
+    "isFirst": "Y",
+    "isType": "",
+    "itemMultiply": "",
+    "itmNm": "",
+    "itm_id": "",
+    "key": "",
+    "keyChk": "627DT_627002_2025A023nullnull",
+    "keyDate": "",
+    "language": "ko",
+    "lastChk": "",
+    "lev": "",
+    "listId": "210_210A_627_62702_007_003",
+    "logSeq": "",
+    "markType": "",
+    "maxCellOver": "",
+    "mobChk": false,
+    "mode": "",
+    "myscrabTblNm": "",
+    "myscrapPeriod": "",
+    "new_win": "",
+    "noSelect": "",
+    "obj_var_id": "",
+    "ordColIdx": "",
+    "ordType": "",
+    "orderBy": "",
+    "orderStr": "",
+    "orgId": "627",
+    "originData": "",
+    "originOrgId": "",
+    "originTblId": "",
+    "pageEnd": 0,
+    "pageNow": 0,
+    "pageStart": 0,
+    "paramStr": "",
+    "periodCo": "",
+    "periodStr": "",
+    "prdDe": "",
+    "prdSe": "",
+    "prdSort": "asc",
+    "pub": "2",
+    "pubLog": "0",
+    "pubSeType": "",
+    "query": "",
+    "relChkOrgId": "",
+    "relChkTblId": "",
+    "relUserYn": "Y",
+    "relYn": "N",
+    "reqCellCnt": "0",
+    "rowAxis": "",
+    "scrId": "",
+    "serverLocation": "NSO",
+    "serverType": "service",
+    "serverTypeOrigin": "service",
+    "sessionId": "9oDUE-HamYgW7KInewj_i_-NDrIMMsYxIAVfq3pN_DT_627002_2025A023",
+    "smblYn": "",
+    "st": "",
+    "startNum": "",
+    "statId": "2012022",
+    "statJipyoStr": "",
+    "tabYn": "Y",
+    "tableType": "default",
+    "tblEngNm": "",
+    "tblId": "DT_627002_2025A023",
+    "tblNm": "",
+    "tblSe": "",
+    "tmprScrId": "",
+    "treeSearchKeyword": "",
+    "treeSearchOption": "",
+    "url": "",
+    "useAddFuncLog": "",
+    "usePivot": "",
+    "view": "table",
+    "viewKind": "",
+    "viewSubKind": "",
+    "viewType": "",
+    "vwCd": "MT_ZTITLE"
+  },
+  "periodCnt": 1,
+  "periodInfo": {
+    "codeB": "B",
+    "codeD": "D",
+    "codeF": "",
+    "codeH": "H",
+    "codeM": "M",
+    "codeQ": "Q",
+    "codeT": "T",
+    "codeY": "Y",
+    "defaultEndB": "",
+    "defaultEndD": "",
+    "defaultEndF": "",
+    "defaultEndH": "",
+    "defaultEndM": "",
+    "defaultEndQ": "",
+    "defaultEndT": "",
+    "defaultEndY": "2025",
+    "defaultListB": [],
+    "defaultListD": [],
+    "defaultListF": [],
+    "defaultListH": [],
+    "defaultListM": [],
+    "defaultListQ": [],
+    "defaultListT": [],
+    "defaultListY": [
+      "2025"
+    ],
+    "defaultStartB": "",
+    "defaultStartD": "",
+    "defaultStartF": "",
+    "defaultStartH": "",
+    "defaultStartM": "",
+    "defaultStartQ": "",
+    "defaultStartT": "",
+    "defaultStartY": "",
+    "endB": "",
+    "endD": "",
+    "endF": "",
+    "endH": "",
+    "endM": "",
+    "endQ": "",
+    "endT": "",
+    "endY": "2025",
+    "listB": [],
+    "listD": [],
+    "listF": [],
+    "listH": [],
+    "listM": [],
+    "listQ": [],
+    "listT": [],
+    "listY": [
+      "2025"
+    ],
+    "nameB": "격월",
+    "nameD": "일",
+    "nameF": "",
+    "nameH": "반기",
+    "nameM": "월",
+    "nameQ": "분기",
+    "nameT": "순기",
+    "nameY": "년",
+    "periodNm": "기간",
+    "startB": "",
+    "startD": "",
+    "startF": "",
+    "startH": "",
+    "startM": "",
+    "startQ": "",
+    "startT": "",
+    "startY": "2025"
+  },
+  "periodStr": "Y",
+  "pivotInfo": {
+    "colEngNmList": [
+      "TIME",
+      " ",
+      " "
+    ],
+    "colList": [
+      "TIME",
+      "B",
+      "C"
+    ],
+    "colNmList": [
+      "시점",
+      "교통수단별",
+      "만족도별"
+    ],
+    "rowEngNmList": [
+      " "
+    ],
+    "rowList": [
+      "A"
+    ],
+    "rowNmList": [
+      "특성별"
+    ]
+  },
+  "popupFileHeight": "",
+  "popupFileNm": "",
+  "popupHtmlUrl": "https://kosis.kr/tbl_popup/",
+  "pubLog": "0",
+  "renewalDate": "2026-01-19",
+  "serverType": "service",
+  "serverUrl": "https://kosis.kr",
+  "smblYn": "",
+  "statId": "2012022",
+  "statLinkInfo": {
+    "appAt": "Y",
+    "confmNo": "627002",
+    "existInquire": true,
+    "existInquireLink": true,
+    "existMoreBtn": true,
+    "existStatNm": true,
+    "exprInquire": "031-345-3033",
+    "exprStatNm": "「의왕시사회조사」, 경기도 의왕시",
+    "inptYear": "2025",
+    "linkStatComment": "https://www.k-stat.go.kr/metasvc/msba100/statsdcdta",
+    "linkStatSno": "https://meta.narastat.kr/metasvc/svc/SvcMetaDcDtaPopup.do",
+    "newsLink": "",
+    "orgEngNm": "",
+    "pubLink": "",
+    "sigaUrl": "https://kosis.kr/gen_etl/start.jsp",
+    "snameeng": "Social Survey in Uiwang-si",
+    "statId": "2012022",
+    "urlCn": "https://www.uiwang.go.kr/",
+    "urlStatNm": "경기도 의왕시,「의왕시사회조사」"
+  },
+  "statOrgId": "627",
+  "tabMenuList": [
+    {
+      "objVarId": "13999001",
+      "scrKor": "항목",
+      "scrEng": "ITEM",
+      "lvlCo": 1,
+      "scrLvlCo": 0,
+      "pubSe": "1210110",
+      "varOrdSn": 0,
+      "varOrdCur": 0,
+      "visibleYn": null,
+      "totIgnrAt": null,
+      "orgId": "627",
+      "tblId": "DT_627002_2025A023",
+      "dbUser": "NSI.",
+      "serverType": "service",
+      "searchItem": "Y"
+    },
+    {
+      "objVarId": "A",
+      "scrKor": "특성별",
+      "scrEng": " ",
+      "lvlCo": 2,
+      "scrLvlCo": 2,
+      "pubSe": "1210110",
+      "varOrdSn": 1,
+      "varOrdCur": 1,
+      "visibleYn": "Y",
+      "totIgnrAt": "N",
+      "orgId": "627",
+      "tblId": "DT_627002_2025A023",
+      "dbUser": "NSI.",
+      "serverType": "service",
+      "searchCondition": "D",
+      "classLvl": 2
+    },
+    {
+      "objVarId": "B",
+      "scrKor": "교통수단별",
+      "scrEng": " ",
+      "lvlCo": 1,
+      "scrLvlCo": 1,
+      "pubSe": "1210110",
+      "varOrdSn": 2,
+      "varOrdCur": 2,
+      "visibleYn": "Y",
+      "totIgnrAt": "N",
+      "orgId": "627",
+      "tblId": "DT_627002_2025A023",
+      "dbUser": "NSI.",
+      "serverType": "service",
+      "searchCondition": "D",
+      "classLvl": 1
+    },
+    {
+      "objVarId": "C",
+      "scrKor": "만족도별",
+      "scrEng": " ",
+      "lvlCo": 2,
+      "scrLvlCo": 2,
+      "pubSe": "1210110",
+      "varOrdSn": 3,
+      "varOrdCur": 3,
+      "visibleYn": "Y",
+      "totIgnrAt": "N",
+      "orgId": "627",
+      "tblId": "DT_627002_2025A023",
+      "dbUser": "NSI.",
+      "serverType": "service",
+      "searchCondition": "D",
+      "classLvl": 2
+    },
+    {
+      "objVarId": "period",
+      "scrKor": "기간",
+      "scrEng": "TIME",
+      "lvlCo": 0,
+      "scrLvlCo": 0,
+      "pubSe": null,
+      "varOrdSn": 0,
+      "varOrdCur": 0,
+      "visibleYn": null,
+      "totIgnrAt": null,
+      "orgId": "627",
+      "tblId": "DT_627002_2025A023",
+      "dbUser": "NSI.",
+      "serverType": "service",
+      "serverTypeOrigin": "service"
+    }
+  ],
+  "tblEngNm": "",
+  "tblId": "DT_627002_2025A023",
+  "tblNm": "교통수단 이용 만족도",
+  "tblSe": "N",
+  "unitId": "14STD00018",
+  "unitNm": "%",
+  "unitNmEng": "%",
+  "unitNmKor": "%",
+  "url": "https://kosis.kr",
+  "wgtYn": "N"
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="버스정류소현황-Sheet1">
+        <SrcDataSource relativeToVRT="1">버스정류소현황.xls</SrcDataSource>
+        <!--Header=True-->
+        <SrcSql dialect="sqlite">SELECT * FROM 'Sheet1' LIMIT 388 OFFSET 1</SrcSql>
+        <Field name="의왕시" src="Field1" type="String"/>
+        <Field name="LG아파트" src="Field2" type="String"/>
+        <Field name="LG Apartment" src="Field3" type="String"/>
+        <Field name="226000112" src="Field4" type="String"/>
+        <Field name="27044" src="Field5" type="String"/>
+        <Field name="노변정류장" src="Field6" type="String"/>
+        <Field name="경기도 의왕시" src="Field7" type="String"/>
+        <Field name="경기도 의왕시 오전동" src="Field8" type="String"/>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:4326</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="Field10" y="Field9"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
