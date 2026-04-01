@@ -1,0 +1,24 @@
+{
+  "grid_size_m": 250,
+  "min_cctv_gap_m": 200.0,
+  "top_n": 120,
+  "boundary_source": "OSM Nominatim",
+  "input_counts": {
+    "cctv": 14,
+    "bus_stop": 389,
+    "accident_hotspot": 7,
+    "fatal_accident": 61,
+    "school": 27
+  },
+  "output_counts": {
+    "grid_cells": 937,
+    "candidate_cells": 76
+  },
+  "output_files": {
+    "grid_csv": "uiwang_grid_score_250m.csv",
+    "grid_geojson": "uiwang_grid_score_250m.geojson",
+    "top_csv": "uiwang_candidate_top120_250m.csv",
+    "top_geojson": "uiwang_candidate_top120_250m.geojson",
+    "boundary_geojson": "uiwang_boundary.geojson"
+  }
+}
