@@ -47,6 +47,15 @@
    - 상위 후보 20개만 보려면 Filter:
      - `"priority_rank" <= 20`
 
+### (권장) 격자 대신 연속 그라데이션으로 표현
+
+- 참고 이미지 같은 표현이 목표면, `uiwang_grid_score_250m.geojson`을 바로 색칠하지 말고:
+  1) `Centroids`로 중심점 생성  
+  2) `IDW interpolation`(필드: `total_score_0_100`)  
+  3) `uiwang_boundary.geojson`으로 `Clip raster by mask layer`  
+  4) 결과 래스터를 `Singleband pseudocolor` + 연속형 램프로 스타일링
+- 이 방식이면 격자 경계선 없이 부드러운 위험도 표면을 만들 수 있습니다.
+
 ## 4) 보고서용 맵 3장 권장 구성
 
 - 지도 A: 전체 점수 분포 (그리드 choropleth)
