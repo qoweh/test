@@ -35,6 +35,9 @@ LAYER_SCHOOL = "초중고등학교_내보내기"
 
 WGS84 = "EPSG:4326"
 METRIC_CRS = "EPSG:5179"
+DISTANCE_TOLERANCE_SQUARED = 1e-12
+SCORE_SCALE_FACTOR = 100.0
+SCORE_PRECISION = 3
 
 
 def load_points_from_gpkg(
@@ -218,7 +221,7 @@ def idw_predict(
     source_xy: np.ndarray,
     source_values: np.ndarray,
     power: float = 1.5,
-    k: int = 12,
+    k_neighbors: int = 12,
     chunk_size: int = 512,
 ) -> np.ndarray:
     if query_xy.size == 0:
@@ -228,9 +231,9 @@ def idw_predict(
 
     source_values = source_values.astype(float)
     n_source = len(source_xy)
-    k = max(1, min(int(k), n_source))
+    k_actual = max(1, min(int(k_neighbors), n_source))
     out = np.empty((len(query_xy),), dtype=float)
-    p2 = power * 0.5
+    power_div_2 = power * 0.5
 
     for start in range(0, len(query_xy), chunk_size):
         stop = min(start + chunk_size, len(query_xy))
@@ -239,19 +242,20 @@ def idw_predict(
         dy = q[:, None, 1] - source_xy[None, :, 1]
         dist2 = (dx * dx) + (dy * dy)
 
-        if k < n_source:
-            idx = np.argpartition(dist2, kth=k - 1, axis=1)[:, :k]
+        if k_actual < n_source:
+            idx = np.argpartition(dist2, kth=k_actual - 1, axis=1)[:, :k_actual]
             d2 = np.take_along_axis(dist2, idx, axis=1)
             vals = source_values[idx]
         else:
             d2 = dist2
             vals = np.broadcast_to(source_values, d2.shape)
 
-        exact = d2 <= 1e-12
+        exact = d2 <= DISTANCE_TOLERANCE_SQUARED
         has_exact = exact.any(axis=1)
 
         with np.errstate(divide="ignore", invalid="ignore"):
-            w = 1.0 / np.power(d2, p2)
+            # Equivalent to (distance ** power) but computed via squared distance for efficiency.
+            w = 1.0 / np.power(d2, power_div_2)
         w[~np.isfinite(w)] = 0.0
 
         num = (w * vals).sum(axis=1)
@@ -419,6 +423,7 @@ def main() -> None:
     proximity_penalty = np.clip((args.min_cctv_gap - d_cctv) / args.min_cctv_gap, 0.0, 1.0) * 0.35
     total_score = np.clip(total_score - proximity_penalty, 0.0, 1.0)
 
+    total_score_0_100 = np.round(total_score * SCORE_SCALE_FACTOR, SCORE_PRECISION)
     rank = pd.Series(total_score).rank(ascending=False, method="dense").astype(int).to_numpy()
 
     vuln_threshold = float(np.nanpercentile(vulnerability, 50))
@@ -470,7 +475,7 @@ def main() -> None:
                 "score_fatal_0_1": round(float(sf), 6),
                 "score_school_0_1": round(float(ss), 6),
                 "vulnerability_0_1": round(float(vv), 6),
-                "total_score_0_100": round(float(tt * 100.0), 3),
+                "total_score_0_100": float(total_score_0_100[idx - 1]),
                 "priority_rank": int(rr),
                 "candidate_flag": bool(cand),
             }
@@ -522,9 +527,9 @@ def main() -> None:
     dense_scores = idw_predict(
         query_xy=dense_xy_m,
         source_xy=centroids_m,
-        source_values=grid_df.set_index("grid_id").loc[[i for i in range(1, len(grid_m) + 1)], "total_score_0_100"].to_numpy(),
+        source_values=total_score_0_100,
         power=args.idw_power,
-        k=args.idw_neighbors,
+        k_neighbors=args.idw_neighbors,
     )
     dense_lon, dense_lat = to_wgs84.transform(dense_xy_m[:, 0], dense_xy_m[:, 1])
     dense_df = pd.DataFrame(
@@ -532,7 +537,7 @@ def main() -> None:
             "point_id": np.arange(1, len(dense_xy_m) + 1, dtype=int),
             "centroid_lon": np.round(dense_lon, 8),
             "centroid_lat": np.round(dense_lat, 8),
-            "total_score_0_100": np.round(dense_scores, 3),
+            "total_score_0_100": np.round(dense_scores, SCORE_PRECISION),
         }
     )
 
