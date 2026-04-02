@@ -12,7 +12,7 @@ import pandas as pd
 import requests
 from pyproj import Transformer
 from shapely import concave_hull
-from shapely.geometry import MultiPoint, box, mapping, shape
+from shapely.geometry import MultiPoint, Point, box, mapping, shape
 from shapely.ops import transform
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -190,6 +190,84 @@ def nearest_distance_m(centroids_xy: np.ndarray, targets_xy: np.ndarray, chunk_s
     return out
 
 
+def build_sample_points(boundary_m, spacing_m: float) -> np.ndarray:
+    minx, miny, maxx, maxy = boundary_m.bounds
+    start_x = np.floor(minx / spacing_m) * spacing_m
+    start_y = np.floor(miny / spacing_m) * spacing_m
+    end_x = np.ceil(maxx / spacing_m) * spacing_m
+    end_y = np.ceil(maxy / spacing_m) * spacing_m
+
+    xs = np.arange(start_x, end_x + spacing_m, spacing_m)
+    ys = np.arange(start_y, end_y + spacing_m, spacing_m)
+    half = spacing_m * 0.5
+
+    points = []
+    for x in xs:
+        for y in ys:
+            pt = Point(float(x + half), float(y + half))
+            if boundary_m.contains(pt):
+                points.append((pt.x, pt.y))
+
+    if not points:
+        raise RuntimeError("Dense score point generation failed: no points intersect boundary")
+    return np.array(points, dtype=float)
+
+
+def idw_predict(
+    query_xy: np.ndarray,
+    source_xy: np.ndarray,
+    source_values: np.ndarray,
+    power: float = 1.5,
+    k: int = 12,
+    chunk_size: int = 512,
+) -> np.ndarray:
+    if query_xy.size == 0:
+        return np.empty((0,), dtype=float)
+    if source_xy.size == 0:
+        return np.full((len(query_xy),), np.nan, dtype=float)
+
+    source_values = source_values.astype(float)
+    n_source = len(source_xy)
+    k = max(1, min(int(k), n_source))
+    out = np.empty((len(query_xy),), dtype=float)
+    p2 = power * 0.5
+
+    for start in range(0, len(query_xy), chunk_size):
+        stop = min(start + chunk_size, len(query_xy))
+        q = query_xy[start:stop]
+        dx = q[:, None, 0] - source_xy[None, :, 0]
+        dy = q[:, None, 1] - source_xy[None, :, 1]
+        dist2 = (dx * dx) + (dy * dy)
+
+        if k < n_source:
+            idx = np.argpartition(dist2, kth=k - 1, axis=1)[:, :k]
+            d2 = np.take_along_axis(dist2, idx, axis=1)
+            vals = source_values[idx]
+        else:
+            d2 = dist2
+            vals = np.broadcast_to(source_values, d2.shape)
+
+        exact = d2 <= 1e-12
+        has_exact = exact.any(axis=1)
+
+        with np.errstate(divide="ignore", invalid="ignore"):
+            w = 1.0 / np.power(d2, p2)
+        w[~np.isfinite(w)] = 0.0
+
+        num = (w * vals).sum(axis=1)
+        den = w.sum(axis=1)
+        pred = np.divide(num, den, out=np.full_like(num, np.nan), where=den > 0)
+
+        if has_exact.any():
+            exact_rows = np.where(has_exact)[0]
+            for r in exact_rows:
+                pred[r] = vals[r, np.where(exact[r])[0][0]]
+
+        out[start:stop] = pred
+
+    return out
+
+
 def robust_score(arr: np.ndarray, larger_is_better: bool) -> np.ndarray:
     out = np.zeros_like(arr, dtype=float)
     valid = np.isfinite(arr)
@@ -250,6 +328,24 @@ def main() -> None:
     parser.add_argument("--grid-size", type=int, default=250, help="Grid cell size in meters (default: 250)")
     parser.add_argument("--min-cctv-gap", type=float, default=200.0, help="Minimum CCTV separation distance for candidate filtering")
     parser.add_argument("--top-n", type=int, default=150, help="Maximum number of candidate features to export")
+    parser.add_argument(
+        "--score-point-spacing",
+        type=float,
+        default=30.0,
+        help="Spacing (meters) for dense score_points output used for smooth interpolation (default: 30)",
+    )
+    parser.add_argument(
+        "--idw-power",
+        type=float,
+        default=1.5,
+        help="IDW distance coefficient (P) for dense score_points interpolation (default: 1.5)",
+    )
+    parser.add_argument(
+        "--idw-neighbors",
+        type=int,
+        default=12,
+        help="Number of nearest neighbors for dense score_points interpolation (default: 12)",
+    )
     parser.add_argument("--skip-osm-boundary", action="store_true", help="Skip OSM boundary lookup and use fallback boundary")
     args = parser.parse_args()
 
@@ -422,9 +518,27 @@ def main() -> None:
     gdf_grid = gpd.GeoDataFrame(grid_df, geometry=sorted_grid_geoms, crs=WGS84)
     gdf_grid.to_file(gpkg_grid, layer="grid_score", driver="GPKG", engine="pyogrio")
 
+    dense_xy_m = build_sample_points(boundary_m, args.score_point_spacing)
+    dense_scores = idw_predict(
+        query_xy=dense_xy_m,
+        source_xy=centroids_m,
+        source_values=grid_df.set_index("grid_id").loc[[i for i in range(1, len(grid_m) + 1)], "total_score_0_100"].to_numpy(),
+        power=args.idw_power,
+        k=args.idw_neighbors,
+    )
+    dense_lon, dense_lat = to_wgs84.transform(dense_xy_m[:, 0], dense_xy_m[:, 1])
+    dense_df = pd.DataFrame(
+        {
+            "point_id": np.arange(1, len(dense_xy_m) + 1, dtype=int),
+            "centroid_lon": np.round(dense_lon, 8),
+            "centroid_lat": np.round(dense_lat, 8),
+            "total_score_0_100": np.round(dense_scores, 3),
+        }
+    )
+
     gdf_points = gpd.GeoDataFrame(
-        grid_df,
-        geometry=gpd.points_from_xy(grid_df["centroid_lon"], grid_df["centroid_lat"]),
+        dense_df,
+        geometry=gpd.points_from_xy(dense_df["centroid_lon"], dense_df["centroid_lat"]),
         crs=WGS84,
     )
     gdf_points.to_file(gpkg_points_all, layer="score_points", driver="GPKG", engine="pyogrio")
@@ -519,6 +633,9 @@ def main() -> None:
         "grid_size_m": args.grid_size,
         "min_cctv_gap_m": args.min_cctv_gap,
         "top_n": args.top_n,
+        "score_point_spacing_m": args.score_point_spacing,
+        "idw_power": args.idw_power,
+        "idw_neighbors": args.idw_neighbors,
         "boundary_source": boundary_source,
         "input_counts": {
             "cctv": int(len(cctv)),
@@ -530,6 +647,7 @@ def main() -> None:
         "output_counts": {
             "grid_cells": int(len(grid_df)),
             "candidate_cells": int(candidate_df.shape[0]),
+            "score_points": int(len(dense_df)),
         },
         "output_files": {
             "grid_csv": csv_grid.name,
