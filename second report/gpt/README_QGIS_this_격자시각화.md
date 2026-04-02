@@ -2,9 +2,10 @@
 
 ## 1) 사용 파일
 
-아래 파일만 있으면 됩니다.
+아래 파일만 있으면 됩니다(격자 없이 바로 사용 가능).
 
-- `this_uiwang_grid_score_250m.gpkg` (레이어: `grid_score`)
+- `this_uiwang_score_points_250m.gpkg` (레이어: `score_points`)
+- `this_uiwang_score_points_250m.geojson`
 - `this_uiwang_boundary.geojson`
 - `this_uiwang_candidate_points_top150_250m.geojson` (상위 후보 라벨용, 선택)
 
@@ -19,17 +20,15 @@
 
 ## 3) QGIS 클릭 순서 (보간 → 클리핑 → 스타일)
 
-### Step A. 격자 중심점 레이어 만들기
+### Step A. 점수 포인트 레이어 추가
 
-1. `grid_score` 레이어를 추가합니다.
-2. 메뉴: `처리도구상자` → `벡터 지오메트리` → `Centroids`.
-3. 입력 레이어: `grid_score`
-4. 출력: `grid_score_centroids` (임시 또는 파일 저장)
+1. `score_points` 레이어를 추가합니다.
+2. 별도 중심점 생성은 필요 없습니다(이미 점 레이어).
 
 ### Step B. 점수 보간 래스터 생성 (IDW)
 
 1. 메뉴: `처리도구상자` → `보간(Interpolation)` → `IDW interpolation`.
-2. Input layer: `grid_score_centroids`
+2. Input layer: `score_points`
 3. Interpolation attribute: `total_score_0_100`
 4. Distance coefficient(P): `2.0` (기본값 권장)
 5. Pixel size: `20 ~ 40`m 권장 (예: 30m)
@@ -53,10 +52,10 @@
 5. Mode: `Continuous`
 6. Class 개수는 10~20으로 두되, 표현은 연속형으로 유지
 
-### Step E. 격자 느낌 제거
+### Step E. 격자 레이어 미사용
 
-- `grid_score` 폴리곤 레이어는 끄거나 숨깁니다.
-- 꼭 켜야 하면 Fill/Stroke 모두 투명으로 둡니다.
+- `grid_score` 폴리곤은 아예 로드하지 않아도 됩니다.
+- 필요하면 후보 포인트/기존 CCTV만 상단에 겹쳐 표시합니다.
 
 ## 4) 참고 이미지처럼 더 부드럽게 보이게 하는 옵션
 
