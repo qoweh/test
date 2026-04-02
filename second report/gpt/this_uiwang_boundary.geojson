@@ -1614,7 +1614,7 @@
         ]
       },
       "properties": {
-        "source": "OSM Nominatim"
+        "source": "Cached boundary (this_uiwang_boundary.geojson)"
       }
     }
   ]
