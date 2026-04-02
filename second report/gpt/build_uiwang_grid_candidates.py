@@ -401,6 +401,9 @@ def main() -> None:
     csv_grid = OUT_DIR / f"this_uiwang_grid_score_{args.grid_size}m.csv"
     geojson_grid = OUT_DIR / f"this_uiwang_grid_score_{args.grid_size}m.geojson"
     gpkg_grid = OUT_DIR / f"this_uiwang_grid_score_{args.grid_size}m.gpkg"
+    csv_points_all = OUT_DIR / f"this_uiwang_score_points_{args.grid_size}m.csv"
+    geojson_points_all = OUT_DIR / f"this_uiwang_score_points_{args.grid_size}m.geojson"
+    gpkg_points_all = OUT_DIR / f"this_uiwang_score_points_{args.grid_size}m.gpkg"
     csv_top = OUT_DIR / f"this_uiwang_candidate_cells_top{args.top_n}_{args.grid_size}m.csv"
     geojson_top = OUT_DIR / f"this_uiwang_candidate_cells_top{args.top_n}_{args.grid_size}m.geojson"
     geojson_points = OUT_DIR / f"this_uiwang_candidate_points_top{args.top_n}_{args.grid_size}m.geojson"
@@ -409,6 +412,7 @@ def main() -> None:
     summary_json = OUT_DIR / "this_uiwang_grid_summary.json"
 
     grid_df.to_csv(csv_grid, index=False, encoding="utf-8-sig")
+    grid_df.to_csv(csv_points_all, index=False, encoding="utf-8-sig")
     candidate_df.to_csv(csv_top, index=False, encoding="utf-8-sig")
 
     # Full grid polygon layer (for cell-based choropleth rendering in QGIS).
@@ -419,6 +423,11 @@ def main() -> None:
 
     gdf_grid = gpd.GeoDataFrame(grid_df.copy(), geometry=sorted_grid_geoms, crs=WGS84)
     gdf_grid.to_file(gpkg_grid, layer="grid_score", driver="GPKG", engine="pyogrio")
+
+    point_geoms = [Point(float(r["centroid_lon"]), float(r["centroid_lat"])) for r in grid_df.to_dict(orient="records")]
+    gdf_points = gpd.GeoDataFrame(grid_df.copy(), geometry=point_geoms, crs=WGS84)
+    gdf_points.to_file(gpkg_points_all, layer="score_points", driver="GPKG", engine="pyogrio")
+    gdf_points.to_file(geojson_points_all, driver="GeoJSON", engine="pyogrio")
 
     top_records = candidate_df.to_dict(orient="records")
     top_cell_features = []
@@ -525,6 +534,9 @@ def main() -> None:
             "grid_csv": csv_grid.name,
             "grid_geojson": geojson_grid.name,
             "grid_gpkg": gpkg_grid.name,
+            "score_points_csv": csv_points_all.name,
+            "score_points_geojson": geojson_points_all.name,
+            "score_points_gpkg": gpkg_points_all.name,
             "top_csv": csv_top.name,
             "top_cells_geojson": geojson_top.name,
             "top_points_geojson": geojson_points.name,
