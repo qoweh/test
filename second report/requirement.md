@@ -109,7 +109,7 @@
 
 ## B. Jupyter Notebook
 
-- 파일명: `analysis.ipynb` (신규)
+- 파일명: `notebooks/analysis.ipynb` (신규)
 - 구성 원칙: **하나의 셀 = 하나의 시각화**
 
 필수 셀 구성:
