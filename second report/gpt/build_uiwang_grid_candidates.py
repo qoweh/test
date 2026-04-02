@@ -109,6 +109,38 @@ def fetch_uiwang_boundary() -> tuple[object, str] | tuple[None, str]:
         return None, f"OSM Nominatim failed: {exc}"
 
 
+def load_cached_boundary() -> tuple[object, str] | tuple[None, str]:
+    candidates = [
+        OUT_DIR / "this_uiwang_boundary.geojson",
+        OUT_DIR / "uiwang_boundary.geojson",
+    ]
+    for path in candidates:
+        if not path.exists():
+            continue
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+            features = payload.get("features", [])
+            polygons = []
+            for feat in features:
+                geom = feat.get("geometry")
+                if not geom:
+                    continue
+                shapely_geom = shape(geom)
+                if shapely_geom.geom_type in {"Polygon", "MultiPolygon"} and not shapely_geom.is_empty:
+                    polygons.append(shapely_geom)
+            if not polygons:
+                continue
+            best = max(polygons, key=lambda g: g.area)
+            if not best.is_valid:
+                best = best.buffer(0)
+            if best.is_empty:
+                continue
+            return best, f"Cached boundary ({path.name})"
+        except Exception:  # noqa: BLE001
+            continue
+    return None, "No cached boundary file"
+
+
 def fallback_boundary_from_points(bus_gdf: gpd.GeoDataFrame, all_points: list[gpd.GeoDataFrame]) -> tuple[object, str]:
     if len(bus_gdf) >= 20:
         base = MultiPoint(list(bus_gdf.geometry))
@@ -371,9 +403,9 @@ def main() -> None:
     )
     school = load_points_from_gpkg(IN_SCHOOL, LAYER_SCHOOL, "school", keep_cols=["학교명", "학교급구분"])
 
-    boundary_wgs84 = None
-    boundary_source = ""
-    if not args.skip_osm_boundary:
+    boundary_wgs84, boundary_source = load_cached_boundary()
+
+    if boundary_wgs84 is None and not args.skip_osm_boundary:
         boundary_wgs84, boundary_source = fetch_uiwang_boundary()
 
     if boundary_wgs84 is None:
