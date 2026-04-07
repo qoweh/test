@@ -8,14 +8,14 @@ from pathlib import Path
 import geopandas as gpd
 import numpy as np
 import pandas as pd
+import pyogrio
 from pyproj import Transformer
-from shapely.geometry import Point, box, mapping, shape
+from shapely.geometry import Point, box, shape
 from shapely.ops import transform
 
 
 WGS84 = "EPSG:4326"
 METRIC_CRS = "EPSG:5179"
-DISTANCE_TOLERANCE_SQUARED = 1e-12
 
 
 GPT_DIR = Path(__file__).resolve().parent
@@ -46,6 +46,7 @@ def load_boundary_polygon() -> tuple[object, str]:
     for path in candidates:
         if not path.exists():
             continue
+
         payload = json.loads(path.read_text(encoding="utf-8"))
         polys = []
         for ft in payload.get("features", []):
@@ -77,7 +78,6 @@ def load_points_from_gpkg(path: Path, layer: str, source_type: str) -> gpd.GeoDa
     gdf = gdf[gdf.geometry.notna()].copy()
     gdf = gdf[gdf.geometry.geom_type.isin(["Point", "MultiPoint"])].copy()
 
-    # Convert multipoint to centroid for consistent nearest-distance logic.
     multi_mask = gdf.geometry.geom_type == "MultiPoint"
     if multi_mask.any():
         tmp = gdf.loc[multi_mask].to_crs(METRIC_CRS)
@@ -87,11 +87,7 @@ def load_points_from_gpkg(path: Path, layer: str, source_type: str) -> gpd.GeoDa
     gdf["lon"] = gdf.geometry.x
     gdf["lat"] = gdf.geometry.y
 
-    gdf = gdf[
-        (gdf["lon"].between(124.0, 132.0))
-        & (gdf["lat"].between(33.0, 39.5))
-    ].copy()
-
+    gdf = gdf[(gdf["lon"].between(124.0, 132.0)) & (gdf["lat"].between(33.0, 39.5))].copy()
     gdf = gdf.drop_duplicates(subset=["lon", "lat"]).reset_index(drop=True)
     gdf["source_type"] = source_type
     return gdf[["source_type", "lon", "lat", "geometry"]].copy()
@@ -103,9 +99,7 @@ def filter_points_near_boundary(gdf: gpd.GeoDataFrame, boundary_wgs84, margin_m:
 
     boundary_m = transform(to_metric.transform, boundary_wgs84)
     padded_wgs = transform(to_wgs.transform, boundary_m.buffer(margin_m))
-
-    mask = gdf.geometry.within(padded_wgs)
-    return gdf.loc[mask].reset_index(drop=True)
+    return gdf.loc[gdf.geometry.within(padded_wgs)].reset_index(drop=True)
 
 
 def build_grid(boundary_m, cell_size_m: int) -> list:
@@ -184,142 +178,82 @@ def robust_score(arr: np.ndarray, larger_is_better: bool) -> np.ndarray:
     return np.clip(out, 0.0, 1.0)
 
 
-def export_version(
+def export_version_gpkg(
     base_df: pd.DataFrame,
     grid_wgs: list,
     version_name: str,
     score_column: str,
-    top_n: int,
+    grid_size: int,
 ) -> dict:
     df = base_df.copy()
-
-    # Candidate condition: sufficiently far from existing CCTV + sufficiently near a road segment.
-    candidate_mask = (df["dist_cctv_m"] >= df["min_cctv_gap_m"]) & (df["dist_road_m"] <= df["max_road_dist_m"])
-
-    ranked = df.loc[candidate_mask].sort_values(score_column, ascending=False).copy()
-    top = ranked.head(top_n).copy()
-
+    df["total_score_0_100"] = np.round(df[score_column].astype(float), 3)
+    df["priority_rank"] = df["total_score_0_100"].rank(ascending=False, method="dense").astype(int)
     df["candidate_flag"] = False
-    if not top.empty:
-        df.loc[df["grid_id"].isin(top["grid_id"]), "candidate_flag"] = True
-
-    df["priority_rank"] = df[score_column].rank(ascending=False, method="dense").astype(int)
 
     class_labels = ["Very Low", "Low", "Medium", "High", "Very High"]
     try:
-        df["score_class"] = pd.qcut(df[score_column], q=5, labels=class_labels, duplicates="drop")
+        df["score_class"] = pd.qcut(df["total_score_0_100"], q=5, labels=class_labels, duplicates="drop")
     except ValueError:
         df["score_class"] = "Medium"
 
-    prefix = f"this_uiwang_roads_{version_name}"
-    csv_grid = GPT_DIR / f"{prefix}_grid_score_250m.csv"
-    geojson_grid = GPT_DIR / f"{prefix}_grid_score_250m.geojson"
-    gpkg_grid = GPT_DIR / f"{prefix}_grid_score_250m.gpkg"
-    csv_top = GPT_DIR / f"{prefix}_candidate_top{top_n}_250m.csv"
-    geojson_top = GPT_DIR / f"{prefix}_candidate_cells_top{top_n}_250m.geojson"
-    geojson_points = GPT_DIR / f"{prefix}_candidate_points_top{top_n}_250m.geojson"
+    df_out = df.sort_values("total_score_0_100", ascending=False).reset_index(drop=True)
+    keep_cols = [
+        "grid_id",
+        "centroid_lon",
+        "centroid_lat",
+        "dist_cctv_m",
+        "dist_bus_m",
+        "dist_accident_m",
+        "dist_fatal_m",
+        "dist_school_m",
+        "dist_road_m",
+        "nearest_road_way_id",
+        "nearest_road_name",
+        "nearest_road_highway",
+        "nearest_road_vol_mean",
+        "score_cctv_gap_0_1",
+        "score_bus_0_1",
+        "score_accident_0_1",
+        "score_fatal_0_1",
+        "score_school_0_1",
+        "score_road_proximity_0_1",
+        "score_traffic_0_1",
+        "total_score_0_100",
+        "priority_rank",
+        "candidate_flag",
+        "score_class",
+    ]
+    df_out = df_out[keep_cols].copy()
 
-    df_out = df.sort_values(score_column, ascending=False).reset_index(drop=True)
-    df_out.to_csv(csv_grid, index=False, encoding="utf-8-sig")
-    top.to_csv(csv_top, index=False, encoding="utf-8-sig")
+    geom_map = {int(gid): geom for gid, geom in zip(base_df["grid_id"].tolist(), grid_wgs)}
+    grid_geoms = [geom_map[int(gid)] for gid in df_out["grid_id"]]
 
-    records = df_out.to_dict(orient="records")
-    geom_map = {int(gid): geom for gid, geom in zip(df["grid_id"].tolist(), grid_wgs)}
+    output_path = GPT_DIR / f"this_uiwang_grid_score_{grid_size}m_{version_name}.gpkg"
+    if output_path.exists():
+        output_path.unlink()
 
-    grid_features = []
-    for rec in records:
-        gid = int(rec["grid_id"])
-        grid_features.append(
-            {
-                "type": "Feature",
-                "geometry": mapping(geom_map[gid]),
-                "properties": rec,
-            }
-        )
+    gdf_grid = gpd.GeoDataFrame(df_out, geometry=grid_geoms, crs=WGS84)
+    pyogrio.write_dataframe(gdf_grid, output_path, layer="grid_score", driver="GPKG")
 
-    geojson_payload = {
-        "type": "FeatureCollection",
-        "name": f"{prefix}_grid_score_250m",
-        "crs": {"type": "name", "properties": {"name": WGS84}},
-        "features": grid_features,
-    }
-    geojson_grid.write_text(json.dumps(geojson_payload, ensure_ascii=False, indent=2), encoding="utf-8")
-
-    gdf_grid = gpd.GeoDataFrame(df_out, geometry=[geom_map[int(g)] for g in df_out["grid_id"]], crs=WGS84)
-    gdf_grid.to_file(gpkg_grid, layer="grid_score", driver="GPKG", engine="pyogrio")
-
-    top_cells = []
-    top_points = []
-    for _, rec in top.iterrows():
-        gid = int(rec["grid_id"])
-        geom = geom_map[gid]
-        top_cells.append(
-            {
-                "type": "Feature",
-                "geometry": mapping(geom),
-                "properties": rec.to_dict(),
-            }
-        )
-        top_points.append(
-            {
-                "type": "Feature",
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [float(rec["centroid_lon"]), float(rec["centroid_lat"])],
-                },
-                "properties": rec.to_dict(),
-            }
-        )
-
-    geojson_top.write_text(
-        json.dumps(
-            {
-                "type": "FeatureCollection",
-                "name": f"{prefix}_candidate_cells_top{top_n}_250m",
-                "crs": {"type": "name", "properties": {"name": WGS84}},
-                "features": top_cells,
-            },
-            ensure_ascii=False,
-            indent=2,
-        ),
-        encoding="utf-8",
+    points_df = df_out[["grid_id", "centroid_lon", "centroid_lat", "total_score_0_100", "priority_rank", "score_class"]].copy()
+    gdf_points = gpd.GeoDataFrame(
+        points_df,
+        geometry=gpd.points_from_xy(points_df["centroid_lon"], points_df["centroid_lat"]),
+        crs=WGS84,
     )
-
-    geojson_points.write_text(
-        json.dumps(
-            {
-                "type": "FeatureCollection",
-                "name": f"{prefix}_candidate_points_top{top_n}_250m",
-                "crs": {"type": "name", "properties": {"name": WGS84}},
-                "features": top_points,
-            },
-            ensure_ascii=False,
-            indent=2,
-        ),
-        encoding="utf-8",
-    )
+    pyogrio.write_dataframe(gdf_points, output_path, layer="score_points", driver="GPKG", append=True)
 
     return {
         "version": version_name,
-        "score_column": score_column,
-        "candidate_count": int(top.shape[0]),
-        "output_files": {
-            "grid_csv": csv_grid.name,
-            "grid_geojson": geojson_grid.name,
-            "grid_gpkg": gpkg_grid.name,
-            "top_csv": csv_top.name,
-            "top_cells_geojson": geojson_top.name,
-            "top_points_geojson": geojson_points.name,
-        },
+        "file": output_path.name,
+        "grid_rows": int(gdf_grid.shape[0]),
+        "score_points_rows": int(gdf_points.shape[0]),
     }
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Rebuild Uiwang CCTV candidate grids with road segment + traffic factors")
-    parser.add_argument("--grid-size", type=int, default=250)
-    parser.add_argument("--top-n", type=int, default=150)
-    parser.add_argument("--min-cctv-gap", type=float, default=200.0)
-    parser.add_argument("--max-road-dist", type=float, default=150.0)
+    parser = argparse.ArgumentParser(description="Build 30m raster-ready score layers (equal/weighted) with road+traffic factors")
+    parser.add_argument("--grid-size", type=int, default=30)
     args = parser.parse_args()
 
     boundary_wgs84, boundary_source = load_boundary_polygon()
@@ -390,13 +324,8 @@ def main() -> None:
         how="left",
         distance_col="dist_road_m",
     )
-    nearest_roads = nearest_roads.sort_values(["grid_id", "dist_road_m"]).drop_duplicates(
-        subset=["grid_id"],
-        keep="first",
-    )
-    nearest_roads = nearest_roads.set_index("grid_id").reindex(
-        centroid_points_m["grid_id"].to_numpy()
-    ).reset_index()
+    nearest_roads = nearest_roads.sort_values(["grid_id", "dist_road_m"]).drop_duplicates(subset=["grid_id"], keep="first")
+    nearest_roads = nearest_roads.set_index("grid_id").reindex(centroid_points_m["grid_id"].to_numpy()).reset_index()
 
     d_road = nearest_roads["dist_road_m"].to_numpy(dtype=float)
     nearest_vol = nearest_roads["vol_mean_num"].to_numpy(dtype=float)
@@ -412,12 +341,8 @@ def main() -> None:
     s_road = robust_score(d_road, larger_is_better=False)
     s_traffic = robust_score(nearest_vol, larger_is_better=True)
 
-    score_equal = np.mean(
-        np.column_stack([s_cctv, s_school, s_bus, s_accident, s_fatal, s_road, s_traffic]),
-        axis=1,
-    )
+    score_equal = np.mean(np.column_stack([s_cctv, s_school, s_bus, s_accident, s_fatal, s_road, s_traffic]), axis=1)
 
-    # User-requested weighted version: fatal 5, cctv_gap 2, school 3, bus 3, accident 5, traffic 5.
     w_total = 2 + 3 + 3 + 5 + 5 + 5
     score_weighted = (
         (2 * s_cctv)
@@ -429,6 +354,7 @@ def main() -> None:
     ) / w_total
 
     centroids_wgs = [transform(to_wgs84.transform, Point(x, y)) for x, y in centroids_m]
+    grid_wgs = [transform(to_wgs84.transform, g) for g in grid_m]
 
     base_df = pd.DataFrame(
         {
@@ -436,75 +362,46 @@ def main() -> None:
             "centroid_lon": [round(float(p.x), 8) for p in centroids_wgs],
             "centroid_lat": [round(float(p.y), 8) for p in centroids_wgs],
             "dist_cctv_m": np.round(d_cctv, 2),
-            "dist_school_m": np.round(d_school, 2),
             "dist_bus_m": np.round(d_bus, 2),
             "dist_accident_m": np.round(d_accident, 2),
             "dist_fatal_m": np.round(d_fatal, 2),
+            "dist_school_m": np.round(d_school, 2),
             "dist_road_m": np.round(d_road, 2),
             "nearest_road_way_id": nearest_way_id,
             "nearest_road_name": nearest_road_name,
             "nearest_road_highway": nearest_road_highway,
             "nearest_road_vol_mean": np.round(nearest_vol, 3),
             "score_cctv_gap_0_1": np.round(s_cctv, 6),
-            "score_school_0_1": np.round(s_school, 6),
             "score_bus_0_1": np.round(s_bus, 6),
             "score_accident_0_1": np.round(s_accident, 6),
             "score_fatal_0_1": np.round(s_fatal, 6),
+            "score_school_0_1": np.round(s_school, 6),
             "score_road_proximity_0_1": np.round(s_road, 6),
             "score_traffic_0_1": np.round(s_traffic, 6),
             "total_score_equal_0_100": np.round(score_equal * 100.0, 3),
             "total_score_weighted_0_100": np.round(score_weighted * 100.0, 3),
-            "min_cctv_gap_m": float(args.min_cctv_gap),
-            "max_road_dist_m": float(args.max_road_dist),
         }
     )
 
-    grid_wgs = [transform(to_wgs84.transform, g) for g in grid_m]
-
-    eq_summary = export_version(
+    eq = export_version_gpkg(
         base_df=base_df,
         grid_wgs=grid_wgs,
         version_name="equal",
         score_column="total_score_equal_0_100",
-        top_n=args.top_n,
+        grid_size=args.grid_size,
     )
-
-    wt_summary = export_version(
+    wt = export_version_gpkg(
         base_df=base_df,
         grid_wgs=grid_wgs,
         version_name="weighted",
         score_column="total_score_weighted_0_100",
-        top_n=args.top_n,
+        grid_size=args.grid_size,
     )
-
-    merged_inputs = pd.concat(
-        [
-            cctv[["source_type", "geometry"]],
-            bus[["source_type", "geometry"]],
-            accident[["source_type", "geometry"]],
-            fatal[["source_type", "geometry"]],
-            school[["source_type", "geometry"]],
-        ],
-        ignore_index=True,
-    )
-    gdf_inputs = gpd.GeoDataFrame(merged_inputs, geometry="geometry", crs=WGS84)
-    input_path = GPT_DIR / "this_uiwang_inputs_points_with_roads.geojson"
-    gdf_inputs.to_file(input_path, driver="GeoJSON", engine="pyogrio")
-
-    if "traffic_match" in roads.columns:
-        roads_with_traffic = int((roads["traffic_match"].fillna("").astype(str) == "matched").sum())
-    else:
-        roads_with_traffic = 0
 
     summary = {
         "boundary_source": boundary_source,
         "road_source": str(IN_ROADS),
         "grid_size_m": args.grid_size,
-        "top_n": args.top_n,
-        "filters": {
-            "min_cctv_gap_m": args.min_cctv_gap,
-            "max_road_dist_m": args.max_road_dist,
-        },
         "input_counts": {
             "cctv": int(len(cctv)),
             "bus": int(len(bus)),
@@ -512,20 +409,9 @@ def main() -> None:
             "fatal": int(len(fatal)),
             "school": int(len(school)),
             "roads": int(len(roads)),
-            "roads_with_traffic": roads_with_traffic,
         },
-        "versions": {
-            "equal": eq_summary,
-            "weighted": wt_summary,
-        },
-        "aux_output": {
-            "inputs_geojson": input_path.name,
-        },
+        "outputs": [eq, wt],
     }
-
-    summary_path = GPT_DIR / "this_uiwang_grid_summary_with_roads.json"
-    summary_path.write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
-
     print(json.dumps(summary, ensure_ascii=False, indent=2))
 
 
