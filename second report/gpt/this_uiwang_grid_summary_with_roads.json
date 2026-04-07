@@ -1,0 +1,50 @@
+{
+  "boundary_source": "this_uiwang_boundary.geojson",
+  "road_source": "/workspaces/qgis-second-report/plus/uiwang_all_roads_with_traffic_lines_in_boundary.geojson",
+  "grid_size_m": 250,
+  "top_n": 150,
+  "filters": {
+    "min_cctv_gap_m": 200.0,
+    "max_road_dist_m": 150.0
+  },
+  "input_counts": {
+    "cctv": 74,
+    "bus": 388,
+    "accident": 7,
+    "fatal": 61,
+    "school": 27,
+    "roads": 2642,
+    "roads_with_traffic": 267
+  },
+  "versions": {
+    "equal": {
+      "version": "equal",
+      "score_column": "total_score_equal_0_100",
+      "candidate_count": 150,
+      "output_files": {
+        "grid_csv": "this_uiwang_roads_equal_grid_score_250m.csv",
+        "grid_geojson": "this_uiwang_roads_equal_grid_score_250m.geojson",
+        "grid_gpkg": "this_uiwang_roads_equal_grid_score_250m.gpkg",
+        "top_csv": "this_uiwang_roads_equal_candidate_top150_250m.csv",
+        "top_cells_geojson": "this_uiwang_roads_equal_candidate_cells_top150_250m.geojson",
+        "top_points_geojson": "this_uiwang_roads_equal_candidate_points_top150_250m.geojson"
+      }
+    },
+    "weighted": {
+      "version": "weighted",
+      "score_column": "total_score_weighted_0_100",
+      "candidate_count": 150,
+      "output_files": {
+        "grid_csv": "this_uiwang_roads_weighted_grid_score_250m.csv",
+        "grid_geojson": "this_uiwang_roads_weighted_grid_score_250m.geojson",
+        "grid_gpkg": "this_uiwang_roads_weighted_grid_score_250m.gpkg",
+        "top_csv": "this_uiwang_roads_weighted_candidate_top150_250m.csv",
+        "top_cells_geojson": "this_uiwang_roads_weighted_candidate_cells_top150_250m.geojson",
+        "top_points_geojson": "this_uiwang_roads_weighted_candidate_points_top150_250m.geojson"
+      }
+    }
+  },
+  "aux_output": {
+    "inputs_geojson": "this_uiwang_inputs_points_with_roads.geojson"
+  }
+}

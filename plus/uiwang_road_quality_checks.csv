@@ -1,0 +1,8 @@
+check_name,value
+total_segments,2665
+duplicate_way_id_count,0
+missing_way_id_count,0
+missing_highway_count,0
+non_positive_length_count,0
+outside_status_count,0
+invalid_coordinates_status_count,0

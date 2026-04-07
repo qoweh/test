@@ -1,0 +1,7 @@
+investigation_id,source_type,source_name,endpoint_or_page,status,result_summary,records_or_counts,outputs,checked_date,remarks
+1,road_inventory,OpenStreetMap Overpass,https://overpass-api.de/api/interpreter,success,의왕 경계 기반 highway 수집 및 필터링 완료,raw_way=10373;uiwang_segment=2665;named_road=362,uiwang_osm_roads_filtered.geojson|uiwang_osm_roads_segments.csv|uiwang_osm_stats.json,2026-04-07,의왕 경계 polygon 기반 필터
+2,traffic,Gyeonggi OpenAPI getRoadInfoList,https://openapigits.gg.go.kr/api/rest/getRoadInfoList,success,노선 목록 수집 완료,route_count=152,gg_road_info_list.csv,2026-04-07,serviceKey 인증 성공
+3,traffic,Gyeonggi OpenAPI getRoadTrafficInfoList,https://openapigits.gg.go.kr/api/rest/getRoadTrafficInfoList,success,노선별 소통정보 수집 완료,traffic_rows=24413,gg_road_traffic_info_list.csv,2026-04-07,타임아웃 재시도 적용
+4,verification,Uiwang Boundary Validation,local_geometry_validation,success,전수검증 완료,inside=2479;crossing_boundary=186;outside=0;invalid=0,uiwang_road_boundary_validation.csv|uiwang_road_boundary_validation_summary.csv|uiwang_road_quality_checks.csv,2026-04-07,각 세그먼트 좌표와 경계 교차 검사
+5,api_check,VWorld upisuq151 guide/API,https://www.vworld.kr/dev/v4dv_2ddataguide2_s002.do?svcIde=upisuq151,failed,본 환경에서 502,http_status=502,-,2026-04-07,키 형식 하이픈 유무와 무관하게 동일 실패
+6,api_check,Korea Expressway trafficAll,https://data.ex.co.kr/openapi/trafficapi/trafficAll,failed,본 환경에서 443 연결 timeout,dns_ok=true;tcp_443_timeout=true,-,2026-04-07,DNS 해석은 성공했으나 TCP 연결 실패

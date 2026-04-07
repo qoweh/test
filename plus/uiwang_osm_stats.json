@@ -1,0 +1,9 @@
+{
+  "source": "OpenStreetMap Overpass bbox query",
+  "raw_way_count": 10373,
+  "filtered_way_count": 2665,
+  "highway_type_count": 24,
+  "named_road_count": 362,
+  "total_length_m": 620028.08,
+  "total_length_km": 620.028
+}
