@@ -1,0 +1,13 @@
+{
+  "source": "OpenStreetMap Overpass bbox query",
+  "raw_source_file": "/workspaces/qgis-second-report/plus/raw_api/osm_uiwang_bbox_highways.json",
+  "boundary_file": "/workspaces/qgis-second-report/second report/gpt/this_uiwang_boundary.geojson",
+  "drivable_only": true,
+  "output_suffix": "drivable",
+  "raw_way_count": 10373,
+  "filtered_way_count": 1918,
+  "highway_type_count": 14,
+  "named_road_count": 340,
+  "total_length_m": 416214.02,
+  "total_length_km": 416.214
+}

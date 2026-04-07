@@ -1,0 +1,6 @@
+route_token,line_ids,road_name_samples,section_samples,spot_count,row_count,vol_mean,vol_min,vol_max,source
+1,1,경 부 선,금토JCT~양재IC | 기흥동탄IC~수원신갈IC | 남사진위IC~오산IC | 남이JCT~청주IC | 남청주IC~청주JCT | 동탄JCT~기흥동탄IC | 목천IC~천안JCT | 북천안IC~안성IC | 신갈JCT~판교JCT | 신탄진IC~남청주IC | 안성IC~안성JCT | 안성JCT~남사진위IC | 옥산JCT~목천IC | 옥산하이패스IC~옥산JCT | 천안IC~북천안IC | 천안JCT~천안IC | 청주IC~옥산하이패스IC | 청주JCT~남이JCT | 판교JCT~금토JCT,19,892,3302.927,407.0,7730.0,road.re.kr itms_22 (data=3)
+47,47,국도 47호선,갈말~와수 | 갈매~퇴계원IC | 부평~신팔 | 영중~일동 | 이동~김화 | 이동~도평 | 일동~도평,7,574,186.613,0.0,1827.0,road.re.kr itms_22 (data=3)
+50,50,영동선,덕평IC~호법JCT | 동둔내하이패스IC~면온IC | 둔내IC~동둔내하이패스IC | 마성IC~서용인JCT | 만종JCT~원주JCT | 면온IC~평창IC | 문막IC~만종JCT | 새말IC~둔내IC | 서용인JCT~용인IC | 신갈JCT~마성IC | 양지IC~덕평IC | 여주IC~문막IC | 여주JCT~여주IC | 용인IC~양지IC | 원주IC~새말IC | 원주JCT~원주IC | 이천IC~여주JCT | 평창IC~속사IC | 호법JCT~이천IC,19,892,1746.916,60.0,6464.0,road.re.kr itms_22 (data=3)
+100,100,수도권제1순환선,강일IC~토평IC | 구리IC~퇴계원IC | 남양주IC~구리IC | 상일IC~강일IC | 서하남IC~하남JCT | 성남IC~송파IC | 송파IC~서하남IC | 토평IC~남양주IC | 판교JCT~성남IC | 하남JCT~상일IC,10,460,4524.337,548.0,9125.0,road.re.kr itms_22 (data=3)
+110,110,제2경인선,광명IC~일직JCT | 남동IC~서창JCT | 문학IC~남동IC | 서창JCT~신천IC | 신천IC~안현JCT | 안현JCT~광명IC | 인천시점IC~학익JCT | 일직JCT~석수IC | 학익JCT~문학IC,9,432,2860.456,205.0,7681.0,road.re.kr itms_22 (data=3)

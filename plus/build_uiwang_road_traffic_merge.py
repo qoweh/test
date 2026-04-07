@@ -45,6 +45,34 @@ def normalize_name(name: str) -> str:
     return name.strip()
 
 
+def split_route_aliases(name: str):
+    norm = normalize_name(name)
+    if not norm:
+        return []
+
+    # Remove parenthesized annotations and split common composite delimiters.
+    norm = re.sub(r"\([^)]*\)", "", norm)
+    parts = re.split(r"[/·,]|→|↔|-", norm)
+
+    aliases = []
+    for p in parts:
+        p = p.strip()
+        if not p:
+            continue
+        p = re.sub(r"(구간|일원|방면)$", "", p)
+        if p:
+            aliases.append(p)
+
+    seen = set()
+    uniq = []
+    for a in aliases:
+        if a in seen:
+            continue
+        seen.add(a)
+        uniq.append(a)
+    return uniq
+
+
 def extract_numbers(text: str):
     if not text:
         return []
@@ -150,6 +178,7 @@ def main():
     route_no_acc = {}
     gg_total_rows = 0
     gg_name_match_rows = 0
+    gg_alias_match_rows = 0
     gg_keyword_rows = 0
     gg_ref_match_rows = 0
 
@@ -170,9 +199,12 @@ def main():
             )
             keyword_hit = any(k in combined_text for k in UIWANG_KEYWORDS)
             name_match = route_norm in osm_norm_names
+            alias_match = any(a in osm_norm_names for a in split_route_aliases(route_nm))
 
             if name_match:
                 gg_name_match_rows += 1
+            if alias_match:
+                gg_alias_match_rows += 1
             if keyword_hit:
                 gg_keyword_rows += 1
 
@@ -187,6 +219,7 @@ def main():
                     "route_name_samples": set(),
                     "rows": 0,
                     "name_match_rows": 0,
+                    "alias_match_rows": 0,
                     "keyword_rows": 0,
                     "vol_values": [],
                     "spd_values": [],
@@ -198,6 +231,8 @@ def main():
             acc["rows"] += 1
             if name_match:
                 acc["name_match_rows"] += 1
+            if alias_match:
+                acc["alias_match_rows"] += 1
             if keyword_hit:
                 acc["keyword_rows"] += 1
 
@@ -221,7 +256,7 @@ def main():
     route_stats_by_norm = {}
 
     for route_norm, acc in route_acc.items():
-        if acc["name_match_rows"] <= 0 and acc["keyword_rows"] <= 0:
+        if acc["name_match_rows"] <= 0 and acc["alias_match_rows"] <= 0 and acc["keyword_rows"] <= 0:
             continue
 
         vol_stats = stat_dict(acc["vol_values"])
@@ -230,6 +265,8 @@ def main():
 
         if acc["name_match_rows"] > 0:
             reason = "route_name_match"
+        elif acc["alias_match_rows"] > 0:
+            reason = "route_name_alias_match"
         else:
             reason = "uiwang_keyword_match"
 
@@ -239,6 +276,7 @@ def main():
             "selection_reason": reason,
             "row_count": acc["rows"],
             "name_match_rows": acc["name_match_rows"],
+            "alias_match_rows": acc["alias_match_rows"],
             "keyword_rows": acc["keyword_rows"],
             "vol_mean": vol_stats["mean"],
             "vol_min": vol_stats["min"],
@@ -257,6 +295,23 @@ def main():
 
     route_stats_rows.sort(key=lambda r: (r["selection_reason"], -int(r["row_count"])))
 
+    route_stats_by_alias = {}
+    for row in route_stats_rows:
+        names = [row.get("route_name_norm", "")]
+        sample = row.get("route_name_samples", "")
+        if sample:
+            names.extend(sample.split(" | "))
+
+        aliases = set()
+        for n in names:
+            for a in split_route_aliases(n):
+                aliases.add(a)
+
+        for alias in aliases:
+            prev = route_stats_by_alias.get(alias)
+            if prev is None or int(row.get("row_count", 0)) > int(prev.get("row_count", 0)):
+                route_stats_by_alias[alias] = row
+
     with OUT_GG_ROUTE_STATS_CSV.open("w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(
             f,
@@ -266,6 +321,7 @@ def main():
                 "selection_reason",
                 "row_count",
                 "name_match_rows",
+                "alias_match_rows",
                 "keyword_rows",
                 "vol_mean",
                 "vol_min",
@@ -332,12 +388,14 @@ def main():
     matched_named_count = 0
     matched_named_by_name = 0
     matched_named_by_ref = 0
+    matched_named_by_alias = 0
 
     for row in osm_named_rows:
         road_name = row.get("road_name", "")
         highway = row.get("highway", "")
         norm = normalize_name(road_name)
         traffic_name = route_stats_by_norm.get(norm)
+        traffic_alias = route_stats_by_alias.get(norm)
         ref_numbers = sorted(name_to_ref_numbers.get(road_name, set()))
         traffic_ref = best_route_no_match(ref_numbers, route_no_stats_by_no)
 
@@ -355,6 +413,11 @@ def main():
             match_method = "route_no_ref_match"
             matched_route_no = traffic_ref.get("route_no", "")
             matched_named_by_ref += 1
+        elif traffic_alias is not None:
+            traffic = traffic_alias
+            match_method = "route_name_alias_match"
+            matched_route_name_norm = traffic_alias.get("route_name_norm", "")
+            matched_named_by_alias += 1
 
         is_matched = traffic is not None
 
@@ -420,12 +483,14 @@ def main():
     matched_segment_count = 0
     matched_segment_by_name = 0
     matched_segment_by_ref = 0
+    matched_segment_by_alias = 0
     named_segment_count = 0
 
     for row in osm_segment_rows:
         road_name = row.get("name", "")
         norm = normalize_name(road_name)
         traffic_name = route_stats_by_norm.get(norm) if norm else None
+        traffic_alias = route_stats_by_alias.get(norm) if norm else None
 
         way_id = str(row.get("way_id", "")).strip()
         valid = validation_by_way_id.get(way_id, {})
@@ -447,6 +512,11 @@ def main():
             match_method = "route_no_ref_match"
             matched_route_no = traffic_ref.get("route_no", "")
             matched_segment_by_ref += 1
+        elif traffic_alias is not None:
+            traffic = traffic_alias
+            match_method = "route_name_alias_match"
+            matched_route_name_norm = traffic_alias.get("route_name_norm", "")
+            matched_segment_by_alias += 1
 
         if road_name:
             named_segment_count += 1
@@ -500,15 +570,18 @@ def main():
             "osm_named_road_total": len(osm_named_rows),
             "gg_traffic_row_total": gg_total_rows,
             "gg_name_match_row_total": gg_name_match_rows,
+            "gg_alias_match_row_total": gg_alias_match_rows,
             "gg_keyword_row_total": gg_keyword_rows,
             "gg_ref_match_row_total": gg_ref_match_rows,
             "matched_named_road_count": matched_named_count,
             "matched_named_road_by_name_count": matched_named_by_name,
             "matched_named_road_by_ref_count": matched_named_by_ref,
+            "matched_named_road_by_alias_count": matched_named_by_alias,
             "unmatched_named_road_count": len(osm_named_rows) - matched_named_count,
             "matched_segment_count": matched_segment_count,
             "matched_segment_by_name_count": matched_segment_by_name,
             "matched_segment_by_ref_count": matched_segment_by_ref,
+            "matched_segment_by_alias_count": matched_segment_by_alias,
             "unmatched_segment_count": len(osm_segment_rows) - matched_segment_count,
         },
     }

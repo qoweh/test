@@ -16,15 +16,18 @@
     "osm_named_road_total": 362,
     "gg_traffic_row_total": 24413,
     "gg_name_match_row_total": 1205,
+    "gg_alias_match_row_total": 1409,
     "gg_keyword_row_total": 287,
     "gg_ref_match_row_total": 4794,
-    "matched_named_road_count": 14,
+    "matched_named_road_count": 17,
     "matched_named_road_by_name_count": 4,
     "matched_named_road_by_ref_count": 10,
-    "unmatched_named_road_count": 348,
-    "matched_segment_count": 269,
+    "matched_named_road_by_alias_count": 3,
+    "unmatched_named_road_count": 345,
+    "matched_segment_count": 305,
     "matched_segment_by_name_count": 178,
     "matched_segment_by_ref_count": 91,
-    "unmatched_segment_count": 2396
+    "matched_segment_by_alias_count": 36,
+    "unmatched_segment_count": 2360
   }
 }

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import argparse
 import csv
 import json
 import math
@@ -16,6 +17,48 @@ OUT_SEGMENTS_CSV = PLUS / "uiwang_osm_roads_segments.csv"
 OUT_TYPE_CSV = PLUS / "uiwang_osm_road_type_summary.csv"
 OUT_NAME_CSV = PLUS / "uiwang_osm_named_roads_summary.csv"
 OUT_STATS_JSON = PLUS / "uiwang_osm_stats.json"
+
+DRIVABLE_HIGHWAYS = {
+    "motorway",
+    "motorway_link",
+    "trunk",
+    "trunk_link",
+    "primary",
+    "primary_link",
+    "secondary",
+    "secondary_link",
+    "tertiary",
+    "tertiary_link",
+    "residential",
+    "service",
+    "unclassified",
+    "living_street",
+    "road",
+}
+
+
+def output_with_suffix(path: Path, suffix: str) -> Path:
+    if not suffix:
+        return path
+    return path.with_name(f"{path.stem}_{suffix}{path.suffix}")
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Filter OSM highway ways for Uiwang boundary")
+    parser.add_argument("--raw-roads", default=str(RAW_ROADS), help="Raw OSM highways JSON file")
+    parser.add_argument("--boundary", default=str(BOUNDARY), help="Boundary GeoJSON file")
+    parser.add_argument("--out-dir", default=str(PLUS), help="Output directory")
+    parser.add_argument(
+        "--drivable-only",
+        action="store_true",
+        help="Keep only drivable highway classes",
+    )
+    parser.add_argument(
+        "--output-suffix",
+        default="",
+        help="Suffix for output filenames (auto=drivable when --drivable-only and omitted)",
+    )
+    return parser.parse_args()
 
 
 def load_boundary_polygons(path: Path):
@@ -114,9 +157,31 @@ def line_touches_city(geom, polygons):
 
 
 def main():
-    polygons = load_boundary_polygons(BOUNDARY)
+    args = parse_args()
 
-    raw = json.loads(RAW_ROADS.read_text(encoding="utf-8"))
+    raw_roads = Path(args.raw_roads)
+    boundary = Path(args.boundary)
+    out_dir = Path(args.out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    output_suffix = (args.output_suffix or "").strip()
+    if args.drivable_only and not output_suffix:
+        output_suffix = "drivable"
+
+    out_geojson = output_with_suffix(out_dir / OUT_GEOJSON.name, output_suffix)
+    out_segments_csv = output_with_suffix(out_dir / OUT_SEGMENTS_CSV.name, output_suffix)
+    out_type_csv = output_with_suffix(out_dir / OUT_TYPE_CSV.name, output_suffix)
+    out_name_csv = output_with_suffix(out_dir / OUT_NAME_CSV.name, output_suffix)
+    out_stats_json = output_with_suffix(out_dir / OUT_STATS_JSON.name, output_suffix)
+
+    if not raw_roads.exists():
+        raise FileNotFoundError(f"Missing raw roads JSON: {raw_roads}")
+    if not boundary.exists():
+        raise FileNotFoundError(f"Missing boundary GeoJSON: {boundary}")
+
+    polygons = load_boundary_polygons(boundary)
+
+    raw = json.loads(raw_roads.read_text(encoding="utf-8"))
     elements = raw.get("elements", [])
 
     filtered_features = []
@@ -133,6 +198,9 @@ def main():
             continue
         if "highway" not in tags:
             continue
+        highway = tags.get("highway", "")
+        if args.drivable_only and highway not in DRIVABLE_HIGHWAYS:
+            continue
         if not line_touches_city(geom, polygons):
             continue
 
@@ -141,7 +209,7 @@ def main():
 
         record = {
             "way_id": way.get("id"),
-            "highway": tags.get("highway", ""),
+            "highway": highway,
             "name": tags.get("name", ""),
             "ref": tags.get("ref", ""),
             "lanes": tags.get("lanes", ""),
@@ -181,9 +249,9 @@ def main():
         "type": "FeatureCollection",
         "features": filtered_features,
     }
-    OUT_GEOJSON.write_text(json.dumps(geojson, ensure_ascii=False), encoding="utf-8")
+    out_geojson.write_text(json.dumps(geojson, ensure_ascii=False), encoding="utf-8")
 
-    with OUT_SEGMENTS_CSV.open("w", newline="", encoding="utf-8") as f:
+    with out_segments_csv.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(
             f,
             fieldnames=[
@@ -202,7 +270,7 @@ def main():
         writer.writeheader()
         writer.writerows(segments)
 
-    with OUT_TYPE_CSV.open("w", newline="", encoding="utf-8") as f:
+    with out_type_csv.open("w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["highway", "segment_count", "named_segment_count", "total_length_m", "total_length_km"])
         for h, d in sorted(type_summary.items(), key=lambda kv: kv[1]["total_length_m"], reverse=True):
@@ -230,7 +298,7 @@ def main():
         )
 
     named_rows.sort(key=lambda r: r["total_length_m"], reverse=True)
-    with OUT_NAME_CSV.open("w", newline="", encoding="utf-8") as f:
+    with out_name_csv.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(
             f,
             fieldnames=["road_name", "highway", "segment_count", "total_length_m", "total_length_km"],
@@ -240,6 +308,10 @@ def main():
 
     stats = {
         "source": "OpenStreetMap Overpass bbox query",
+        "raw_source_file": str(raw_roads),
+        "boundary_file": str(boundary),
+        "drivable_only": args.drivable_only,
+        "output_suffix": output_suffix,
         "raw_way_count": len([e for e in elements if e.get("type") == "way"]),
         "filtered_way_count": len(segments),
         "highway_type_count": len(type_summary),
@@ -247,7 +319,7 @@ def main():
         "total_length_m": round(sum(s["length_m"] for s in segments), 2),
         "total_length_km": round(sum(s["length_m"] for s in segments) / 1000.0, 3),
     }
-    OUT_STATS_JSON.write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8")
+    out_stats_json.write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(json.dumps(stats, ensure_ascii=False, indent=2))
 

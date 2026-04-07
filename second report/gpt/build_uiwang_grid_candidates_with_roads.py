@@ -184,6 +184,7 @@ def export_version_gpkg(
     version_name: str,
     score_column: str,
     grid_size: int,
+    output_tag: str,
 ) -> dict:
     df = base_df.copy()
     df["total_score_0_100"] = np.round(df[score_column].astype(float), 3)
@@ -228,7 +229,8 @@ def export_version_gpkg(
     geom_map = {int(gid): geom for gid, geom in zip(base_df["grid_id"].tolist(), grid_wgs)}
     grid_geoms = [geom_map[int(gid)] for gid in df_out["grid_id"]]
 
-    output_path = GPT_DIR / f"this_uiwang_grid_score_{grid_size}m_{version_name}.gpkg"
+    tag = f"_{output_tag}" if output_tag else ""
+    output_path = GPT_DIR / f"this_uiwang_grid_score_{grid_size}m_{version_name}{tag}.gpkg"
     if output_path.exists():
         output_path.unlink()
 
@@ -254,7 +256,13 @@ def export_version_gpkg(
 def main() -> None:
     parser = argparse.ArgumentParser(description="Build 30m raster-ready score layers (equal/weighted) with road+traffic factors")
     parser.add_argument("--grid-size", type=int, default=30)
+    parser.add_argument("--roads-path", default=str(IN_ROADS), help="Road GeoJSON path with traffic attributes")
+    parser.add_argument("--output-tag", default="", help="Optional tag appended to output GPKG file names")
     args = parser.parse_args()
+
+    roads_path = Path(args.roads_path)
+    if not roads_path.exists():
+        raise FileNotFoundError(f"Road file not found: {roads_path}")
 
     boundary_wgs84, boundary_source = load_boundary_polygon()
 
@@ -270,7 +278,7 @@ def main() -> None:
     fatal = filter_points_near_boundary(fatal, boundary_wgs84)
     school = filter_points_near_boundary(school, boundary_wgs84)
 
-    roads = gpd.read_file(IN_ROADS, engine="pyogrio")
+    roads = gpd.read_file(roads_path, engine="pyogrio")
     if roads.crs is None:
         roads = roads.set_crs(WGS84)
     else:
@@ -320,7 +328,7 @@ def main() -> None:
 
     nearest_roads = gpd.sjoin_nearest(
         centroid_points_m,
-        roads_m[["way_id_str", "name", "highway", "vol_mean_num", "geometry"]],
+        roads_m[["way_id_str", "name", "highway", "vol_mean_num", "traffic_match", "geometry"]],
         how="left",
         distance_col="dist_road_m",
     )
@@ -332,6 +340,7 @@ def main() -> None:
     nearest_way_id = nearest_roads["way_id_str"].fillna("").astype(str).to_numpy()
     nearest_road_name = nearest_roads["name"].fillna("").astype(str).to_numpy()
     nearest_road_highway = nearest_roads["highway"].fillna("").astype(str).to_numpy()
+    nearest_road_match = nearest_roads["traffic_match"].fillna("no_match").astype(str).to_numpy()
 
     s_cctv = robust_score(d_cctv, larger_is_better=True)
     s_school = robust_score(d_school, larger_is_better=False)
@@ -339,7 +348,13 @@ def main() -> None:
     s_accident = robust_score(d_accident, larger_is_better=False)
     s_fatal = robust_score(d_fatal, larger_is_better=False)
     s_road = robust_score(d_road, larger_is_better=False)
-    s_traffic = robust_score(nearest_vol, larger_is_better=True)
+    # Do not over-penalize roads with unavailable traffic linkage.
+    # For matched roads, keep relative traffic scoring; for unmatched roads, use neutral score (0.5).
+    s_traffic = np.full(len(nearest_vol), 0.5, dtype=float)
+    known_mask = np.isin(nearest_road_match, ["matched", "inferred", "imputed"]) & np.isfinite(nearest_vol)
+    if known_mask.any():
+        s_traffic_known = robust_score(nearest_vol[known_mask], larger_is_better=True)
+        s_traffic[known_mask] = s_traffic_known
 
     score_equal = np.mean(np.column_stack([s_cctv, s_school, s_bus, s_accident, s_fatal, s_road, s_traffic]), axis=1)
 
@@ -370,6 +385,7 @@ def main() -> None:
             "nearest_road_way_id": nearest_way_id,
             "nearest_road_name": nearest_road_name,
             "nearest_road_highway": nearest_road_highway,
+            "nearest_road_traffic_match": nearest_road_match,
             "nearest_road_vol_mean": np.round(nearest_vol, 3),
             "score_cctv_gap_0_1": np.round(s_cctv, 6),
             "score_bus_0_1": np.round(s_bus, 6),
@@ -389,6 +405,7 @@ def main() -> None:
         version_name="equal",
         score_column="total_score_equal_0_100",
         grid_size=args.grid_size,
+        output_tag=args.output_tag,
     )
     wt = export_version_gpkg(
         base_df=base_df,
@@ -396,11 +413,12 @@ def main() -> None:
         version_name="weighted",
         score_column="total_score_weighted_0_100",
         grid_size=args.grid_size,
+        output_tag=args.output_tag,
     )
 
     summary = {
         "boundary_source": boundary_source,
-        "road_source": str(IN_ROADS),
+        "road_source": str(roads_path),
         "grid_size_m": args.grid_size,
         "input_counts": {
             "cctv": int(len(cctv)),

@@ -9,3 +9,27 @@
 
 경기데이터드림 : https://data.gg.go.kr
 KOSIS(국가통계포털) : https://kosis.kr/ 
+
+의왕 도로/교통량 분석 추가 정리 (2026-04-07)
+
+- 경기도 OpenAPI (핵심 소스)
+getRoadInfoList : https://openapigits.gg.go.kr/api/rest/getRoadInfoList
+getRoadTrafficInfoList : https://openapigits.gg.go.kr/api/rest/getRoadTrafficInfoList
+
+- 대체 소스 점검
+road.re.kr itms : https://www.road.re.kr/itms (접속/수집 성공, 추가 매칭 0)
+VWorld upisuq151 : https://www.vworld.kr/dev/v4dv_2ddataguide2_s002.do?svcIde=upisuq151 (본 환경 502)
+한국도로공사 trafficAll : https://data.ex.co.kr/openapi/trafficapi/trafficAll (본 환경 443 timeout)
+
+- 재수집 스크립트
+plus/build_gg_road_traffic_recollect.py
+	* route 단위 재시도/백오프
+	* 실패 route CSV 기록
+	* 기존 수집본과 중복 제거 병합
+
+- 최신 실행 요약 (2026-04-07)
+	* OSM drivable 필터: 1,918 segments, 340 named roads, 416.214km
+	* 관측 매칭: 305/2,665 (11.44%)
+	* 추정 보강(inferred): +1,614 -> 실효 1,919/2,665 (72.01%)
+	* drivable 실효 커버리지: 1,918/1,918 (100.0%)
+	* inferred 후보지 산출물: this_uiwang_grid_score_30m_equal_inferred.gpkg / this_uiwang_grid_score_30m_weighted_inferred.gpkg

@@ -1,0 +1,65 @@
+{
+  "source": "spatial/statistical inference on top of uiwang_all_roads_with_traffic",
+  "parameters": {
+    "nearest_family_max_distance_m": 250.0,
+    "drivable_highways": [
+      "living_street",
+      "motorway",
+      "motorway_link",
+      "primary",
+      "primary_link",
+      "residential",
+      "road",
+      "secondary",
+      "secondary_link",
+      "service",
+      "tertiary",
+      "tertiary_link",
+      "trunk",
+      "trunk_link",
+      "unclassified"
+    ]
+  },
+  "full": {
+    "segment_total": 2665,
+    "observed_match_count": 305,
+    "observed_match_rate_pct": 11.44,
+    "inferred_count": 1614,
+    "remaining_no_match_count": 746,
+    "effective_coverage_pct": 72.01
+  },
+  "drivable": {
+    "segment_total": 1918,
+    "observed_match_count": 304,
+    "observed_match_rate_pct": 15.85,
+    "inferred_count": 1614,
+    "effective_coverage_pct": 100.0
+  },
+  "boundary_subset": {
+    "segment_total": 2665,
+    "observed_match_count": 305,
+    "inferred_count": 1614,
+    "effective_coverage_pct": 72.01
+  },
+  "method_breakdown": {
+    "inferred_name_median": 4,
+    "inferred_nearest_family": 195,
+    "inferred_highway_median": 226,
+    "inferred_family_median": 43,
+    "inferred_global_median": 1146
+  },
+  "outputs": {
+    "merged_csv": "uiwang_all_roads_with_traffic_inferred.csv",
+    "lines_full_geojson": "uiwang_all_roads_with_traffic_lines_inferred.geojson",
+    "lines_boundary_geojson": "uiwang_all_roads_with_traffic_lines_in_boundary_inferred.geojson",
+    "coverage_json": "uiwang_traffic_data_coverage_inferred.json",
+    "full_geojson_update": {
+      "feature_count": 2665,
+      "updated_count": 2665
+    },
+    "boundary_geojson_update": {
+      "feature_count": 2665,
+      "updated_count": 2665
+    }
+  }
+}

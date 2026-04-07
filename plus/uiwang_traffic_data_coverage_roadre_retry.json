@@ -1,0 +1,26 @@
+{
+  "source": "road.re.kr retry on top of existing merge",
+  "before": {
+    "segment_total": 2665,
+    "matched_segment_count": 305,
+    "matched_segment_rate_pct": 11.44
+  },
+  "after": {
+    "segment_total": 2665,
+    "matched_segment_count": 305,
+    "matched_segment_rate_pct": 11.44,
+    "added_by_roadre_ref_match": 0
+  },
+  "roadre_collection": {
+    "road_rows": 433,
+    "spot_rows": 3331,
+    "selected_spot_count": 277,
+    "route_stats_count": 5
+  },
+  "output_files": {
+    "roadre_route_stats_csv": "roadre_uiwang_route_stats.csv",
+    "selected_spots_csv": "roadre_uiwang_spots_selected.csv",
+    "merged_retry_csv": "uiwang_all_roads_with_traffic_roadre_retry.csv",
+    "lines_retry_geojson": "uiwang_all_roads_with_traffic_lines_roadre_retry.geojson"
+  }
+}

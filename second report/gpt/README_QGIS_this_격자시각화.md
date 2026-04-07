@@ -41,3 +41,19 @@
 
 - `this_uiwang_grid_score_30m_equal.gpkg`
 - `this_uiwang_grid_score_30m_weighted.gpkg`
+
+## 5) 증거 데이터 폴더
+
+분석 근거 파일은 아래 두 폴더로 정리했습니다.
+
+- 원본: `evidence/original`
+- CSV 증거: `evidence/csv`
+
+요소별 CSV 파일:
+
+- `01_cctv_evidence.csv`
+- `02_bus_stop_evidence.csv`
+- `03_school_evidence.csv`
+- `04_accident_hotspot_evidence.csv`
+- `05_fatal_accident_evidence.csv`
+- `06_road_traffic_evidence.csv`
