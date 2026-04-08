@@ -20,3 +20,10 @@
 
 - Other files in `plus/` and `second report/gpt/` are intermediate, reproducibility, or comparison artifacts.
 - For practical map production, these two files are sufficient.
+
+## CSV Exports (from inferred GPKG)
+
+- `this_uiwang_grid_score_30m_equal_inferred.csv`
+- `this_uiwang_grid_score_30m_weighted_inferred.csv`
+
+These are extracted from each GPKG `grid_score` layer for spreadsheet/statistical use.
