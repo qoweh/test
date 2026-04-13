@@ -1,0 +1,10 @@
+{
+  "input": "uiwang_all_roads_with_traffic_lines_in_boundary_inferred.geojson",
+  "output": "uiwang_road_icing_heatmap_points.geojson",
+  "summary_output": "uiwang_road_icing_heatmap_points_summary.json",
+  "source_feature_count": 2665,
+  "point_count": 21080,
+  "positive_volume_points": 1203,
+  "mean_vol": 0.5148925521821622,
+  "mean_kde_weight": 0.29449460085311646
+}
